@@ -1,0 +1,12 @@
+.toolbar {
+  justify-content: space-between;
+  .left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .avatar {
+      background-color: rgb(17, 82, 147);
+      margin-right: 10px;
+    }
+  }
+}

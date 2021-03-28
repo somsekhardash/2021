@@ -1,0 +1,134 @@
+.MatchCards {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    .MatchCard {
+      & > .container {
+        max-width: 345px;
+        margin-top: 20px;
+        position: relative;
+        [type="radio"] {
+          position: absolute;
+          opacity: 0;
+          width: 0;
+          height: 0;
+          & + img {
+            cursor: pointer;
+          }
+          &:not(:checked) + img {
+            opacity: 0.3;
+          }
+        }
+        .media {
+          display: flex;
+          height: 172px;
+          color: transparent;
+          .leftC,
+          .rightC {
+            display: flex;
+            justify-content: "space-evenly";
+            width: 50%;
+            position: relative;
+            flex-direction: column;
+            .squard {
+              position: absolute;
+              margin-left: 10px;
+              background-color: rgba(255, 255, 255, 0.5);
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              .avatar {
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+        .squard-parent {
+          display: flex;
+          .squard {
+            flex: 1;
+            flex-direction: row;
+            display: flex;
+            padding: 6px;
+            background-color: rgba(63, 81, 181, 0.8);
+            .avatar {
+              width: 24px;
+              height: 24px;
+              margin: 0 5px 0 0;
+            }
+          }
+        }
+      }
+      .match-started {
+        .winner {
+          background: url("./../images/pubg.png") 50% 50% no-repeat;
+          background-size: contain;
+          height: 40%;
+          width: 40%;
+          position: absolute;
+          right: 10px;
+          border-radius: 100%;
+          bottom: 10px;
+          background-color: white;
+          opacity: 0.9;
+        }
+        .loser {
+          background: url("./../images/loser.png") 50% 50% no-repeat;
+          background-size: contain;
+          height: 40%;
+          width: 40%;
+          position: absolute;
+          border-radius: 100%;
+          right: 10px;
+          bottom: 10px;
+          background-color: white;
+          opacity: 0.9;
+        }
+        label {
+          pointer-events: none;
+        }
+      }
+      .match-over {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+.MuiCardContent-root {
+  position: relative !important;
+}
+
+.tournaments-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  justify-content: space-around;
+  > div {
+    width: 100%;
+  }
+  .makeStyles-root-4 {
+    width: 100%;
+    max-width: 324px;
+  }
+}
+
+.makeStyles-root-7 {
+  width: 100% !important;
+}
+
+.edit-tournament {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}

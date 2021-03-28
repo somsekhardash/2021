@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    // Target latest version of ECMAScript.
+    "target": "esnext",
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    // Process & infer types from .js files.
+    "allowJs": true,
+    // Don't emit; allow Babel to transform files.
+    "noEmit": false,
+    // Enable strictNullChecks & noImplicitAny.
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    // Disallow features that require cross-file information for emit.
+    "isolatedModules": true,
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    // Enable support for jsx files
+    "jsx": "react",
+    // Import .json files
+    "resolveJsonModule": true,
+    "baseUrl": "."
+  },
+  "include": ["src/**/*", "server", "./src/img-type.d.ts"],
+  "exclude": ["node_modules", "**/__tests__/**", "dist/**"]
+}

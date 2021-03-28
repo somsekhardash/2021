@@ -1,0 +1,16 @@
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  .edit-user {
+    margin-top: 10px;
+  }
+  > div {
+    margin-right: 0;
+    .MuiCard-root {
+      width: 100%;
+    }
+  }
+}
