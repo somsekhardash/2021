@@ -4,7 +4,7 @@ import { Login } from "./../auth/login";
 import { Signup } from "./../auth/signup";
 import { PrivateRoute } from "./../auth/privateRoute";
 import { useStateSelector } from "Src/reducers";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { MatchCards } from "Src/matches/matches";
 
 export const Routes = () => {

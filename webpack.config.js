@@ -4,7 +4,7 @@ const path = require("path");
 const ASSET_PATH = "/";
 const dotenv = require("dotenv");
 
-const configEnv = dotenv.config({ debug: true }).parsed;
+const configEnv = dotenv.config().parsed;
 const envKeys = Object.keys(configEnv).reduce((result, key) => {
   result[`process.env.${key}`] = JSON.stringify(configEnv[key]);
   return result;
@@ -16,7 +16,6 @@ module.exports = {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "./dist"),
     clean: true,
-    publicPath: "/",
   },
   module: {
     rules: [
