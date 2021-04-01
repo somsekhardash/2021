@@ -17,6 +17,6 @@ export interface RequestObject {
 
 export const publicRequest = (request: RequestObject) => {
   console.log("request", request);
-  request.url = `/#/api/${request.url}`;
+  request.url = `/api/${request.url}`;
   return instance.request(request);
 };
