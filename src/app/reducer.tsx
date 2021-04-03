@@ -1,5 +1,5 @@
 import { loginActions } from "./../auth/actions";
-import { Action, NotificationBanner } from "./../app-types";
+import { Action, NotificationBanner } from "../app-types";
 
 export type State = {
   currentPageTitle: string | null;

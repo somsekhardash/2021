@@ -15,6 +15,7 @@ import {
   onSelectTournament,
   updateMatch,
   onSelectMatch,
+  onEditMatch,
 } from "Src/tournaments/actions";
 import { allMatches } from "Src/common/allMatches";
 
@@ -34,7 +35,7 @@ export const EditMatch = ({
   };
 
   const handleClose = () => {
-    dispatch(onSelectMatch({ selectedMatch: null }));
+    dispatch(onEditMatch({ selectedMatch: null }));
     setOpen(false);
   };
 
@@ -46,8 +47,6 @@ export const EditMatch = ({
     time: yup.string(),
     venue: yup.string(),
     winner: yup.string(),
-    team1Squard: yup.array(yup.string()),
-    team2Squard: yup.array(yup.string()),
     isStarted: yup.bool(),
   });
   const formik = {
@@ -56,9 +55,9 @@ export const EditMatch = ({
       _id: selectedMatch?._id || "",
       team1: team1,
       team2: team2,
-      time:
-        moment(selectedMatch?.time).format("yyyy-MM-DDThh:mm") ||
-        moment().format("yyyy-MM-DDThh:mm"),
+      time: selectedMatch?.time
+        ? moment(selectedMatch?.time).format("yyyy-MM-DDThh:mm")
+        : moment().format("yyyy-MM-DDThh:mm"),
       venue: selectedMatch?.venue || "",
       winner: selectedMatch?.winner || "",
       team1Squard: selectedMatch?.team1Squard || [],
@@ -79,10 +78,8 @@ export const EditMatch = ({
           initialValues={formik.initialValues}
           validationSchema={validationSchema}
           onSubmit={(values: any, actions: any) => {
-            setTimeout(() => {
-              alert(JSON.stringify(values, null, 2));
-              dispatch(updateMatch(values));
-            }, 1000);
+            console.log(values);
+            dispatch(updateMatch(values));
           }}
         >
           {(props) => (

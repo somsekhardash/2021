@@ -12,7 +12,7 @@ import Avatar from "@material-ui/core/Avatar";
 import { useHistory } from "react-router-dom";
 import AvatarGroup from "@material-ui/lab/AvatarGroup";
 import { deleteTournament, onSelectTournament } from "./actions";
-import { Match, Tournament } from "./../app-types";
+import { Match, Tournament } from "../app-types";
 import { MatchCards } from "Src/matches/matches";
 import { AddUser } from "Src/users/addUser";
 import ipl2021 from "./../images/ipl2021.jpg";

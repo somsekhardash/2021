@@ -1,4 +1,4 @@
-import Match from "./../app-types";
+import Match from "../app-types";
 
 export const matches = [
   {

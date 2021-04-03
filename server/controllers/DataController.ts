@@ -13,6 +13,7 @@ import {
   successResponse,
   notFoundResponse,
 } from "../helpers/apiResponse";
+import { Users } from "Src/users/users";
 
 export const test = [
   (_req, res) => successResponseWithData(res, "Ho Ho Ho !!", null),
@@ -195,7 +196,7 @@ export const updateMatch = [
 ];
 
 export const updateTournamentUser = [
-  (req, res) => {
+  async (req, res) => {
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
@@ -205,9 +206,20 @@ export const updateTournamentUser = [
           errors.array()
         );
       } else {
+        const getUsers = await User.find(
+          {
+            _id: {
+              $in: req.body.users,
+            },
+          },
+          function (err, docs) {
+            console.log(docs);
+          }
+        );
+
         Tournament.findOneAndUpdate(
           { _id: req.body.tournamentId },
-          { users: req.body.users }
+          { users: getUsers }
         )
           .then((res) => {
             return successResponse(res, "User Updated");
@@ -215,6 +227,7 @@ export const updateTournamentUser = [
           .catch((err) => {
             return ErrorResponse(res, err);
           });
+        return successResponse(res, "User Updated");
       }
     } catch (err) {
       return ErrorResponse(res, err);
@@ -241,8 +254,9 @@ export const getTournaments = [
           const tournaments = await Tournament.find({
             users: user._id,
           })
-            .lean()
             .populate("users", "userName")
+            .populate("matches.team1Squard", "userName")
+            .populate("matches.team2Squard", "userName")
             .catch((err) => {
               return ErrorResponse(res, err);
             });
@@ -257,8 +271,9 @@ export const getTournaments = [
           }
         } else {
           await Tournament.find({})
-            .lean()
             .populate("users", "userName")
+            .populate("matches.team1Squard")
+            .populate("matches.team2Squard")
             .then((tournaments) => {
               return successResponseWithData(
                 res,

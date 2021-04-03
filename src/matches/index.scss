@@ -30,8 +30,16 @@
             display: flex;
             justify-content: "space-evenly";
             width: 50%;
+            height: 100%;
             position: relative;
-            flex-direction: column;
+
+            overflow: hidden;
+            // flex-direction: column;
+            &.loser {
+              img {
+                filter: grayscale(1);
+              }
+            }
             .squard {
               position: absolute;
               margin-left: 10px;
@@ -39,11 +47,20 @@
               height: 100%;
               display: flex;
               flex-direction: column;
+              z-index: 1;
               flex-wrap: wrap;
               .avatar {
                 width: 30px;
                 height: 30px;
                 margin-top: 5px;
+              }
+            }
+
+            &:hover {
+              > img {
+                transition: transform 0.5s;
+                cursor: pointer;
+                transform: scale(1.2);
               }
             }
           }
@@ -65,30 +82,30 @@
         }
       }
       .match-started {
-        .winner {
-          background: url("./../images/pubg.png") 50% 50% no-repeat;
-          background-size: contain;
-          height: 40%;
-          width: 40%;
-          position: absolute;
-          right: 10px;
-          border-radius: 100%;
-          bottom: 10px;
-          background-color: white;
-          opacity: 0.9;
-        }
-        .loser {
-          background: url("./../images/loser.png") 50% 50% no-repeat;
-          background-size: contain;
-          height: 40%;
-          width: 40%;
-          position: absolute;
-          border-radius: 100%;
-          right: 10px;
-          bottom: 10px;
-          background-color: white;
-          opacity: 0.9;
-        }
+        // .winner {
+        //   background: url("./../images/pubg.png") 50% 50% no-repeat;
+        //   background-size: contain;
+        //   height: 40%;
+        //   width: 40%;
+        //   position: absolute;
+        //   right: 10px;
+        //   border-radius: 100%;
+        //   bottom: 10px;
+        //   background-color: white;
+        //   opacity: 0.9;
+        // }
+        // .loser {
+        //   background: url("./../images/loser.png") 50% 50% no-repeat;
+        //   background-size: contain;
+        //   height: 40%;
+        //   width: 40%;
+        //   position: absolute;
+        //   border-radius: 100%;
+        //   right: 10px;
+        //   bottom: 10px;
+        //   background-color: white;
+        //   opacity: 0.9;
+        // }
         label {
           pointer-events: none;
         }
@@ -99,8 +116,13 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.1);
       }
+    }
+  }
+  .footer {
+    > button {
+      width: 100%;
     }
   }
 }

@@ -57,6 +57,11 @@ const reducer = (
         userLoader: false,
         users: [...payload],
       };
+    case allUsers.failure({}).type:
+      return {
+        ...state,
+        userLoader: false,
+      };
     case allMatches.requesting().type:
       return {
         ...state,

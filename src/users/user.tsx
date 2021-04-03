@@ -13,7 +13,7 @@ import EditIcon from "@material-ui/icons/Edit";
 import { Avatar } from "@material-ui/core";
 import { useStateSelector } from "Src/reducers";
 import StarsIcon from "@material-ui/icons/Stars";
-import { users } from "Src/utils/userMapDP";
+import withLoading from "Src/utils/loader";
 
 const useStyles = makeStyles({
   user: {
@@ -53,9 +53,33 @@ const useStyles = makeStyles({
     width: 100,
   },
 });
+
+function DeleteIcon(props) {
+  return (
+    <IconButton
+      aria-label="delete"
+      onClick={() => {
+        props.dispatch(
+          deleteUser({
+            userId: props.user._id,
+          })
+        );
+      }}
+      disabled={process.env.ADMIN_ID == props.user.mobileNumber}
+    >
+      <DeleteForeverIcon />
+    </IconButton>
+  );
+}
+
+const DeleteIconWithLoading = withLoading(DeleteIcon);
+
 export const UserCard = ({ user }: any) => {
   const classes = useStyles();
   const { isAdmin } = useStateSelector(({ authState }) => authState);
+  const { userLoader } = useStateSelector(
+    ({ TournamentState }) => TournamentState
+  );
   const dispatch = useDispatch();
   return (
     <div className={classes.user}>
@@ -66,7 +90,7 @@ export const UserCard = ({ user }: any) => {
           ) : null}
           <CardContent className={classes.content}>
             <Typography component="h5" variant="h5">
-              {users[user.userName] || [user.userName]}
+              {[user.userName]}
             </Typography>
             <Typography variant="subtitle1" color="textSecondary">
               {user.mobileNumber}
@@ -75,15 +99,11 @@ export const UserCard = ({ user }: any) => {
           {isAdmin && (
             <div className={classes.controls}>
               <EditUser user={user} />
-              <IconButton
-                aria-label="delete"
-                onClick={() => {
-                  dispatch(deleteUser({ userId: user._id }));
-                }}
-                disabled={process.env.ADMIN_ID == user.mobileNumber}
-              >
-                <DeleteForeverIcon />
-              </IconButton>
+              <DeleteIconWithLoading
+                isLoading={userLoader}
+                dispatch={dispatch}
+                user={user}
+              />
             </div>
           )}
         </div>

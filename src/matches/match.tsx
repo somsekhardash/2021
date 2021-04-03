@@ -4,15 +4,13 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { getAbbr } from "Src/utils/constants";
-import { EditMatch } from "./editMatch";
 import { useDispatch } from "react-redux";
 import ipl2021 from "./../images/ipl2021.jpg";
-import winnerImage from "./../images/pubg.jpg";
 
 import {
+  onDeleteMatch,
   onEditMatch,
   onSelectMatch,
   updateMatch,
@@ -40,7 +38,6 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
   const dispatch = useDispatch();
   const { imageMap } = allMatches();
   const [selectedTeam, setSelectedTeam] = useState(null as any);
-
   const useStyles = makeStyles({
     backdrop: {
       zIndex: 1,
@@ -51,37 +48,31 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
   const onSelectTeam = (e) => {
     const local = { ...match };
     if (e.currentTarget.value == "team1Squard") {
-      local.team1Squard = !local.team1Squard.includes(data._id)
-        ? [...local.team1Squard, data._id]
+      local.team1Squard = !local.team1Squard
+        .map((player) => player._id)
+        .includes(data._id)
+        ? [...local.team1Squard, data]
         : [...local.team1Squard];
       local.team2Squard = [
-        ...local.team2Squard.filter((user) => user !== data._id),
+        ...local.team2Squard.filter((player) => player._id !== data._id),
       ];
     } else {
-      local.team2Squard = !local.team2Squard.includes(data._id)
-        ? [...local.team2Squard, data._id]
+      local.team2Squard = !local.team2Squard
+        .map((player) => player._id)
+        .includes(data._id)
+        ? [...local.team2Squard, data]
         : [...local.team2Squard];
       local.team1Squard = [
-        ...local.team1Squard.filter((user) => user !== data._id),
+        ...local.team1Squard.filter((player) => player._id !== data._id),
       ];
     }
     dispatch(onSelectMatch({ selectedMatch: local }));
     setSelectedTeam(e.currentTarget.value);
   };
-
-  const getUserName = (id: string) => {
-    const user = selectedTournament.users.find((user) => user._id === id);
-    return user?.userName;
-  };
-
   const checkWinner = (winner, team) => {
-    return winner === team ? (
-      <span className="winner"></span>
-    ) : (
-      <span className="loser"></span>
-    );
+    if (winner) return winner === team ? "winner" : "loser";
+    return null;
   };
-
   return (
     <div className="MatchCard">
       <Card className="container">
@@ -94,9 +85,9 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
             title="Contemplative Reptile"
             image={!getAbbr(match.team2) ? ipl2021 : null}
           >
-            <label className="leftC">
-              {match.winner && checkWinner(match.winner, match.team1)}
-
+            <label
+              className={`leftC ${checkWinner(match.winner, match.team1)}`}
+            >
               <input
                 type="radio"
                 name="match"
@@ -109,12 +100,10 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
                 {match.team1Squard.map((player, i) => {
                   return (
                     <Avatar
-                      alt={getUserName(player)}
+                      alt={player.userName}
                       className="avatar"
                       key={i}
-                      src={`https://api.multiavatar.com/${getUserName(
-                        player
-                      )}.svg`}
+                      src={`https://api.multiavatar.com/${player.userName}.svg`}
                     />
                   );
                 })}
@@ -125,8 +114,10 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
               />
             </label>
 
-            <label className="leftC">
-              {match.winner && checkWinner(match.winner, match.team2)}
+            <label
+              className={`leftC ${checkWinner(match.winner, match.team2)}`}
+            >
+              {/* {match.winner && checkWinner(match.winner, match.team2)} */}
               <input
                 type="radio"
                 name="match"
@@ -139,12 +130,10 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
                 {match.team2Squard.map((player, i) => {
                   return (
                     <Avatar
-                      alt={getUserName(player)}
+                      alt={player.userName}
                       className="avatar"
                       key={i}
-                      src={`https://api.multiavatar.com/${getUserName(
-                        player
-                      )}.svg`}
+                      src={`https://api.multiavatar.com/${player.userName}.svg`}
                     />
                   );
                 })}
@@ -158,10 +147,14 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
           <div className="squard-parent">
             <div className="squard">
               {selectedTournament.users.map((player, i) => {
-                return !match.team1Squard.includes(player._id) &&
-                  !match.team2Squard.includes(player._id) ? (
+                return !match.team1Squard
+                  .map((player) => player._id)
+                  .includes(player._id) &&
+                  !match.team2Squard
+                    .map((player) => player._id)
+                    .includes(player._id) ? (
                   <Avatar
-                    alt={getUserName(player._id)}
+                    alt={player.UserName}
                     className="avatar"
                     key={i}
                     src={`https://api.multiavatar.com/${player.userName}.svg`}
@@ -230,7 +223,7 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
                 color="secondary"
                 aria-label="like"
                 onClick={() => {
-                  console.log("TO DO");
+                  dispatch(onDeleteMatch({ selectedMatch: match }));
                 }}
               >
                 <DeleteIcon />

@@ -81,7 +81,7 @@ export const Tournaments = () => {
         : { mobileNumber: data?.mobileNumber };
       dispatch(getTournaments(queryBody));
     }
-    if (!users.length && tournaments[0] && isAdmin) {
+    if (!users.length && isAdmin) {
       const queryBody = { tournamentId: "" };
       dispatch(getUsers(queryBody));
     }
@@ -97,15 +97,10 @@ export const Tournaments = () => {
       });
       setNewUser([...updatedUser]);
     }
-  }, [tournaments]);
+  }, []);
 
   return (
     <div className="tournaments">
-      {!tournaments.length && (
-        <Alert severity="warning" className={classes.alert}>
-          You are not registered to any tournament.!
-        </Alert>
-      )}
       <Header />
       {!open && (
         <Grid item xs={12} sm={12} md={12}>
@@ -126,7 +121,12 @@ export const Tournaments = () => {
           </Container>
         </Grid>
       )}
-
+      {!tournaments.length && (
+        <Alert severity="warning" className={classes.alert}>
+          <p>You are not registered to any tournament.</p>
+          <p>Wait untill registered by the Admin.</p>
+        </Alert>
+      )}
       {open && (
         <div className="hideContent">
           {tournamentLoader && <CardLoader />}

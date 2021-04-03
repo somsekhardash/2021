@@ -86,58 +86,58 @@ export default function BasicTable() {
       if (team1Squard) {
         const prize = ((notPlayed + team2Squard) * base) / team1Squard;
         match.team1Squard.forEach((team) => {
-          users[team].score = users[team].score + prize;
-          users[team].win = users[team].win + 1;
+          users[team].score = users[team]?.score + prize;
+          users[team].win = users[team]?.win + 1;
         });
         match.team2Squard.forEach((team) => {
-          users[team].score = users[team].score - prize;
-          users[team].lose = users[team].lose + 1;
+          users[team].score = users[team]?.score - prize;
+          users[team].lose = users[team]?.lose + 1;
         });
         notPlayedSquard.forEach((team) => {
-          users[team._id].score = users[team._id].score - prize;
-          users[team._id].notPlayed = users[team._id].notPlayed + 1;
+          users[team._id].score = users[team._id]?.score - prize;
+          users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
         });
       } else {
         const prize = (notPlayed + team2Squard + team1Squard) * base;
         match.team1Squard.forEach((team) => {
-          users[team].score = users[team].score + prize;
-          users[team].lose = users[team].lose + 1;
+          users[team].score = users[team]?.score + prize;
+          users[team].lose = users[team]?.lose + 1;
         });
         match.team2Squard.forEach((team) => {
-          users[team].score = users[team].score + prize;
-          users[team].lose = users[team].lose + 1;
+          users[team].score = users[team]?.score + prize;
+          users[team].lose = users[team]?.lose + 1;
         });
         notPlayedSquard.forEach((team) => {
-          users[team._id].notPlayed = users[team._id].notPlayed + 1;
+          users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
         });
       }
     } else {
       const prize = ((notPlayed + team1Squard) * base) / team2Squard;
       if (team2Squard) {
         match.team2Squard.forEach((team) => {
-          users[team].score = users[team].score + prize;
-          users[team].win = users[team].win + 1;
+          users[team].score = users[team]?.score + prize;
+          users[team].win = users[team]?.win + 1;
         });
         match.team1Squard.forEach((team) => {
-          users[team].score = users[team].score - prize;
-          users[team].lose = users[team].lose + 1;
+          users[team].score = users[team]?.score - prize;
+          users[team].lose = users[team]?.lose + 1;
         });
         notPlayedSquard.forEach((team) => {
-          users[team._id].score = users[team._id].score - prize;
-          users[team._id].notPlayed = users[team._id].notPlayed + 1;
+          users[team._id].score = users[team._id]?.score - prize;
+          users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
         });
       } else {
         const prize = (notPlayed + team2Squard + team1Squard) * base;
         match.team1Squard.forEach((team) => {
-          users[team].score = users[team].score + prize;
-          users[team].lose = users[team].lose + 1;
+          users[team].score = users[team]?.score + prize;
+          users[team].lose = users[team]?.lose + 1;
         });
         match.team2Squard.forEach((team) => {
-          users[team].score = users[team].score + prize;
-          users[team].lose = users[team].lose + 1;
+          users[team].score = users[team]?.score + prize;
+          users[team].lose = users[team]?.lose + 1;
         });
         notPlayedSquard.forEach((team) => {
-          users[team._id].notPlayed = users[team._id].notPlayed + 1;
+          users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
         });
       }
     }

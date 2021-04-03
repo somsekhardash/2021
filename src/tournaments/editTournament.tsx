@@ -31,7 +31,6 @@ export const EditTournament = () => {
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
       dispatch(createTournament(values));
       handleClose();
       // location.reload();

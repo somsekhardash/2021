@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
 import * as yup from "yup";
@@ -14,7 +14,11 @@ import useStyles from "./style";
 import { basicSignup } from "./actions";
 import { phoneRegExp } from "./../utils/constants";
 import "./index.scss";
-import { useHistory } from "react-router-dom";
+import { Redirect, useHistory } from "react-router-dom";
+import withLoading from "Src/utils/loader";
+import { Snackbar } from "@material-ui/core";
+import { Alert } from "@material-ui/lab";
+import { useStateSelector } from "Src/reducers";
 
 const validationSchema: any = yup.object({
   userName: yup.string().required(),
@@ -22,8 +26,27 @@ const validationSchema: any = yup.object({
   password: yup.string().required(),
 });
 
+const SubmitButton = () => {
+  return (
+    <Button
+      color="primary"
+      variant="contained"
+      fullWidth
+      type="submit"
+      className="submit"
+    >
+      Submit
+    </Button>
+  );
+};
+
+const SubmitWithLoading = withLoading(SubmitButton);
+
 export const Signup = () => {
-  const [isLoading, setisLoading] = useState(false);
+  const [is1Loading, setis1Loading] = useState(false);
+  const { isLoading, isLoggedIn, isLoginError } = useStateSelector(
+    ({ authState }) => authState
+  );
   const dispatch = useDispatch();
   let history = useHistory();
   const formik = useFormik({
@@ -34,12 +57,19 @@ export const Signup = () => {
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
+      setis1Loading(true);
       dispatch(basicSignup(values));
-      setisLoading(true);
-      history.push("/");
     },
   });
+
+  useEffect(() => {
+    if (isLoggedIn) {
+      setis1Loading(false);
+      setTimeout(() => {
+        history.push("/login");
+      }, 2000);
+    }
+  }, [isLoggedIn]);
 
   return (
     <Grid container component="main" className="root signup login">
@@ -54,9 +84,18 @@ export const Signup = () => {
         className="container"
       >
         <div className="paper">
-          <Avatar className="avatar">
-            <LockOutlinedIcon />
-          </Avatar>
+          {formik.values.userName ? (
+            <Avatar
+              className="avatar"
+              alt={formik.values.userName}
+              src={`https://api.multiavatar.com/${formik.values.userName}.svg`}
+            />
+          ) : (
+            <Avatar className="avatar">
+              <LockOutlinedIcon />
+            </Avatar>
+          )}
+
           <Typography component="h1" variant="h5" className="heading">
             Sign up
           </Typography>
@@ -112,20 +151,18 @@ export const Signup = () => {
                 }
                 helperText={formik.touched.password && formik.errors.password}
               />
-              <Button
-                color="primary"
-                variant="contained"
-                fullWidth
-                type="submit"
-                className="submit"
-              >
-                Submit
-              </Button>
+              <SubmitWithLoading isLoading={isLoading} />
             </form>
           </Box>
         </div>
       </Grid>
-      <Grid item xs={false} sm={4} md={8} className="image" />
+      <Grid item xs={12} sm={12} md={12} className="image" />
+      <Snackbar open={isLoggedIn} autoHideDuration={1000}>
+        <Alert severity="success">You are successfully registered !!</Alert>
+      </Snackbar>
+      <Snackbar open={!!isLoginError} autoHideDuration={1000}>
+        <Alert severity="error">{isLoginError}</Alert>
+      </Snackbar>
     </Grid>
   );
 };

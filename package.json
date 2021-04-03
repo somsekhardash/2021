@@ -8,7 +8,8 @@
     "serve": "nodemon server/server.ts",
     "dev-build": "webpack --config webpack.prod.js",
     "server-build": "webpack --config webpack.server.js",
-    "build": "npm run dev-build && npm run server-build"
+    "build": "npm run dev-build && npm run server-build",
+    "check": "node dist/server-main.bundle.js"
   },
   "author": "",
   "license": "ISC",

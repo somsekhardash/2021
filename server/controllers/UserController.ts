@@ -34,6 +34,7 @@ export const UserDelete = [
           .catch((err) => {
             return ErrorResponse(res, err);
           });
+        return successResponse(res, "User Deleted");
       }
     } catch (err) {
       return ErrorResponse(res, err);

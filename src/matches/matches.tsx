@@ -12,7 +12,7 @@ import { EditMatch } from "./editMatch";
 import { CreateMatch } from "./createMatch";
 import { MatchFilter } from "./matchFilter";
 import "./index.scss";
-import EnhancedTable from "Src/tournaments/results";
+import EnhancedTable from "Src/tournaments/resultsNew";
 import CardLoader from "Src/common/CardLoader";
 import { Skeleton } from "@material-ui/lab";
 import { Button, SwipeableDrawer } from "@material-ui/core";
@@ -102,7 +102,7 @@ export const MatchCards = () => {
                   selectedTournament={selectedTournament}
                 />
               ) : (
-                <CardLoader />
+                <CardLoader key={index} />
               )
             )}
             {selectedMatch && (
@@ -129,7 +129,6 @@ export const MatchCards = () => {
         )}
       </div>
       <div className="footer">
-        <hr className="MuiDivider-root" />
         <Button
           className="link"
           style={{ color: "white" }}

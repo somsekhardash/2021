@@ -1,5 +1,5 @@
 import { Action, User } from "./../app-types";
-import { loginActions, resetStore } from "./actions";
+import { loginActions, resetStore, signupActions } from "./actions";
 import { logoutActions } from "./actions";
 
 export type AuthData = {
@@ -38,6 +38,13 @@ const reducer = (
   { type, payload }: Action
 ): State => {
   switch (type) {
+    case signupActions.requesting().type:
+      return {
+        ...state,
+        isLoggingIn: true,
+        isLoginError: "",
+        isLoading: true,
+      };
     case loginActions.requesting().type:
       return {
         ...state,
@@ -55,6 +62,16 @@ const reducer = (
         isLoading: false,
         isAdmin: payload.mobileNumber == process.env.ADMIN_ID,
       };
+    case signupActions.success({}).type:
+      return {
+        ...state,
+        isLoggingIn: false,
+        isLoggedIn: true,
+        isLoginError: "",
+        data: { ...payload },
+        isLoading: false,
+        isAdmin: payload.mobileNumber == process.env.ADMIN_ID,
+      };
     case loginActions.failure({}).type:
       return {
         ...state,
@@ -63,7 +80,14 @@ const reducer = (
         isLoginError: payload.message,
         isLoading: false,
       };
-
+    case signupActions.failure({}).type:
+      return {
+        ...state,
+        isLoggingIn: false,
+        isLoggedIn: false,
+        isLoginError: payload.message,
+        isLoading: false,
+      };
     case logoutActions.success({}).type:
       return {
         ...state,

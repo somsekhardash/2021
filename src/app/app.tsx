@@ -8,11 +8,10 @@ import { useStateSelector } from "Src/reducers";
 export const App = () => {
   const dispatch = useDispatch();
   const { isLoggedIn } = useStateSelector(({ authState }) => authState);
-
+  const cookieData = cookieManager.get("user-data");
   useEffect(() => {
-    const cookieData = cookieManager.get("user-data");
     !isLoggedIn && cookieData && dispatch(loginActions.success(cookieData));
-  });
+  }, []);
 
-  return <Routes />;
+  return <Routes cookieData={cookieData} />;
 };

@@ -12,7 +12,6 @@ import Link from "@material-ui/core/Link";
 import Button from "@material-ui/core/Button";
 import { useStateSelector } from "Src/reducers";
 import "./header.scss";
-import { users } from "Src/utils/userMapDP";
 
 export const Header = () => {
   const { data: authData, isLoggedIn } = useStateSelector(
@@ -40,7 +39,7 @@ export const Header = () => {
               noWrap
               className="toolbarTitle"
             >
-              {users[authData?.userName] || authData?.userName}
+              {authData?.userName}
             </Typography>
           </div>
           <Button
