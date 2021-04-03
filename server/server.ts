@@ -55,6 +55,12 @@ app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
 
+// app.use(express.static("/dist"));
+
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname + "/index.html"));
+// });
+
 app.use((err: any, req: any, res: any) => {
   if (err.name == "UnauthorizedError") {
     return unauthorizedResponse(res, err.message);

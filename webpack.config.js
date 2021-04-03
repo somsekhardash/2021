@@ -14,7 +14,8 @@ module.exports = {
   entry: "./src/index.tsx",
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
     clean: true,
   },
   module: {
@@ -46,7 +47,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new webpack.DefinePlugin(envKeys),
     new webpack.DefinePlugin({
-      "./public": JSON.stringify(ASSET_PATH),
+      "./dist": JSON.stringify(ASSET_PATH),
     }),
   ],
 };

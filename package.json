@@ -9,7 +9,8 @@
     "dev-build": "webpack --config webpack.prod.js",
     "server-build": "webpack --config webpack.server.js",
     "build": "npm run dev-build && npm run server-build",
-    "check": "node dist/server-main.bundle.js"
+    "check": "node dist/server-main.bundle.js",
+    "serve-all": "concurrently \"npm run start\" \"npm run serve\""
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "@types/react-tap-event-plugin": "0.0.30",
     "@types/redux-thunk": "^2.1.0",
     "@types/webpack": "^4.41.26",
+    "concurrently": "^6.0.0",
     "cors": "^2.8.5",
     "css-loader": "^5.1.1",
     "dotenv": "^8.2.0",

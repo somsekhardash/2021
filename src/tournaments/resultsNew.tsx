@@ -14,6 +14,7 @@ import {
   Typography,
 } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
+import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles({
   avatar: {
@@ -38,10 +39,10 @@ function createData(
 export default function BasicTable() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
+  const [base, setBase] = React.useState(10);
   const { selectedTournament } = useStateSelector(
     ({ TournamentState }) => TournamentState
   );
-  const base = 10;
   const { users } = selectedTournament;
 
   const matches = selectedTournament?.matches.filter((team) => {
@@ -293,6 +294,18 @@ export default function BasicTable() {
           </Toolbar>
         </AppBar>
         <div>
+          <TextField
+            id="standard-number"
+            label="points"
+            type="number"
+            InputLabelProps={{
+              shrink: true,
+            }}
+            value={base}
+            onChange={(event) => {
+              setBase(parseInt(event.target.value));
+            }}
+          />
           <DataGrid
             rows={rows}
             columns={columns}
