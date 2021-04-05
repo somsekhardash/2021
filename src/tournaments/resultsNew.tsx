@@ -85,6 +85,7 @@ export default function BasicTable() {
     newUser.lost = 0;
     newUser.notPlayed = 0;
     newUser.score = 0;
+    newUser.chart = [];
     matches.forEach((match) => {
       const { winners, notPlayed, point } = getTeamDetails(match);
       if (notPlayed.map((player) => player._id).includes(user._id)) {
@@ -93,6 +94,7 @@ export default function BasicTable() {
         newUser.win = newUser.win + 1;
         newUser.score = newUser.score + point;
       } else newUser.lost = newUser.lost + 1;
+      newUser.chart.push(newUser.score);
     });
     return newUser;
   };
@@ -102,7 +104,7 @@ export default function BasicTable() {
     return accumulator;
   }, {});
 
-  //   console.log(usersObj);
+  console.log(usersObj);
 
   //   const users = selectedTournament?.users.reduce(
   //     (accumulator, currentValue) => {

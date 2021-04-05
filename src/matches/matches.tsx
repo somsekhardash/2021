@@ -16,6 +16,7 @@ import EnhancedTable from "Src/tournaments/resultsNew";
 import CardLoader from "Src/common/CardLoader";
 import { Skeleton } from "@material-ui/lab";
 import { Button, SwipeableDrawer } from "@material-ui/core";
+import BasicChart from "Src/tournaments/Charts";
 
 function LeftContent() {
   return (
@@ -32,6 +33,7 @@ function LeftContent() {
         }}
       >
         <EnhancedTable />
+        <BasicChart />
       </div>
       <MatchFilter />
     </div>
