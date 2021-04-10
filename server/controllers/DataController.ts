@@ -142,6 +142,110 @@ export const createMatch = [
   },
 ];
 
+export const voteMatch = [
+  async (req, res) => {
+    try {
+      // Tournament.findOneAndUpdate(
+      //   {
+      //     _id: req.body.tournamentId,
+      //     "matches._id": req.body._id,
+      //   },
+      //   {
+      //     $pull: {
+      //       team1Squard: { _id: req.body.player._id },
+      //       team2Squard: { _id: req.body.player._id },
+      //     } as any,
+      //   },
+      //   {},
+      //   function (err, test) {
+      //     console.log("==============");
+      //     console.log(err, test);
+      //   }
+      // );
+      ///////////////////////////
+      Tournament.findOne(
+        {
+          _id: req.body.tournamentId,
+          "matches._id": req.body._id,
+        },
+        {},
+        {},
+        function (err: any, data: any) {
+          var team1 = data.matches.find((match) => match._id == req.body._id);
+          console.log("********************");
+          console.log(req.body.player);
+          team1.team1Squard = team1.team1Squard.filter(
+            (team) => team != req.body.player._id
+          );
+          team1.team2Squard = team1.team2Squard.filter(
+            (team) => team != req.body.player._id
+          );
+          if (req.body.selectedTeam == "team1Squard") {
+            team1.team1Squard.push(req.body.player);
+          } else if (req.body.selectedTeam == "team2Squard") {
+            team1.team2Squard.push(req.body.player);
+          }
+          data
+            .save()
+            .then((result) => {
+              return successResponseWithData(
+                res,
+                "Match Updated successfuly",
+                result
+              );
+            })
+            .catch((err) => {
+              return ErrorResponse(res, err);
+            });
+        }
+      );
+
+      // if (req.body.selectedTeam == "team1Squard") {
+      //   console.log(2);
+      //   Tournament.updateOne(
+      //     {
+      //       _id: req.body.tournamentId,
+      //       "matches._id": req.body._id,
+      //     },
+      //     {
+      //       $push: { "matches.$.team1Squard": req.body.player },
+      //     },
+      //     {},
+      //     (err, result) => {
+      //       return successResponseWithData(
+      //         res,
+      //         "Match Updated successfuly",
+      //         result
+      //       );
+      //     }
+      //   );
+      // } else if (req.body.selectedTeam == "team2Squard") {
+      //   console.log(3);
+      //   console.log(req.body.player._id);
+      //   Tournament.updateOne(
+      //     {
+      //       _id: req.body.tournamentId,
+      //       "matches._id": req.body._id,
+      //     },
+      //     {
+      //       $push: { "matches.$.team2Squard": req.body.player },
+      //     },
+      //     {},
+      //     (err, result) => {
+      //       return successResponseWithData(
+      //         res,
+      //         "Match Updated successfuly",
+      //         result
+      //       );
+      //     }
+      //   );
+      // }
+    } catch (err) {
+      return ErrorResponse(res, err);
+    }
+  },
+];
+
 export const updateMatch = [
   body("team1")
     .isLength({ min: 1 })

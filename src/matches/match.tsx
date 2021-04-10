@@ -14,6 +14,7 @@ import {
   onEditMatch,
   onSelectMatch,
   updateMatch,
+  voteMatch,
 } from "Src/tournaments/actions";
 import { allMatches } from "Src/common/allMatches";
 import moment from "moment";
@@ -47,6 +48,7 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
   const classes = useStyles();
   const onSelectTeam = (e) => {
     const local = { ...match };
+
     if (e.currentTarget.value == "team1Squard") {
       local.team1Squard = !local.team1Squard
         .map((player) => player._id)
@@ -196,8 +198,10 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
                 aria-label="like"
                 onClick={() => {
                   dispatch(
-                    updateMatch({
+                    voteMatch({
                       ...match,
+                      selectedTeam: selectedTeam,
+                      userdata: data,
                     })
                   );
                 }}

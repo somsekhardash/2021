@@ -54,6 +54,21 @@ export type filterMatchBody = {
   turboSearch: boolean;
 };
 
+export type voteMatchBody = {
+  tournamentId: string;
+  _id: string;
+  team1: string;
+  team2: string;
+  time: string;
+  venue: string;
+  winner: string;
+  team1Squard: string[];
+  team2Squard: string[];
+  isStarted: boolean;
+  selectedTeam: string;
+  userdata: any;
+};
+
 export type updateMatchBody = {
   tournamentId: string;
   _id: string;
@@ -104,6 +119,9 @@ export const onSelectMatch = (body: selectMatch): any => async (
 export const updateMatch = (body: updateMatchBody): any => async (
   dispatch: any
 ) => updateMatchRequest(body, "update-match", dispatch);
+
+export const voteMatch = (body: voteMatchBody): any => async (dispatch: any) =>
+  voteRequest(body, "vote-match", dispatch);
 
 export const onCreateMatch = (body: updateMatchBody): any => async (
   dispatch: any
@@ -245,6 +263,32 @@ export const updateMatchRequest = async (
     });
     dispatch(allMatches.success([...response.data.data]));
     // location.reload();
+  } catch (error) {
+    dispatch(allMatches.failure(error));
+  }
+};
+
+export const voteRequest = async (
+  body: any,
+  endpoint: string,
+  dispatch: any
+) => {
+  try {
+    dispatch(allMatches.requesting());
+    let player = (({ _id, userName, mobileNumber }) => ({
+      _id,
+      userName,
+      mobileNumber,
+    }))(body.userdata);
+    body.player = player;
+
+    const response = await publicRequest({
+      url: endpoint,
+      method: "POST",
+      data: body,
+    });
+    dispatch(allMatches.success([...response.data.data]));
+    location.reload();
   } catch (error) {
     dispatch(allMatches.failure(error));
   }

@@ -11,6 +11,7 @@ import {
   createMatch,
   updateMatch,
   deleteMatch,
+  voteMatch,
 } from "../controllers/DataController";
 import { userLogin, userLogout } from "../controllers/AuthController";
 import {
@@ -39,6 +40,7 @@ router.post("/update-tournament-user", updateTournamentUser);
 
 router.post("/create-match", createMatch);
 router.post("/update-match", updateMatch);
+router.post("/vote-match", voteMatch);
 router.delete("/delete-match", deleteMatch);
 
 router.post("/create-user", createUser);
