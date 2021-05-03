@@ -1,11 +1,11 @@
 .root {
   &.login {
-    height: 100vh;
     & > .image {
       background-image: url(https://source.unsplash.com/random);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      height: 100vh;
     }
     & > .container {
       display: flex;

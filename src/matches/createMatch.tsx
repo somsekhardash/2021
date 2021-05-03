@@ -73,7 +73,7 @@ export const CreateMatch = ({
     <div className="create-match">
       <Button
         variant="outlined"
-        style={{ marginTop: 20 }}
+        style={{ marginTop: 20, marginBottom: 20 }}
         color="primary"
         onClick={handleClickOpen}
       >

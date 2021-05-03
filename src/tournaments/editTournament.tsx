@@ -37,13 +37,11 @@ export const EditTournament = () => {
     },
   });
 
-  console.log("edittournamnet");
-
   return (
     <div className="edit-tournament">
       <Button
         variant="outlined"
-        style={{ marginTop: 20 }}
+        style={{ marginTop: 20, marginBottom: 20 }}
         color="primary"
         onClick={handleClickOpen}
       >
@@ -54,14 +52,14 @@ export const EditTournament = () => {
         onClose={handleClose}
         aria-labelledby="form-dialog-title"
       >
-        <DialogTitle id="form-dialog-title">Edit Tournament</DialogTitle>
+        <DialogTitle id="form-dialog-title">Create Tournament</DialogTitle>
         <form onSubmit={formik.handleSubmit}>
           <DialogContent>
             <TextField
               fullWidth
               id="title"
               name="title"
-              label="title"
+              label="Title"
               value={formik.values.title}
               onChange={formik.handleChange}
               error={formik.touched.title && Boolean(formik.errors.title)}

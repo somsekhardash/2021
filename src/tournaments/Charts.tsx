@@ -1,20 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Line } from "react-chartjs-2";
-import { useStateSelector } from "Src/reducers";
-import {
-  AppBar,
-  Avatar,
-  Button,
-  Dialog,
-  DialogTitle,
-  IconButton,
-  StylesProvider,
-  Toolbar,
-  Typography,
-} from "@material-ui/core";
-import CloseIcon from "@material-ui/icons/Close";
-import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles({
   avatar: {
@@ -25,13 +11,8 @@ const useStyles = makeStyles({
   },
 });
 
-export default function BasicChart() {
-  const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
+export default function BasicChart({ selectedTournament }) {
   const [base, setBase] = React.useState(10);
-  const { selectedTournament } = useStateSelector(
-    ({ TournamentState }) => TournamentState
-  );
   const { users } = selectedTournament;
 
   const matches = selectedTournament?.matches.filter((team) => {
@@ -93,8 +74,6 @@ export default function BasicChart() {
     return accumulator;
   }, []);
 
-  console.log(usersObj);
-
   const getRandomColor = () => {
     let letters = "0123456789ABCDEF";
     let color = "#";
@@ -122,36 +101,9 @@ export default function BasicChart() {
 
   return (
     <div className="points-chart">
-      <Button
-        variant="outlined"
-        style={{ marginTop: 20 }}
-        color="primary"
-        onClick={() => setOpen(true)}
-      >
-        Points Chart
-      </Button>
-      <Dialog
-        open={open}
-        onClose={() => setOpen(false)}
-        aria-labelledby="form-dialog-title"
-      >
-        <AppBar style={{ position: "relative" }}>
-          <Toolbar>
-            <IconButton
-              edge="start"
-              color="inherit"
-              onClick={() => setOpen(false)}
-              aria-label="close"
-            >
-              <CloseIcon />
-            </IconButton>
-            <Typography variant="h6">Result Chart</Typography>
-          </Toolbar>
-        </AppBar>
-        <div className="simple-chart">
-          <Line data={state} />
-        </div>
-      </Dialog>
+      <div className="simple-chart">
+        <Line data={state} />
+      </div>
     </div>
   );
 }

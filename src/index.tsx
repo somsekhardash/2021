@@ -18,10 +18,23 @@ const store = createStore(
 const Container = (): ReactElement => {
   return (
     <Provider store={store}>
-      <Router>
+      {/* <Router>
         <Route component={App} />
-      </Router>
+      </Router> */}
+      <App />
     </Provider>
   );
 };
 ReactDOM.render(<Container />, document.getElementById("app"));
+
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('SW registered: ', registration);
+      }).catch(registrationError => {
+        console.log('SW registration failed: ', registrationError);
+      });
+  });
+}

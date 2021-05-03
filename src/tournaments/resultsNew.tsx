@@ -1,20 +1,10 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { DataGrid, ValueGetterParams } from "@material-ui/data-grid";
-import { useStateSelector } from "Src/reducers";
-import {
-  AppBar,
-  Avatar,
-  Button,
-  Dialog,
-  DialogTitle,
-  IconButton,
-  StylesProvider,
-  Toolbar,
-  Typography,
-} from "@material-ui/core";
-import CloseIcon from "@material-ui/icons/Close";
+import { Avatar } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 
 const useStyles = makeStyles({
   avatar: {
@@ -31,18 +21,15 @@ function createData(
   win: number,
   lost: number,
   notPlayed: number,
-  score: number
+  score: number,
+  score1: number
 ) {
-  return { id, name, win, lost, notPlayed, score };
+  return { id, name, win, lost, notPlayed, score, score1 };
 }
 
-export default function BasicTable() {
+export default function BasicTable({ selectedTournament }) {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
   const [base, setBase] = React.useState(10);
-  const { selectedTournament } = useStateSelector(
-    ({ TournamentState }) => TournamentState
-  );
   const { users } = selectedTournament;
 
   const matches = selectedTournament?.matches.filter((team) => {
@@ -85,8 +72,9 @@ export default function BasicTable() {
     newUser.lost = 0;
     newUser.notPlayed = 0;
     newUser.score = 0;
+    newUser.score1 = 0;
     newUser.chart = [];
-    matches.forEach((match) => {
+    matches.forEach((match, index) => {
       const { winners, notPlayed, point } = getTeamDetails(match);
       if (notPlayed.map((player) => player._id).includes(user._id)) {
         newUser.notPlayed = newUser.notPlayed + 1;
@@ -96,6 +84,7 @@ export default function BasicTable() {
       } else newUser.lost = newUser.lost + 1;
       newUser.chart.push(newUser.score);
     });
+    newUser.score1 = newUser.score - base * matches.length;
     return newUser;
   };
 
@@ -103,97 +92,6 @@ export default function BasicTable() {
     accumulator[currentValue._id] = getMatchDetails(currentValue);
     return accumulator;
   }, {});
-
-  console.log(usersObj);
-
-  //   const users = selectedTournament?.users.reduce(
-  //     (accumulator, currentValue) => {
-  //       accumulator[currentValue?._id] = {
-  //         score: base,
-  //         win: 0,
-  //         lose: 0,
-  //         notPlayed: 0,
-  //       };
-  //       return accumulator;
-  //     },
-  //     {}
-  //   );
-
-  //   matches?.forEach((match) => {
-  //     const totalUsers = selectedTournament.users.length;
-  //     const team1Squard = match.team1Squard.length;
-  //     const team2Squard = match.team2Squard.length;
-
-  //     const notPlayedSquard = selectedTournament.users.filter((user) => {
-  //       return (
-  //         !match.team1Squard.includes(user._id) &&
-  //         !match.team2Squard.includes(user._id)
-  //       );
-  //     });
-
-  //     const notPlayed = notPlayedSquard.length;
-
-  //     if (match.team1 === match.winner) {
-  //       if (team1Squard) {
-  //         const prize = ((notPlayed + team2Squard) * base) / team1Squard;
-  //         match.team1Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score + prize;
-  //           users[team].win = users[team]?.win + 1;
-  //         });
-  //         match.team2Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score - prize;
-  //           users[team].lose = users[team]?.lose + 1;
-  //         });
-  //         notPlayedSquard.forEach((team) => {
-  //           users[team._id].score = users[team._id]?.score - prize;
-  //           users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
-  //         });
-  //       } else {
-  //         const prize = (notPlayed + team2Squard + team1Squard) * base;
-  //         match.team1Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score + prize;
-  //           users[team].lose = users[team]?.lose + 1;
-  //         });
-  //         match.team2Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score + prize;
-  //           users[team].lose = users[team]?.lose + 1;
-  //         });
-  //         notPlayedSquard.forEach((team) => {
-  //           users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
-  //         });
-  //       }
-  //     } else {
-  //       const prize = ((notPlayed + team1Squard) * base) / team2Squard;
-  //       if (team2Squard) {
-  //         match.team2Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score + prize;
-  //           users[team].win = users[team]?.win + 1;
-  //         });
-  //         match.team1Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score - prize;
-  //           users[team].lose = users[team]?.lose + 1;
-  //         });
-  //         notPlayedSquard.forEach((team) => {
-  //           users[team._id].score = users[team._id]?.score - prize;
-  //           users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
-  //         });
-  //       } else {
-  //         const prize = (notPlayed + team2Squard + team1Squard) * base;
-  //         match.team1Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score + prize;
-  //           users[team].lose = users[team]?.lose + 1;
-  //         });
-  //         match.team2Squard.forEach((team) => {
-  //           users[team].score = users[team]?.score + prize;
-  //           users[team].lose = users[team]?.lose + 1;
-  //         });
-  //         notPlayedSquard.forEach((team) => {
-  //           users[team._id].notPlayed = users[team._id]?.notPlayed + 1;
-  //         });
-  //       }
-  //     }
-  //   });
-
   const newRows = Object.keys(usersObj || []).map((user, index) => {
     return createData(
       usersObj[user]._id,
@@ -201,7 +99,8 @@ export default function BasicTable() {
       usersObj[user].win,
       usersObj[user].lost,
       usersObj[user].notPlayed,
-      usersObj[user].score
+      usersObj[user].score,
+      usersObj[user].score1
     );
   });
 
@@ -229,14 +128,38 @@ export default function BasicTable() {
           <span>{params.row.name}</span>
         </div>
       ),
-      width: 150,
+    },
+    {
+      field: "score1",
+      headerAlign: "center",
+      align: "center",
+      headerName: "Result",
+      description: "This column has a value getter and is not sortable.",
+      sortable: true,
+      renderCell: (params: any) => (
+        <div className={params.value > 0 ? "green" : "red"}>
+          {params.value > 0 ? (
+            <ArrowUpwardIcon fontSize="small" />
+          ) : (
+            <ArrowDownwardIcon fontSize="small" />
+          )}
+          {params.value}
+        </div>
+      ),
+    },
+    {
+      field: "score",
+      headerAlign: "center",
+      align: "center",
+      headerName: "SCORE",
+      description: "This column has a value getter and is not sortable.",
+      sortable: true,
     },
     {
       field: "win",
       headerName: "WIN",
       headerAlign: "center",
       sortable: true,
-      width: 100,
       align: "center",
     },
     {
@@ -244,7 +167,6 @@ export default function BasicTable() {
       headerName: "lost",
       sortable: true,
       headerAlign: "center",
-      width: 100,
       align: "center",
     },
     {
@@ -254,73 +176,36 @@ export default function BasicTable() {
       sortable: true,
       headerAlign: "center",
       align: "center",
-      width: 120,
-    },
-    {
-      field: "score",
-      headerAlign: "center",
-      align: "center",
-      headerName: "SCORE",
-      description: "This column has a value getter and is not sortable.",
-      sortable: true,
-      width: 120,
     },
   ];
 
   return (
     <div className="points-table">
-      <Button
-        variant="outlined"
-        style={{ marginTop: 20 }}
-        color="primary"
-        onClick={() => setOpen(true)}
-      >
-        Points Table
-      </Button>
-      <Dialog
-        open={open}
-        onClose={() => setOpen(false)}
-        aria-labelledby="form-dialog-title"
-      >
-        <AppBar style={{ position: "relative" }}>
-          <Toolbar>
-            <IconButton
-              edge="start"
-              color="inherit"
-              onClick={() => setOpen(false)}
-              aria-label="close"
-            >
-              <CloseIcon />
-            </IconButton>
-            <Typography variant="h6">Result table</Typography>
-          </Toolbar>
-        </AppBar>
-        <div>
-          <TextField
-            id="standard-number"
-            label="points"
-            type="number"
-            InputLabelProps={{
-              shrink: true,
-            }}
-            value={base}
-            onChange={(event) => {
-              setBase(parseInt(event.target.value));
-            }}
-          />
-          <DataGrid
-            rows={rows}
-            columns={columns}
-            pageSize={10}
-            hideFooterPagination
-            hideFooterRowCount
-            disableExtendRowFullWidth
-            disableSelectionOnClick
-            autoHeight
-            hideFooter
-          />
-        </div>
-      </Dialog>
+      <TextField
+        id="points-number"
+        label="points"
+        type="number"
+        size="small"
+        InputLabelProps={{
+          shrink: true,
+        }}
+        value={base}
+        onChange={(event) => {
+          setBase(parseInt(event.target.value));
+        }}
+      />
+      <DataGrid
+        rows={rows}
+        className="match-data-grid"
+        columns={columns}
+        pageSize={10}
+        hideFooterPagination
+        hideFooterRowCount
+        disableExtendRowFullWidth
+        disableSelectionOnClick
+        autoHeight
+        hideFooter
+      />
     </div>
   );
 }

@@ -5,17 +5,22 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import { useStateSelector } from "Src/reducers";
 import { Header } from "./../common/header";
-import { allTournaments, getTournaments, getUsers } from "./actions";
+import { getAllTournamentsCreator, getTournaments, getUsers } from "./actions";
 import { TournamentCard } from "./tournament";
 import { Tournament } from "Src/app-types";
 import { iplMatches } from "./../utils/ipl";
 import { EditTournament } from "./editTournament";
 import { Users } from "Src/users/users";
-import { Button, Grid, IconButton } from "@material-ui/core";
+import {
+  Button,
+  Grid,
+  IconButton,
+  LinearProgress,
+  SwipeableDrawer,
+} from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
-import { Skeleton } from "@material-ui/lab";
 import CardLoader from "Src/common/CardLoader";
-import CloseIcon from "@material-ui/icons/Close";
+import HideMe from "./../common/useFooter";
 
 const useStyles = makeStyles({
   headingMargin: {
@@ -25,21 +30,6 @@ const useStyles = makeStyles({
     margin: "auto",
   },
 });
-
-function HeaderTitle(props) {
-  return (
-    <Typography
-      component="h1"
-      variant="h6"
-      className={props.headingMargin}
-      align="left"
-      color="textPrimary"
-      gutterBottom
-    >
-      {props.text}
-    </Typography>
-  );
-}
 
 function TournamentsCard(props) {
   return (
@@ -57,22 +47,41 @@ function TournamentsCard(props) {
   );
 }
 
+function LoaderTournament(props) {
+  return (
+    <HideMe visible={props.tournamentLoader} duration={0}>
+      <LinearProgress />
+      <br />
+      <br />
+      <CardLoader />
+    </HideMe>
+  );
+}
+
+function NotRegisteredUser(props) {
+  return (
+    <HideMe visible={!props.length} duration={0}>
+      <Alert severity="warning" className={props.alert}>
+        <p>You are not registered to any tournament.</p>
+        <p>Wait untill registered by the Admin.</p>
+      </Alert>
+    </HideMe>
+  );
+}
+
 export const Tournaments = () => {
   const dispatch = useDispatch();
   const classes = useStyles();
-  const { tournaments, users, tournamentLoader } = useStateSelector(
-    (state) => state.TournamentState
-  );
-
+  const {
+    tournaments,
+    users,
+    tournamentLoader,
+    tournamentError,
+    userError,
+  } = useStateSelector((state) => state.TournamentState);
   const { isAdmin, data } = useStateSelector(({ authState }) => authState);
-
   const [newUser, setNewUser] = useState([] as any);
   const [open, setOpen] = useState(false);
-
-  // console.log(iplMatches);
-  // useEffect(() => {
-  //   dispatch(allTournaments.success([...iplMatches]));
-  // });
 
   useEffect(() => {
     if (!tournaments.length) {
@@ -102,41 +111,55 @@ export const Tournaments = () => {
   return (
     <div className="tournaments">
       <Header />
-      {!open && (
-        <Grid item xs={12} sm={12} md={12}>
-          <Container component="main" className="heroContent">
-            {/* <HeaderTitle
-            text="Tournaments Details"
-            headingMargin={classes.headingMargin}
-          /> */}
-            {tournamentLoader && <CardLoader />}
-            {!tournamentLoader && (
-              <TournamentsCard
-                tournaments={tournaments}
-                users={users}
-                isAdmin={isAdmin}
-              />
-            )}
-            {isAdmin && <EditTournament />}
-          </Container>
-        </Grid>
-      )}
-      {!tournaments.length && (
-        <Alert severity="warning" className={classes.alert}>
-          <p>You are not registered to any tournament.</p>
-          <p>Wait untill registered by the Admin.</p>
-        </Alert>
-      )}
-      {open && (
-        <div className="hideContent">
-          {tournamentLoader && <CardLoader />}
-          {!isAdmin && <Users users={newUser} />}
-          {!!users.length && isAdmin && <Users users={users} />}
-        </div>
-      )}
+      <div className="content">
+        <LoaderTournament
+          tournamentLoader={tournamentLoader}
+        ></LoaderTournament>
+        <HideMe visible={tournamentError}>
+          <Alert severity="error">{tournamentError}</Alert>
+        </HideMe>
+        <HideMe visible={!tournamentLoader && !tournamentError} duration={0}>
+          <NotRegisteredUser
+            alert={classes.alert}
+            length={tournaments.length}
+          ></NotRegisteredUser>
+          <HideMe visible={tournaments.length} duration={0}>
+            <Grid item xs={12} sm={12} md={12}>
+              <Container component="main" className="heroContent">
+                <TournamentsCard
+                  tournaments={tournaments}
+                  users={users}
+                  isAdmin={isAdmin}
+                />
+                {isAdmin && <EditTournament />}
+              </Container>
+            </Grid>
+          </HideMe>
+        </HideMe>
 
+        <SwipeableDrawer
+          anchor="left"
+          className="user-drawer"
+          open={open}
+          onClose={() => setOpen(!open)}
+          onOpen={() => setOpen(open)}
+        >
+          <div className="hideContent">
+            <HideMe visible={userError} duration={0}>
+              <Alert style={{ flex: 1 }} severity="error">
+                {userError}
+              </Alert>
+            </HideMe>
+            <HideMe visible={!isAdmin} duration={0}>
+              <Users users={newUser} />
+            </HideMe>
+            <HideMe visible={!!users.length && isAdmin} duration={0}>
+              <Users users={users} />
+            </HideMe>
+          </div>
+        </SwipeableDrawer>
+      </div>
       <div className="footer">
-        <hr className="MuiDivider-root" />
         <Button
           className="link"
           style={{ color: "white" }}

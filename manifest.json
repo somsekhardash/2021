@@ -1,0 +1,20 @@
+{
+    "short_name": "Crickman",
+    "name": "Crickman",
+    "icons": [
+        {
+            "src": "./favicon.ico",
+            "sizes": "64x64",
+            "type": "image/ico"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/ico",
+            "sizes": "256x256"
+        }
+    ],
+    "start_url": "./",
+    "display": "standalone",
+    "theme_color": "#27ae60",
+    "background_color": "#fff"
+}

@@ -5,6 +5,7 @@
     justify-content: space-around;
     width: 100%;
     .MatchCard {
+      position: relative;
       & > .container {
         max-width: 345px;
         margin-top: 20px;
@@ -32,12 +33,12 @@
             width: 50%;
             height: 100%;
             position: relative;
-
             overflow: hidden;
             // flex-direction: column;
             &.loser {
               img {
                 filter: grayscale(1);
+                width: 100%;
               }
             }
             .squard {
@@ -60,8 +61,14 @@
               > img {
                 transition: transform 0.5s;
                 cursor: pointer;
-                transform: scale(1.2);
+                // transform: scale(1.2);
               }
+            }
+          }
+          .rightC {
+            .squard {
+              right: 10px;
+              flex-wrap: wrap-reverse;
             }
           }
         }
@@ -71,8 +78,8 @@
             flex: 1;
             flex-direction: row;
             display: flex;
-            padding: 6px;
             background-color: rgba(63, 81, 181, 0.8);
+            justify-content: center;
             .avatar {
               width: 24px;
               height: 24px;
@@ -134,7 +141,6 @@
 .tournaments-card {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 100px;
   justify-content: space-around;
   > div {
     width: 100%;
@@ -153,4 +159,245 @@
   justify-content: center;
   display: flex;
   margin-bottom: 20px;
+}
+
+.tournaments,
+.MatchCards {
+  .content {
+    display: flex;
+    height: calc(100vh - 94px);
+    overflow-y: auto;
+    flex-direction: column;
+  }
+}
+
+.formControl {
+  margin: 12px;
+  min-width: 120px;
+}
+
+.anim {
+  svg {
+    width: 100px;
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    &.circle {
+      -webkit-animation: dash 0.9s ease-in-out;
+      animation: dash 0.9s ease-in-out;
+    }
+    &.line {
+      stroke-dashoffset: 1000;
+      -webkit-animation: dash 0.9s 0.35s ease-in-out forwards;
+      animation: dash 0.9s 0.35s ease-in-out forwards;
+    }
+    &.check {
+      stroke-dashoffset: -100;
+      -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+      animation: dash-check 0.9s 0.35s ease-in-out forwards;
+    }
+  }
+
+  p {
+    text-align: center;
+    margin: 20px 0 60px;
+    font-size: 1.25em;
+    &.success {
+      color: #73af55;
+    }
+    &.error {
+      color: #d06079;
+    }
+  }
+
+  @-webkit-keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @-webkit-keyframes dash-check {
+    0% {
+      stroke-dashoffset: -100;
+    }
+    100% {
+      stroke-dashoffset: 900;
+    }
+  }
+
+  @keyframes dash-check {
+    0% {
+      stroke-dashoffset: -100;
+    }
+    100% {
+      stroke-dashoffset: 900;
+    }
+  }
+}
+
+.MuiBackdrop-root {
+  position: absolute !important;
+  color: #fff;
+}
+
+.loader-success {
+  position: absolute !important;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: black;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  opacity: 0.9;
+  > svg {
+    position: absolute !important;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 42%;
+    background-color: black;
+    z-index: 2;
+    height: 46%;
+    display: flex;
+  }
+}
+
+.transitionDiv {
+  width: 100%;
+  .backdrop {
+    z-index: 3;
+  }
+}
+
+.green {
+  color: #73af55;
+  display: flex;
+  align-items: center;
+}
+
+.red {
+  color: #d06079;
+  display: flex;
+  align-items: center;
+}
+
+#points-number {
+  width: 150px;
+}
+
+.match-data-grid {
+  display: flex;
+  width: 100%;
+}
+
+.match-drawer-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .MuiAvatar-root {
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    a {
+      margin: 10px 0;
+      & > div {
+        width: 100%;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+.MatchCard {
+  position: relative;
+  .selected-team {
+    button {
+      position: absolute;
+      bottom: 0px;
+      width: 32px;
+      height: 32px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.3s ease;
+      mix-blend-mode: hard-light;
+      transform: scale(6.5);
+    }
+    &.rightC {
+      button {
+        left: 6px;
+      }
+    }
+    &.leftC {
+      button {
+        right: 6px;
+      }
+    }
+  }
+}
+
+.kkr-color {
+  background-color: #2e1a53;
+}
+
+.pk-color {
+  background-color: #ce2021;
+}
+
+.mi-color {
+  background-color: #174580;
+}
+
+.rcb-color {
+  background-color: #8a0d1b;
+}
+
+.csk-color {
+  background-color: #f1b001;
+}
+
+.dc-color {
+  background-color: #26255e;
+}
+
+.srh-color {
+  background-color: #de2a3b;
+}
+
+.rr-color {
+  background-color: #ea1885;
+}
+
+.user-drawer {
+  .MuiPaper-root {
+    width: 65%;
+  }
 }

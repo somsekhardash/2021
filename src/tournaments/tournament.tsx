@@ -13,7 +13,7 @@ import { useHistory } from "react-router-dom";
 import AvatarGroup from "@material-ui/lab/AvatarGroup";
 import { deleteTournament, onSelectTournament } from "./actions";
 import { Match, Tournament } from "../app-types";
-import { MatchCards } from "Src/matches/matches";
+import { MatchCards } from "src/matches/MatchCards";
 import { AddUser } from "Src/users/addUser";
 import ipl2021 from "./../images/ipl2021.jpg";
 
@@ -55,21 +55,18 @@ export const TournamentCard = (props: any) => {
           <Typography gutterBottom align="center" variant="h5" component="h2">
             {tournament.title}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            <AvatarGroup max={4}>
-              {users.map((user: any, index: number) => {
-                return (
-                  <Avatar
-                    key={index}
-                    alt="Agnes Walker"
-                    src={`https://api.multiavatar.com/${user.userName}.svg`}
-                  >
-                    {user.userName}
-                  </Avatar>
-                );
-              })}
-            </AvatarGroup>
-          </Typography>
+
+          <AvatarGroup max={4}>
+            {users.map((user: any, index: number) => {
+              return (
+                <Avatar
+                  key={index}
+                  alt="Agnes Walker"
+                  src={`https://api.multiavatar.com/${user.userName}.svg`}
+                />
+              );
+            })}
+          </AvatarGroup>
         </CardContent>
       </CardActionArea>
       {isAdmin && (

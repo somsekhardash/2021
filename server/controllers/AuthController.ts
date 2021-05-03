@@ -49,6 +49,11 @@ export const userLogin = [
               };
               userData.token = sign(jwtPayload, "7032300186", jwtData);
               return successResponseWithData(res, "Login Success.", userData);
+            } else {
+              return unauthorizedResponse(
+                res,
+                "MobileNumber or Password wrong."
+              );
             }
           } else {
             return unauthorizedResponse(res, "MobileNumber or Password wrong.");

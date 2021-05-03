@@ -1,23 +1,37 @@
 import { Tournament, Match, Action, User } from "Src/app-types";
 import { resetStore } from "Src/auth/actions";
 import {
-  allTournaments,
+  getAllTournamentsCreator,
   allUsers,
   setTournament,
   editMatch,
   filterMatch,
   selectMatch,
   allMatches,
+  updateUser,
+  matchVote,
+  updateMatchCreator,
 } from "./actions";
 
 export interface State {
-  tournaments: Array<Tournament> | [];
+  tournaments: Array<Tournament> | Array<any>;
   selectedTournament: Tournament | any;
   selectedMatch: Match | null;
   users: Array<User> | [];
   tournamentLoader: boolean;
   matchLoader: boolean;
   userLoader: boolean;
+  userError: string;
+  tournamentError: string;
+  updateUserLoader: boolean;
+  updateUserError: string;
+  updateUserSuccess: string;
+  userVoteLoader: boolean;
+  userVoteError: string;
+  userVoteSuccess: string;
+  updateMatchLoader: boolean;
+  updateMatchSuccess: string;
+  updateMatchError: string;
 }
 
 const defaultState: State = {
@@ -28,6 +42,17 @@ const defaultState: State = {
   tournamentLoader: false,
   matchLoader: false,
   userLoader: false,
+  userError: "",
+  tournamentError: "",
+  updateUserLoader: false,
+  updateUserError: "",
+  updateUserSuccess: "",
+  userVoteLoader: false,
+  userVoteError: "",
+  userVoteSuccess: "",
+  updateMatchLoader: false,
+  updateMatchSuccess: "",
+  updateMatchError: "",
 };
 
 const reducer = (
@@ -35,32 +60,103 @@ const reducer = (
   { type, payload }: Action
 ): State => {
   switch (type) {
-    case allTournaments.requesting().type:
+    case updateMatchCreator.requesting().type:
+      return {
+        ...state,
+        updateMatchLoader: true,
+      };
+    case updateMatchCreator.success({}).type:
+      return {
+        ...state,
+        updateMatchLoader: false,
+        updateMatchSuccess: "Match Updateed Successfully",
+        updateMatchError: "",
+      };
+    case updateMatchCreator.failure({}).type:
+      return {
+        ...state,
+        updateMatchLoader: false,
+        updateMatchSuccess: "",
+        updateMatchError: "Not Able To Update Match",
+      };
+    case matchVote.requesting().type:
+      return {
+        ...state,
+        userVoteLoader: true,
+        selectedMatch: null,
+      };
+    case matchVote.success({}).type:
+      return {
+        ...state,
+        userVoteLoader: false,
+        userVoteSuccess: "Your Vote Saved Successfully",
+        userVoteError: "",
+        selectedMatch: payload,
+      };
+    case matchVote.failure({}).type:
+      return {
+        ...state,
+        userVoteLoader: false,
+        userVoteSuccess: "",
+        userVoteError: "Not Able Save Your Vote",
+        selectedMatch: null,
+      };
+    case updateUser.requesting().type:
+      return {
+        ...state,
+        updateUserLoader: true,
+      };
+    case updateUser.success({}).type:
+      return {
+        ...state,
+        updateUserLoader: false,
+        updateUserSuccess: "User Data Saved Successfully",
+        updateUserError: "",
+      };
+    case updateUser.failure({}).type:
+      return {
+        ...state,
+        updateUserLoader: false,
+        updateUserSuccess: "",
+        updateUserError: "Not Able To Update User",
+      };
+    case getAllTournamentsCreator.requesting().type:
       return {
         ...state,
         tournamentLoader: true,
+        tournamentError: "",
       };
-    case allTournaments.success({}).type:
+    case getAllTournamentsCreator.success({}).type:
       return {
         ...state,
         tournamentLoader: false,
         tournaments: [...payload],
+        tournamentError: "",
+      };
+    case getAllTournamentsCreator.failure({}).type:
+      return {
+        ...state,
+        tournamentLoader: false,
+        tournamentError: "Not able to fetch tournaments",
       };
     case allUsers.requesting().type:
       return {
         ...state,
         userLoader: true,
+        userError: "",
       };
     case allUsers.success({}).type:
       return {
         ...state,
         userLoader: false,
         users: [...payload],
+        userError: "",
       };
     case allUsers.failure({}).type:
       return {
         ...state,
         userLoader: false,
+        userError: "Not able to fetch user",
       };
     case allMatches.requesting().type:
       return {
@@ -81,6 +177,8 @@ const reducer = (
       return {
         ...state,
         selectedTournament: payload,
+        userVoteSuccess: "",
+        userVoteError: "",
       };
     }
     case editMatch().type: {

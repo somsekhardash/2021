@@ -15,7 +15,7 @@ import { basicSignup } from "./actions";
 import { phoneRegExp } from "./../utils/constants";
 import "./index.scss";
 import { Redirect, useHistory } from "react-router-dom";
-import withLoading from "Src/utils/loader";
+import withLoading from "Src/utils/LoaderWrapper";
 import { Link, Snackbar } from "@material-ui/core";
 import { Alert } from "@material-ui/lab";
 import { useStateSelector } from "Src/reducers";

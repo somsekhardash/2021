@@ -17,6 +17,7 @@ import { useStateSelector } from "Src/reducers";
 import "./index.scss";
 import { Alert } from "@material-ui/lab";
 import { phoneRegExp } from "Src/utils/constants";
+import HideMe from "./../common/useFooter";
 
 export const Login = () => {
   let history = useHistory();
@@ -128,8 +129,12 @@ export const Login = () => {
             </form>
             <br></br>
             <br></br>
-            {isLoading && <Alert severity="info">Loading</Alert>}
-            {isLoginError && <Alert severity="error">{isLoginError}</Alert>}
+            <HideMe visible={isLoading} duration={0}>
+              <Alert severity="info">Loading</Alert>
+            </HideMe>
+            <HideMe visible={isLoginError} duration={2000}>
+              <Alert severity="error">{isLoginError}</Alert>
+            </HideMe>
             <br></br>
             <br></br>
           </Box>

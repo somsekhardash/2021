@@ -14,6 +14,8 @@ import {
   notFoundResponse,
 } from "../helpers/apiResponse";
 import { Users } from "Src/users/users";
+// import { io } from "./../server";
+import Logger from "./../helpers/Logger";
 
 export const test = [
   (_req, res) => successResponseWithData(res, "Ho Ho Ho !!", null),
@@ -145,24 +147,6 @@ export const createMatch = [
 export const voteMatch = [
   async (req, res) => {
     try {
-      // Tournament.findOneAndUpdate(
-      //   {
-      //     _id: req.body.tournamentId,
-      //     "matches._id": req.body._id,
-      //   },
-      //   {
-      //     $pull: {
-      //       team1Squard: { _id: req.body.player._id },
-      //       team2Squard: { _id: req.body.player._id },
-      //     } as any,
-      //   },
-      //   {},
-      //   function (err, test) {
-      //     console.log("==============");
-      //     console.log(err, test);
-      //   }
-      // );
-      ///////////////////////////
       Tournament.findOne(
         {
           _id: req.body.tournamentId,
@@ -172,8 +156,6 @@ export const voteMatch = [
         {},
         function (err: any, data: any) {
           var team1 = data.matches.find((match) => match._id == req.body._id);
-          console.log("********************");
-          console.log(req.body.player);
           team1.team1Squard = team1.team1Squard.filter(
             (team) => team != req.body.player._id
           );

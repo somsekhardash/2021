@@ -13,7 +13,7 @@ import EditIcon from "@material-ui/icons/Edit";
 import { Avatar } from "@material-ui/core";
 import { useStateSelector } from "Src/reducers";
 import StarsIcon from "@material-ui/icons/Stars";
-import withLoading from "Src/utils/loader";
+import withLoading from "Src/utils/LoaderWrapper";
 
 const useStyles = makeStyles({
   user: {

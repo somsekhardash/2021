@@ -12,6 +12,7 @@ const useStyles = makeStyles({
     flexWrap: "wrap",
     flexDirection: "column",
     alignItems: "center",
+    width: "100%",
   },
   chip: {
     margin: "5px 0",

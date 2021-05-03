@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
@@ -11,41 +11,34 @@ import ipl2021 from "./../images/ipl2021.jpg";
 
 import {
   onDeleteMatch,
-  onEditMatch,
   onSelectMatch,
-  updateMatch,
   voteMatch,
 } from "Src/tournaments/actions";
 import { allMatches } from "Src/common/allMatches";
 import moment from "moment";
 import FavoriteIcon from "@material-ui/icons/Favorite";
-import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { useStateSelector } from "Src/reducers";
-import {
-  Avatar,
-  Backdrop,
-  CircularProgress,
-  debounce,
-  Fab,
-  makeStyles,
-} from "@material-ui/core";
+import HideMe from "Src/common/useFooter";
+import { Avatar, Fab } from "@material-ui/core";
+
+import { socket } from "Src/utils/shocket";
+import { EditMatch } from "./EditMatch";
+import Loader from "Src/common/Loader";
+import LoaderSuccess from "Src/utils/LoaderSuccess";
+import LoaderFail from "Src/utils/LoaderFail";
 
 export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
   const { isAdmin, data } = useStateSelector(({ authState }) => authState);
-  const { matchLoader } = useStateSelector(
-    ({ TournamentState }) => TournamentState
-  );
+  const {
+    userVoteLoader,
+    userVoteSuccess,
+    userVoteError,
+    selectedMatch,
+  } = useStateSelector(({ TournamentState }) => TournamentState);
   const dispatch = useDispatch();
   const { imageMap } = allMatches();
   const [selectedTeam, setSelectedTeam] = useState(null as any);
-  const useStyles = makeStyles({
-    backdrop: {
-      zIndex: 1,
-      color: "#fff",
-    },
-  });
-  const classes = useStyles();
   const onSelectTeam = (e) => {
     const local = { ...match };
 
@@ -75,20 +68,78 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
     if (winner) return winner === team ? "winner" : "loser";
     return null;
   };
+
   return (
-    <div className="MatchCard">
+    <div className="MatchCard" id={match._id}>
       <Card className="container">
+        <div className="action-buttons">
+          <HideMe visible={isAdmin}>
+            <CardActions>
+              <EditMatch
+                selectedTournament={selectedTournament}
+                selectedMatch={match}
+                title="Edit Match"
+              />
+            </CardActions>
+          </HideMe>
+          <HideMe visible={selectedTeam}>
+            <CardActions>
+              <HideMe visible={!match.isStarted}>
+                <Fab
+                  size="small"
+                  color="secondary"
+                  aria-label="like"
+                  onClick={() => {
+                    socket.emit("vote", {
+                      data: `voted for ${
+                        selectedTeam == "team2Squard"
+                          ? match.team2
+                          : match.team1
+                      } in ${match.team1} vs ${match.team2}`,
+                      user: data.userName,
+                      type: "vote",
+                    });
+                    dispatch(
+                      voteMatch({
+                        ...match,
+                        selectedTeam: selectedTeam,
+                        userdata: data,
+                      })
+                    );
+                    setSelectedTeam(null);
+                  }}
+                >
+                  <FavoriteIcon />
+                </Fab>
+              </HideMe>
+            </CardActions>
+          </HideMe>
+          <HideMe visible={isAdmin}>
+            <CardActions>
+              <Fab
+                size="small"
+                color="secondary"
+                aria-label="like"
+                onClick={() => {
+                  alert("are you sure ? ");
+                  dispatch(onDeleteMatch({ selectedMatch: match }));
+                }}
+              >
+                <DeleteIcon />
+              </Fab>
+            </CardActions>
+          </HideMe>
+        </div>
         <CardActionArea className={match.isStarted ? "match-started" : ""}>
-          <Backdrop open={matchLoader} className={classes.backdrop}>
-            <CircularProgress color="inherit" />
-          </Backdrop>
           <CardMedia
             className="media"
             title="Contemplative Reptile"
             image={!getAbbr(match.team2) ? ipl2021 : null}
           >
             <label
-              className={`leftC ${checkWinner(match.winner, match.team1)}`}
+              className={`leftC ${checkWinner(match.winner, match.team1)} ${
+                selectedTeam == "team1Squard" ? "selected-team" : ""
+              }`}
             >
               <input
                 type="radio"
@@ -114,10 +165,15 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
                 src={imageMap[getAbbr(match.team1).toLowerCase()] || ipl2021}
                 alt={match.team1}
               />
+              <button
+                className={`${getAbbr(match.team1).toLowerCase()}-color`}
+              ></button>
             </label>
 
             <label
-              className={`leftC ${checkWinner(match.winner, match.team2)}`}
+              className={`rightC ${checkWinner(match.winner, match.team2)} ${
+                selectedTeam == "team2Squard" ? "selected-team" : ""
+              }`}
             >
               {/* {match.winner && checkWinner(match.winner, match.team2)} */}
               <input
@@ -144,6 +200,9 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
                 src={imageMap[getAbbr(match.team2).toLowerCase()] || ipl2021}
                 alt={match.team2}
               />
+              <button
+                className={`${getAbbr(match.team2).toLowerCase()}-color`}
+              ></button>
             </label>
           </CardMedia>
           <div className="squard-parent">
@@ -167,74 +226,36 @@ export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
           </div>
           <CardContent>
             {match.winner && <div className="match-over"></div>}
-            <Typography gutterBottom variant="h5" component="h2">
-              {getAbbr(match.team2)
-                ? `${getAbbr(match.team1)} vs ${getAbbr(match.team2)}`
-                : match.team1}
-            </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              <span>
-                {getAbbr(match.team2)
-                  ? `${match.team1} vs ${match.team2}`
-                  : match.team1}
-              </span>
-              <br></br>
               <span>
                 {moment(match.time, "yyyy-MM-DDThh:mm").format(
                   "MMMM Do YYYY, h:mm a"
                 )}
-              </span>{" "}
-              at
-              <span> {match.venue}</span>
+              </span>
+
+              <span> - {match.venue}</span>
             </Typography>
           </CardContent>
         </CardActionArea>
-        {(!!selectedTeam || isAdmin) && (
-          <CardActions>
-            {!!selectedTeam && !match.isStarted && (
-              <Fab
-                size="small"
-                color="secondary"
-                aria-label="like"
-                onClick={() => {
-                  dispatch(
-                    voteMatch({
-                      ...match,
-                      selectedTeam: selectedTeam,
-                      userdata: data,
-                    })
-                  );
-                }}
-              >
-                <FavoriteIcon />
-              </Fab>
-            )}
-            {isAdmin && (
-              <Fab
-                size="small"
-                color="secondary"
-                aria-label="like"
-                onClick={() => {
-                  dispatch(onEditMatch({ selectedMatch: match }));
-                }}
-              >
-                <EditIcon />
-              </Fab>
-            )}
-            {isAdmin && (
-              <Fab
-                size="small"
-                color="secondary"
-                aria-label="like"
-                onClick={() => {
-                  dispatch(onDeleteMatch({ selectedMatch: match }));
-                }}
-              >
-                <DeleteIcon />
-              </Fab>
-            )}
-          </CardActions>
-        )}
+
+        <HideMe
+          visible={selectedMatch?._id == match._id && userVoteLoader}
+          duration={0}
+        >
+          <Loader />
+        </HideMe>
+        <HideMe
+          visible={selectedMatch?._id == match._id && userVoteSuccess}
+          duration={2000}
+        >
+          <LoaderSuccess message={userVoteSuccess} />
+        </HideMe>
+        <HideMe
+          visible={selectedMatch?._id == match._id && userVoteError}
+          duration={0}
+        >
+          <LoaderFail message={userVoteError} />
+        </HideMe>
       </Card>
     </div>
   );

@@ -187,14 +187,18 @@ table {
   max-width: 100% !important;
 }
 
-.MatchCards {
-  margin-bottom: 50px;
-}
-
 .points-table,
 .points-chart {
   justify-content: center;
   display: flex;
+}
+
+.points-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .signup {
@@ -207,4 +211,116 @@ table {
       transform: translate(-50%, -50%);
     }
   }
+}
+
+.chat-room {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+  height: 87%;
+  z-index: 2;
+  & > .chat-messages {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 62%;
+    overflow: auto;
+    & > .chat-message {
+      position: relative;
+      width: auto;
+      display: flex;
+      align-items: center;
+      margin: 5px 0;
+      padding: 0 10px;
+      background-color: lightblue;
+      &.vote {
+        background-color: pink;
+      }
+      & > div {
+        margin-right: 10px;
+      }
+      & > .message {
+        margin-left: 50px;
+        display: flex;
+        font-family: system-ui;
+        overflow-wrap: anywhere;
+        padding: 12px 0px;
+      }
+    }
+  }
+
+  & > .chat-input {
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    .send-button {
+      position: absolute;
+      bottom: 50px;
+      right: 6px;
+    }
+  }
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.simple-chart {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.MuiDrawer-paper {
+  width: 50%;
+}
+
+.largeAvatar {
+  width: 100px;
+  height: 100px;
+}
+
+.action-buttons {
+  position: absolute;
+  z-index: 1;
+}
+
+.chat-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  width: 50px;
+  padding: 10px 0;
+}
+
+.chat-time {
+  position: absolute;
+  font-size: 10px;
+  font-style: italic;
+  right: 10px;
+  bottom: 4px;
 }

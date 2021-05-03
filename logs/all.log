@@ -1,0 +1,1837 @@
+2021-04-12 23:23:42:2342 [31merror[39m: [31mCannot read property 'InitMongo' of undefined[39m
+2021-04-12 23:23:42:2342 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:24:09:249 [31merror[39m: [31mCannot read property 'InitMongo' of undefined[39m
+2021-04-12 23:24:09:249 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:25:02:252 [32minfo[39m: [32m[32minfo[32m[39m
+2021-04-12 23:25:02:252 [31merror[39m: [31mCannot read property 'InitMongo' of undefined[39m
+2021-04-12 23:25:02:252 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:25:29:2529 [32minfo[39m: [32m[32minfo[32m[39m
+2021-04-12 23:25:29:2529 [31merror[39m: [31mCannot read property 'InitMongo' of undefined[39m
+2021-04-12 23:25:29:2529 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:26:12:2612 [32minfo[39m: [32m[32minfo[32m[39m
+2021-04-12 23:26:12:2612 [31merror[39m: [31mCannot read property 'InitMongo' of undefined[39m
+2021-04-12 23:26:12:2612 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:26:39:2639 [32minfo[39m: [32mMongoManager {}[39m
+2021-04-12 23:26:39:2639 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:26:42:2642 [32minfo[39m: [32mConnected to %s[39m
+2021-04-12 23:26:42:2642 [32minfo[39m: [32mApp is running ...[39m
+2021-04-12 23:28:00:280 [32minfo[39m: [32mMongoManager {}[39m
+2021-04-12 23:28:00:280 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:28:02:282 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-12 23:28:02:282 [32minfo[39m: [32mApp is running ...[39m
+2021-04-12 23:31:08:318 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:31:10:3110 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-12 23:31:10:3110 [32minfo[39m: [32mApp is running ...[39m
+2021-04-12 23:32:04:324 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:32:07:327 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-12 23:32:07:327 [32minfo[39m: [32mApp is running ...[39m
+2021-04-12 23:32:32:3232 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:32:34:3234 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-12 23:32:34:3234 [32minfo[39m: [32mApp is running ...[39m
+2021-04-12 23:35:02:352 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:35:04:354 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-12 23:35:04:354 [32minfo[39m: [32mApp is running ...[39m
+2021-04-12 23:38:13:3813 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-12 23:38:15:3815 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-12 23:38:15:3815 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:02:40:240 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:02:42:242 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:02:42:242 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:17:52:1752 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:17:54:1754 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:17:54:1754 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:22:04:224 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:22:06:226 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:22:06:226 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:22:44:2244 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:22:46:2246 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:22:46:2246 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:24:29:2429 [31merror[39m: [31mCannot read property 'InitSocket' of undefined[39m
+2021-04-13 00:24:29:2429 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:24:31:2431 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:24:31:2431 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:25:03:253 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:25:05:255 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:25:05:255 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:25:46:2546 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:25:48:2548 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:25:48:2548 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:27:03:273 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:27:05:275 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:27:05:275 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:27:34:2734 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:27:37:2737 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:27:37:2737 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:27:54:2754 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:27:56:2756 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:27:56:2756 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:29:08:298 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:29:10:2910 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:29:10:2910 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:36:23:3623 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:36:25:3625 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:36:25:3625 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 00:39:16:3916 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 00:39:18:3918 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 00:39:18:3918 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:33:22:3322 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:33:22:3322 [31merror[39m: [31mApp starting error:[39m
+2021-04-13 21:34:10:3410 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:34:10:3410 [31merror[39m: [31mApp starting error:[39m
+2021-04-13 21:35:07:357 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:35:11:3511 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 21:35:11:3511 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:38:44:3844 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:38:47:3847 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 21:38:47:3847 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:41:22:4122 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 21:41:22:4122 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:41:26:4126 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 21:41:26:4126 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:47:50:4750 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 21:47:50:4750 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:47:54:4754 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 21:47:54:4754 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:48:42:4842 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 21:48:42:4842 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:48:46:4846 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 21:48:46:4846 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:52:30:5230 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 21:52:30:5230 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:52:33:5233 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 21:52:33:5233 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:52:35:5235 [32minfo[39m: [32mweb-socket bxhSixzltrfmWyJmAAAB connected[39m
+2021-04-13 21:53:27:5327 [32minfo[39m: [32mweb-socket BXk5BpcisTbfm-CjAAAD connected[39m
+2021-04-13 21:53:46:5346 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 21:53:46:5346 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 21:53:51:5351 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 21:53:51:5351 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 21:54:29:5429 [32minfo[39m: [32mweb-socket ahCRIMP5bo8ceOPBAAAB connected[39m
+2021-04-13 21:54:46:5446 [32minfo[39m: [32mweb-socket yRPpt51P0aiUwiyKAAAD connected[39m
+2021-04-13 22:06:28:628 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:06:28:628 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:06:29:629 [32minfo[39m: [32mweb-socket 8iIzLCwzLe9NS11lAAAB connected[39m
+2021-04-13 22:06:33:633 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:06:33:633 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:09:14:914 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:09:14:914 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:09:14:914 [32minfo[39m: [32mweb-socket cgJKv71CluGQpbVrAAAB connected[39m
+2021-04-13 22:09:18:918 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:09:18:918 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:10:44:1044 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:10:44:1044 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:10:45:1045 [32minfo[39m: [32mweb-socket 9ziihgIPUUPrcdp9AAAB connected[39m
+2021-04-13 22:10:48:1048 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:10:48:1048 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:21:24:2124 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:21:24:2124 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:21:24:2124 [32minfo[39m: [32mweb-socket hpGS0KSXlN5J27SCAAAB connected[39m
+2021-04-13 22:21:27:2127 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:21:27:2127 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:21:51:2151 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:21:51:2151 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:21:51:2151 [32minfo[39m: [32mweb-socket Tb0SnXAqJNbqFjrRAAAB connected[39m
+2021-04-13 22:21:54:2154 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:21:54:2154 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:22:07:227 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:22:07:227 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:22:08:228 [32minfo[39m: [32mweb-socket FJvC6VrWfdobjTGSAAAB connected[39m
+2021-04-13 22:22:10:2210 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:22:10:2210 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:23:34:2334 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:23:34:2334 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:23:37:2337 [32minfo[39m: [32mweb-socket tZYjkYrz1K_pstmyAAAB connected[39m
+2021-04-13 22:23:38:2338 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:23:38:2338 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:37:05:375 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:37:05:375 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:37:06:376 [32minfo[39m: [32mweb-socket q_9YieinYwlOi1BiAAAB connected[39m
+2021-04-13 22:37:08:378 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:37:08:378 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:37:25:3725 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:37:25:3725 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:37:25:3725 [32minfo[39m: [32mweb-socket wV0U52mXfW2PAIBgAAAB connected[39m
+2021-04-13 22:37:25:3725 [32minfo[39m: [32mweb-socket dY3-miDSD-PBrZZbAAAD connected[39m
+2021-04-13 22:37:29:3729 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:37:29:3729 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:38:49:3849 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:38:49:3849 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:38:49:3849 [32minfo[39m: [32mweb-socket ji4zOHjffqjnYyQLAAAB connected[39m
+2021-04-13 22:38:50:3850 [32minfo[39m: [32mweb-socket UT8I1YYwmK2XcqRoAAAD connected[39m
+2021-04-13 22:38:52:3852 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:38:52:3852 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:42:00:420 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:42:00:420 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:42:00:420 [32minfo[39m: [32mweb-socket 7a0SB6yP62n9x_EcAAAB connected[39m
+2021-04-13 22:42:01:421 [32minfo[39m: [32mweb-socket EtccTuVc_9EW5nbiAAAD connected[39m
+2021-04-13 22:42:04:424 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:42:04:424 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:47:36:4736 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:47:36:4736 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:47:36:4736 [32minfo[39m: [32mweb-socket 1T9NJVsBI52SPXEdAAAB connected[39m
+2021-04-13 22:47:37:4737 [32minfo[39m: [32mweb-socket _mkWJpHOfgSjQxy-AAAD connected[39m
+2021-04-13 22:47:40:4740 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:47:40:4740 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:53:00:530 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:53:00:530 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:53:00:530 [32minfo[39m: [32mweb-socket BpmAXu-g_pj-otpKAAAB connected[39m
+2021-04-13 22:53:01:531 [32minfo[39m: [32mweb-socket kY4eXDOzKRZlCJ_DAAAD connected[39m
+2021-04-13 22:53:03:533 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:53:03:533 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 22:53:23:5323 [32minfo[39m: [32mweb-socket a4I6X_7VA3o8c6kBAAAF connected[39m
+2021-04-13 22:54:21:5421 [32minfo[39m: [32mweb-socket v8JNWkS0aBmX3JBWAAAH connected[39m
+2021-04-13 22:59:38:5938 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 22:59:38:5938 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 22:59:38:5938 [32minfo[39m: [32mweb-socket zHSl_xFA8JfaYiIGAAAB connected[39m
+2021-04-13 22:59:39:5939 [32minfo[39m: [32mweb-socket lz_cOcp-w_YiTtnSAAAD connected[39m
+2021-04-13 22:59:42:5942 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 22:59:42:5942 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:00:03:03 [32minfo[39m: [32mweb-socket nCnkD870lXfAZBcZAAAF connected[39m
+2021-04-13 23:00:28:028 [32minfo[39m: [32mweb-socket 5-wrBpwMI0xm0BGSAAAH connected[39m
+2021-04-13 23:06:35:635 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:06:35:635 [33mwarn[39m: [33mNotification Manager[39m
+2021-04-13 23:06:35:635 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:06:35:635 [32minfo[39m: [32mweb-socket -NHdSEetyFDLcbKzAAAB connected[39m
+2021-04-13 23:06:36:636 [32minfo[39m: [32mweb-socket lOeSSe3JNMv2fGD4AAAD connected[39m
+2021-04-13 23:06:39:639 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:06:39:639 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:07:16:716 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:07:16:716 [33mwarn[39m: [33mNotification Manager[39m
+2021-04-13 23:07:16:716 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:07:16:716 [32minfo[39m: [32mweb-socket AnyfduEBHn7NAKYzAAAB connected[39m
+2021-04-13 23:07:16:716 [32minfo[39m: [32mweb-socket QHKeQIpPzLxGBOKdAAAD connected[39m
+2021-04-13 23:07:19:719 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:07:19:719 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:07:37:737 [32minfo[39m: [32mweb-socket Q09boFn1pmUsZ9R2AAAF connected[39m
+2021-04-13 23:08:04:84 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:08:04:84 [33mwarn[39m: [33mNotification Manager[39m
+2021-04-13 23:08:04:84 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:08:04:84 [32minfo[39m: [32mweb-socket Str7E5uhI1zVrrBoAAAC connected[39m
+2021-04-13 23:08:04:84 [32minfo[39m: [32mweb-socket tEhlyCbOTikUqAV-AAAD connected[39m
+2021-04-13 23:08:07:87 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:08:07:87 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:08:48:848 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:08:48:848 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:08:48:848 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:08:48:848 [32minfo[39m: [32mweb-socket YNBjDBWkxa6aKHB1AAAB connected[39m
+2021-04-13 23:08:48:848 [32minfo[39m: [32mweb-socket 6yLtANz_q_xw90QOAAAD connected[39m
+2021-04-13 23:08:51:851 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:08:51:851 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:09:08:98 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:09:08:98 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:09:08:98 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:09:08:98 [32minfo[39m: [32mweb-socket ZBjn7jKhpfcQMeK5AAAC connected[39m
+2021-04-13 23:09:08:98 [32minfo[39m: [32mweb-socket jf7LUuUoBtKHaxbwAAAD connected[39m
+2021-04-13 23:09:12:912 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:09:12:912 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:09:23:923 [32minfo[39m: [32mweb-socket fQazya6quMkU_cnSAAAF connected[39m
+2021-04-13 23:10:18:1018 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:10:18:1018 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:10:18:1018 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:10:18:1018 [32minfo[39m: [32mweb-socket nmF96ejYE2TbxoH-AAAB connected[39m
+2021-04-13 23:10:18:1018 [32minfo[39m: [32mweb-socket OuuUrRx94ZVjpR6SAAAD connected[39m
+2021-04-13 23:10:20:1020 [32minfo[39m: [32mweb-socket ORgnbr54rQPflnrDAAAF connected[39m
+2021-04-13 23:10:22:1022 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:10:22:1022 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:34:26:3426 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:34:26:3426 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:34:26:3426 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:34:26:3426 [32minfo[39m: [32mweb-socket TRAHAJgmi9waTGIpAAAB connected[39m
+2021-04-13 23:34:29:3429 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:34:29:3429 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:34:31:3431 [32minfo[39m: [32mweb-socket 8OqQgphtrjbnNwZtAAAD connected[39m
+2021-04-13 23:34:48:3448 [32minfo[39m: [32mweb-socket OAQXskWeaV816k7cAAAF connected[39m
+2021-04-13 23:35:25:3525 [32minfo[39m: [32mweb-socket 3V11Grag2QmceR8IAAAH connected[39m
+2021-04-13 23:35:34:3534 [32minfo[39m: [32mweb-socket JDH63BgFXpfefXOnAAAJ connected[39m
+2021-04-13 23:36:18:3618 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:36:18:3618 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:36:18:3618 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:36:18:3618 [32minfo[39m: [32mweb-socket btz7IZ3HH8fzR54nAAAB connected[39m
+2021-04-13 23:36:19:3619 [32minfo[39m: [32mweb-socket 9TIGdx56UgUb0MGeAAAD connected[39m
+2021-04-13 23:36:23:3623 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:36:23:3623 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:37:04:374 [32minfo[39m: [32mweb-socket psE4IfMZK9nLkSqaAAAF connected[39m
+2021-04-13 23:40:05:405 [32minfo[39m: [32mweb-socket bTNgcezUyBsGkQ5GAAAH connected[39m
+2021-04-13 23:41:41:4141 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:41:41:4141 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:41:41:4141 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:41:41:4141 [32minfo[39m: [32mweb-socket MrBPwOBhUdyWNaFFAAAB connected[39m
+2021-04-13 23:41:42:4142 [32minfo[39m: [32mweb-socket 3ncc6R3-3nIh8w2RAAAD connected[39m
+2021-04-13 23:41:44:4144 [32minfo[39m: [32mweb-socket QrMNS-cGcDwPAg0fAAAF connected[39m
+2021-04-13 23:41:45:4145 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:41:45:4145 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:43:58:4358 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:43:58:4358 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:43:58:4358 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:43:58:4358 [32minfo[39m: [32mweb-socket RowI1odERAEtkCI0AAAB connected[39m
+2021-04-13 23:43:59:4359 [32minfo[39m: [32mweb-socket ryZIcmiYA9Ln4gD9AAAD connected[39m
+2021-04-13 23:44:01:441 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:44:01:441 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:44:47:4447 [32minfo[39m: [32mweb-socket S_kocQicqSMBa5RdAAAF connected[39m
+2021-04-13 23:45:06:456 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:45:06:456 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:45:06:456 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:45:06:456 [32minfo[39m: [32mweb-socket mq03ddMQBS0kljlaAAAB connected[39m
+2021-04-13 23:45:07:457 [32minfo[39m: [32mweb-socket W6UHp5BCbm4yKh9sAAAD connected[39m
+2021-04-13 23:45:10:4510 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:45:10:4510 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:45:11:4511 [32minfo[39m: [32mweb-socket -lkJVWSS6gdC9J_lAAAF connected[39m
+2021-04-13 23:45:17:4517 [37mdebug[39m: [37mI mma hhere[39m
+2021-04-13 23:46:24:4624 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:46:24:4624 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:46:24:4624 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:46:24:4624 [32minfo[39m: [32mweb-socket Lvda5MifGTRdY3UmAAAB connected[39m
+2021-04-13 23:46:25:4625 [32minfo[39m: [32mweb-socket 0TrgURplubFG1163AAAD connected[39m
+2021-04-13 23:46:27:4627 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:46:27:4627 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:46:38:4638 [37mdebug[39m: [37mI mma hhere[39m
+2021-04-13 23:47:04:474 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:47:04:474 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:47:04:474 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:47:04:474 [32minfo[39m: [32mweb-socket fpZufu3AW-UJ6fuMAAAB connected[39m
+2021-04-13 23:47:06:476 [32minfo[39m: [32mweb-socket Ci82HEf4gF6GqoyhAAAD connected[39m
+2021-04-13 23:47:07:477 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:47:07:477 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:49:16:4916 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:49:16:4916 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:49:16:4916 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:49:16:4916 [32minfo[39m: [32mweb-socket Oj1nab-xGhtXusqNAAAB connected[39m
+2021-04-13 23:49:16:4916 [32minfo[39m: [32mweb-socket rDA49T3Hqpw-04xCAAAD connected[39m
+2021-04-13 23:49:20:4920 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:49:20:4920 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:49:20:4920 [32minfo[39m: [32mweb-socket KvHlQ_IDbeBOUI5rAAAF connected[39m
+2021-04-13 23:49:27:4927 [37mdebug[39m: [37mI mma hhere[39m
+2021-04-13 23:51:44:5144 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:51:44:5144 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:51:44:5144 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:51:44:5144 [32minfo[39m: [32mweb-socket yf3l8IApOWM5EO9iAAAB connected[39m
+2021-04-13 23:51:44:5144 [32minfo[39m: [32mweb-socket MyzztpTdagPQWCiuAAAD connected[39m
+2021-04-13 23:51:48:5148 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:51:48:5148 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:51:49:5149 [32minfo[39m: [32mweb-socket awkvY8rzco22SCB1AAAF connected[39m
+2021-04-13 23:51:56:5156 [37mdebug[39m: [37mI mma hhere[39m
+2021-04-13 23:56:30:5630 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:56:30:5630 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:56:30:5630 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:56:30:5630 [32minfo[39m: [32mweb-socket QESSRTZO4b7OGwl0AAAB connected[39m
+2021-04-13 23:56:31:5631 [32minfo[39m: [32mweb-socket ZZSct87mOGuBxoxCAAAD connected[39m
+2021-04-13 23:56:33:5633 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:56:33:5633 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:56:51:5651 [37mdebug[39m: [37mI mma hhere[39m
+2021-04-13 23:56:51:5651 [37mdebug[39m: [37mvote [object Object][39m
+2021-04-13 23:57:00:570 [32minfo[39m: [32mweb-socket MwDjfah7AvyWKr1YAAAF connected[39m
+2021-04-13 23:57:43:5743 [32minfo[39m: [32mweb-socket gUoZPy8TYll65SGeAAAJ connected[39m
+2021-04-13 23:57:51:5751 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:57:51:5751 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:57:51:5751 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:57:51:5751 [32minfo[39m: [32mweb-socket 0dQnOKMtX4dIAfUwAAAB connected[39m
+2021-04-13 23:57:55:5755 [32minfo[39m: [32mweb-socket G3Wo3cr_3z4WD9QTAAAD connected[39m
+2021-04-13 23:57:55:5755 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:57:55:5755 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:58:05:585 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:58:05:585 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:58:05:585 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:58:05:585 [32minfo[39m: [32mweb-socket cwU5TlNFxLZjvRPXAAAB connected[39m
+2021-04-13 23:58:06:586 [32minfo[39m: [32mweb-socket mcxdxCzaTQr_PhCnAAAD connected[39m
+2021-04-13 23:58:07:587 [32minfo[39m: [32mweb-socket ZaF_6_vjcW8jGCSXAAAF connected[39m
+2021-04-13 23:58:09:589 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:58:09:589 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:58:37:5837 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-13 23:58:37:5837 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-13 23:59:17:5917 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-13 23:59:17:5917 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-13 23:59:17:5917 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-13 23:59:17:5917 [32minfo[39m: [32mweb-socket oc6K0ATysHNmE4lrAAAB connected[39m
+2021-04-13 23:59:17:5917 [32minfo[39m: [32mweb-socket 9fLfN5SycxJ_6M_NAAAD connected[39m
+2021-04-13 23:59:20:5920 [32minfo[39m: [32mweb-socket YpykZUEDlkPq3o__AAAF connected[39m
+2021-04-13 23:59:20:5920 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-13 23:59:20:5920 [32minfo[39m: [32mApp is running ...[39m
+2021-04-13 23:59:27:5927 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-13 23:59:27:5927 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-14 00:00:13:013 [32minfo[39m: [32mweb-socket Iasjmnrw8Th5vKzAAAAH connected[39m
+2021-04-14 00:00:38:038 [32minfo[39m: [32mweb-socket qs-IdUmFDxcu6O6QAAAJ connected[39m
+2021-04-14 00:00:43:043 [32minfo[39m: [32mweb-socket OA_rICpyPhmppgkkAAAL connected[39m
+2021-04-14 00:00:52:052 [32minfo[39m: [32mweb-socket WeODGPwesnjjhvxDAAAN connected[39m
+2021-04-14 00:04:09:49 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-14 00:04:09:49 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-14 00:04:09:49 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-14 00:04:09:49 [32minfo[39m: [32mweb-socket aWJqIunlw3qTpmISAAAC connected[39m
+2021-04-14 00:04:09:49 [32minfo[39m: [32mweb-socket R-kF-ZUTh2u2dmPBAAAD connected[39m
+2021-04-14 00:04:13:413 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-14 00:04:13:413 [32minfo[39m: [32mApp is running ...[39m
+2021-04-14 00:06:01:61 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-14 00:06:01:61 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-14 00:06:01:61 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-14 00:06:01:61 [32minfo[39m: [32mweb-socket 9WCXeV6Eo18_fuSzAAAB connected[39m
+2021-04-14 00:06:02:62 [32minfo[39m: [32mweb-socket FuSG1XUxtonl1XqFAAAD connected[39m
+2021-04-14 00:06:04:64 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-14 00:06:04:64 [32minfo[39m: [32mApp is running ...[39m
+2021-04-14 00:06:12:612 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-14 00:06:12:612 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-14 00:06:27:627 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-14 00:06:27:627 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-14 00:06:27:627 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-14 00:06:27:627 [32minfo[39m: [32mweb-socket QZYFlv9dQFHPwFkBAAAC connected[39m
+2021-04-14 00:06:27:627 [32minfo[39m: [32mweb-socket EeNmQuX5PlkjsTrOAAAD connected[39m
+2021-04-14 00:06:31:631 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-14 00:06:31:631 [32minfo[39m: [32mApp is running ...[39m
+2021-04-14 00:06:52:652 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-14 00:06:52:652 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-14 00:06:52:652 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-14 00:06:52:652 [32minfo[39m: [32mweb-socket x8QeJYxGLbqxiaDrAAAC connected[39m
+2021-04-14 00:06:52:652 [32minfo[39m: [32mweb-socket V-uFh8YR6qssA8E2AAAD connected[39m
+2021-04-14 00:06:56:656 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-14 00:06:56:656 [32minfo[39m: [32mApp is running ...[39m
+2021-04-14 00:07:22:722 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-14 00:07:22:722 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:01:38:138 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-15 18:01:38:138 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-15 18:01:38:138 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:01:38:138 [32minfo[39m: [32mweb-socket ryVUnEWE--J9wxmnAAAB connected[39m
+2021-04-15 18:01:43:143 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:01:43:143 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:02:09:29 [32minfo[39m: [32mweb-socket lMb87Q5eg92baTS7AAAD connected[39m
+2021-04-15 18:02:40:240 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:02:40:240 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:04:54:454 [32minfo[39m: [32mweb-socket l0Uv_v7BaXCfPGZAAAAF connected[39m
+2021-04-15 18:05:09:59 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:05:09:59 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:06:19:619 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-15 18:06:19:619 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-15 18:06:19:619 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:06:19:619 [32minfo[39m: [32mweb-socket YLEuiSANz1TPaDmgAAAB connected[39m
+2021-04-15 18:06:19:619 [32minfo[39m: [32mweb-socket vx-OFAqy4BE_UwRBAAAD connected[39m
+2021-04-15 18:06:23:623 [32minfo[39m: [32mweb-socket eckd2wKUq_2Y_TPXAAAF connected[39m
+2021-04-15 18:06:23:623 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:06:23:623 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:06:29:629 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:06:29:629 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:06:34:634 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:06:34:634 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:07:58:758 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-15 18:07:58:758 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-15 18:07:58:758 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:07:58:758 [32minfo[39m: [32mweb-socket hYlsTrN1iwJcwCmNAAAB connected[39m
+2021-04-15 18:08:01:81 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:08:01:81 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:08:01:81 [32minfo[39m: [32mweb-socket 8XOwPeBKqSBDCLxHAAAD connected[39m
+2021-04-15 18:08:06:86 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:08:06:86 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:10:28:1028 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-15 18:10:28:1028 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-15 18:10:28:1028 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:10:28:1028 [32minfo[39m: [32mweb-socket qiofDexZ-exLBWIUAAAB connected[39m
+2021-04-15 18:10:28:1028 [32minfo[39m: [32mweb-socket OcKrSLE1OWRFQB4jAAAD connected[39m
+2021-04-15 18:10:33:1033 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:10:33:1033 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:10:42:1042 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 18:10:42:1042 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:10:42:1042 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:10:47:1047 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 18:10:47:1047 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:10:47:1047 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:12:07:127 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-15 18:12:07:127 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-15 18:12:07:127 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:12:07:127 [32minfo[39m: [32mweb-socket hEOFdZ5R4GLGgoQoAAAB connected[39m
+2021-04-15 18:12:08:128 [32minfo[39m: [32mweb-socket SQIUA4fRcHgueR_yAAAD connected[39m
+2021-04-15 18:12:10:1210 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:12:10:1210 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:13:04:134 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-15 18:13:04:134 [33mwarn[39m: [33mNotification Manager http://localhost:3000[39m
+2021-04-15 18:13:04:134 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:13:04:134 [32minfo[39m: [32mweb-socket ACC0D5GBWa4KN8R-AAAB connected[39m
+2021-04-15 18:13:08:138 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:13:08:138 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:20:04:204 [32minfo[39m: [32mweb-socket 6gu9eux6NjuwQZd4AAAD connected[39m
+2021-04-15 18:20:15:2015 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 18:20:15:2015 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:20:15:2015 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:49:16:4916 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:49:22:4922 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:49:22:4922 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:51:25:5125 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:51:29:5129 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:51:29:5129 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:51:45:5145 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:51:50:5150 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:51:50:5150 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:54:31:5431 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:54:31:5431 [32minfo[39m: [32mweb-socket 0gf3DtE36dMDrq7nAAAB connected[39m
+2021-04-15 18:54:34:5434 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:54:34:5434 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 18:54:37:5437 [32minfo[39m: [32mweb-socket IX961vmN1eMwevQGAAAD connected[39m
+2021-04-15 18:54:46:5446 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 18:54:46:5446 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:54:46:5446 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:54:53:5453 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 18:54:53:5453 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 18:54:53:5453 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 18:59:12:5912 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 18:59:12:5912 [32minfo[39m: [32mweb-socket DHInyLERFPC6JFCrAAAB connected[39m
+2021-04-15 18:59:17:5917 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 18:59:17:5917 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 19:00:32:032 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 19:00:34:034 [32minfo[39m: [32mweb-socket ArhTM86Wy7LvCE4XAAAB connected[39m
+2021-04-15 19:00:37:037 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 19:00:37:037 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 19:00:44:044 [32minfo[39m: [32mweb-socket odxMyQuAGj5djayMAAAD connected[39m
+2021-04-15 19:00:52:052 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 19:00:52:052 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 19:00:52:052 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 19:00:57:057 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 19:00:57:057 [33mwarn[39m: [33mI mma hhere[39m
+2021-04-15 19:00:57:057 [33mwarn[39m: [33mvote [object Object][39m
+2021-04-15 19:01:26:126 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 19:01:26:126 [32minfo[39m: [32mweb-socket fyfx3ET-ii0xOo9eAAAB connected[39m
+2021-04-15 19:01:42:142 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 19:01:42:142 [32minfo[39m: [32mweb-socket PFGtigW6R0GGXQOdAAAB connected[39m
+2021-04-15 19:01:46:146 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 19:01:46:146 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 19:01:54:154 [32minfo[39m: [32mweb-socket HuuYwKU2BN8OAJJ9AAAD connected[39m
+2021-04-15 19:02:04:24 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 19:02:07:27 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 19:02:34:234 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 19:02:34:234 [32minfo[39m: [32mweb-socket iKSSmzZ1-lg4_bHJAAAB connected[39m
+2021-04-15 19:02:38:238 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 19:02:38:238 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 19:03:09:39 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 19:03:15:315 [31merror[39m: [31m[31merror[31m[39m
+2021-04-15 19:35:10:3510 [32minfo[39m: [32mweb-socket upI6S4ZGM0yiMRUjAAAD connected[39m
+2021-04-15 19:44:31:4431 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 19:44:34:4434 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 19:44:34:4434 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 19:45:08:458 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 19:45:12:4512 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 19:45:12:4512 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 19:45:21:4521 [32minfo[39m: [32mweb-socket L_DsOWrBh9RVjpmBAAAB connected[39m
+2021-04-15 19:47:07:477 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 19:47:09:479 [32minfo[39m: [32mweb-socket Azeiu_w4OaeVe86eAAAB connected[39m
+2021-04-15 19:47:11:4711 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 19:47:11:4711 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 20:13:03:133 [32minfo[39m: [32mweb-socket MMzPqiezGO9EwuxhAAAD connected[39m
+2021-04-15 20:14:49:1449 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 20:14:50:1450 [32minfo[39m: [32mweb-socket bUFvllH5ilNjL7r4AAAB connected[39m
+2021-04-15 20:14:54:1454 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 20:14:54:1454 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 20:15:23:1523 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 20:15:27:1527 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 20:15:27:1527 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 20:15:29:1529 [32minfo[39m: [32mweb-socket mclf3_neGUjDdsVLAAAB connected[39m
+2021-04-15 20:18:19:1819 [32minfo[39m: [32mweb-socket nyrqOFA-TxBJh1VEAAAD connected[39m
+2021-04-15 20:18:53:1853 [32minfo[39m: [32mweb-socket sTzyVlfIVkquBhtbAAAF connected[39m
+2021-04-15 20:19:05:195 [32minfo[39m: [32mweb-socket zN2mhxmPdHLBfFT7AAAH connected[39m
+2021-04-15 20:19:25:1925 [32minfo[39m: [32mweb-socket AXJp_zDjra8aErq0AAAJ connected[39m
+2021-04-15 20:20:29:2029 [32minfo[39m: [32mweb-socket OZvstbWKJA-rWsg4AAAL connected[39m
+2021-04-15 20:20:37:2037 [32minfo[39m: [32mweb-socket KZrAXVin4UmNPnhJAAAN connected[39m
+2021-04-15 20:48:12:4812 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 20:48:15:4815 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 20:48:15:4815 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 20:49:21:4921 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 20:49:24:4924 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 20:49:24:4924 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 20:49:45:4945 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 20:49:49:4949 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 20:49:49:4949 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 20:51:19:5119 [32minfo[39m: [32mweb-socket iv7Qc4hCqyzRizrBAAAB connected[39m
+2021-04-15 20:51:20:5120 [32minfo[39m: [32mweb-socket GXo3Nbx8FPgAjXpqAAAD connected[39m
+2021-04-15 20:57:23:5723 [32minfo[39m: [32mweb-socket 0E0ugujsIoE8wZcvAAAF connected[39m
+2021-04-15 20:57:24:5724 [32minfo[39m: [32mweb-socket LFYZEsNdlIBzL6pSAAAH connected[39m
+2021-04-15 20:59:48:5948 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 20:59:48:5948 [32minfo[39m: [32mweb-socket uggHfitqs-XMx6_lAAAB connected[39m
+2021-04-15 20:59:52:5952 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 20:59:52:5952 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 20:59:53:5953 [32minfo[39m: [32mweb-socket wITEkc01HtuXpNcpAAAD connected[39m
+2021-04-15 21:00:55:055 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 21:00:55:055 [32minfo[39m: [32mweb-socket LNGy8C3MBfdSiiprAAAC connected[39m
+2021-04-15 21:00:55:055 [32minfo[39m: [32mweb-socket VI0AOMqIni99CRcqAAAD connected[39m
+2021-04-15 21:00:58:058 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 21:00:58:058 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 21:01:42:142 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 21:01:45:145 [32minfo[39m: [32mweb-socket a4mt9ZK0DecdkGgNAAAB connected[39m
+2021-04-15 21:01:46:146 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 21:01:46:146 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 21:01:47:147 [32minfo[39m: [32mweb-socket -Hi1oXkMtocnUCWRAAAD connected[39m
+2021-04-15 21:05:21:521 [32minfo[39m: [32mweb-socket s8DjkAePJfrMDsVSAAAF connected[39m
+2021-04-15 21:05:22:522 [32minfo[39m: [32mweb-socket LIXGkOG-48jFhkZjAAAH connected[39m
+2021-04-15 21:07:03:73 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 21:07:03:73 [32minfo[39m: [32mweb-socket Xy93UoH0b_AN0wg7AAAB connected[39m
+2021-04-15 21:07:04:74 [32minfo[39m: [32mweb-socket 8P5njeGtbwMqmldQAAAD connected[39m
+2021-04-15 21:07:06:76 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 21:07:06:76 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 21:07:46:746 [32minfo[39m: [32mweb-socket HZ1PIl6lzd4C1piCAAAF connected[39m
+2021-04-15 21:07:56:756 [32minfo[39m: [32mweb-socket E345KyayOKRJxwPLAAAH connected[39m
+2021-04-15 21:08:21:821 [32minfo[39m: [32mweb-socket 0v2cDpyLNPR64Zt0AAAJ connected[39m
+2021-04-15 21:09:01:91 [32minfo[39m: [32mweb-socket TwUw7cPrOZh6xNCvAAAL connected[39m
+2021-04-15 21:09:03:93 [32minfo[39m: [32mweb-socket sOOeEd6FUg768ZlNAAAN connected[39m
+2021-04-15 21:10:07:107 [32minfo[39m: [32mweb-socket RWJFbvKP15-BG_GVAAAP connected[39m
+2021-04-15 21:11:19:1119 [32minfo[39m: [32mweb-socket D_i1siFaNa4OuZ_GAAAR connected[39m
+2021-04-15 21:13:36:1336 [32minfo[39m: [32mweb-socket TG27oLbmTxnyZDT-AAAT connected[39m
+2021-04-15 21:13:48:1348 [32minfo[39m: [32mweb-socket kz8yeBb9EzTECd6QAAAV connected[39m
+2021-04-15 21:14:03:143 [32minfo[39m: [32mweb-socket -fV_so4IAYjXRsUeAAAX connected[39m
+2021-04-15 21:33:54:3354 [32minfo[39m: [32mweb-socket wqWqeY56K2twap4JAAAa connected[39m
+2021-04-15 21:33:54:3354 [32minfo[39m: [32mweb-socket w51ZyKlLwd3xa1jXAAAb connected[39m
+2021-04-15 21:33:54:3354 [32minfo[39m: [32mweb-socket yMwQXgVYh0kCaT3UAAAd connected[39m
+2021-04-15 21:33:55:3355 [32minfo[39m: [32mweb-socket MsKlT_2b9R9zNqR8AAAg connected[39m
+2021-04-15 21:33:55:3355 [32minfo[39m: [32mweb-socket Q8NNt1yvSF1FGpysAAAh connected[39m
+2021-04-15 21:33:57:3357 [32minfo[39m: [32mweb-socket bQyvoKb_BOzU_yVhAAAj connected[39m
+2021-04-15 21:34:00:340 [32minfo[39m: [32mweb-socket X7wuiMUYhzQIVGJNAAAl connected[39m
+2021-04-15 21:34:20:3420 [32minfo[39m: [32mweb-socket JT7t000M45a9fnMDAAAn connected[39m
+2021-04-15 21:41:52:4152 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 21:41:52:4152 [32minfo[39m: [32mweb-socket F3njG5TXrC4xhWGiAAAC connected[39m
+2021-04-15 21:41:52:4152 [32minfo[39m: [32mweb-socket X--NSo38rSLd6erLAAAD connected[39m
+2021-04-15 21:41:53:4153 [32minfo[39m: [32mweb-socket EffKv_bdIG-TlW5hAAAF connected[39m
+2021-04-15 21:41:56:4156 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 21:41:56:4156 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 21:42:26:4226 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 21:42:26:4226 [32minfo[39m: [32mweb-socket vvVSXyAhzdYF05BMAAAB connected[39m
+2021-04-15 21:42:27:4227 [32minfo[39m: [32mweb-socket mvNFOmZ4m1_sX770AAAD connected[39m
+2021-04-15 21:42:28:4228 [32minfo[39m: [32mweb-socket Tln7tuakUsyxLBn8AAAF connected[39m
+2021-04-15 21:42:31:4231 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 21:42:31:4231 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 21:43:23:4323 [32minfo[39m: [32mweb-socket 6pyhOAQpYUUZLnpvAAAI connected[39m
+2021-04-15 21:43:23:4323 [32minfo[39m: [32mweb-socket S2-x74csQe4Oj1nWAAAJ connected[39m
+2021-04-15 21:43:23:4323 [32minfo[39m: [32mweb-socket _1Xk0X0zxiIGow8qAAAL connected[39m
+2021-04-15 21:45:41:4541 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 21:45:41:4541 [32minfo[39m: [32mweb-socket _YeQEfxlo_Xpob51AAAC connected[39m
+2021-04-15 21:45:41:4541 [32minfo[39m: [32mweb-socket zucrt4aXsNUepx3WAAAD connected[39m
+2021-04-15 21:45:41:4541 [32minfo[39m: [32mweb-socket _-cfuBeTFBdGCNLCAAAF connected[39m
+2021-04-15 21:45:46:4546 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 21:45:46:4546 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 21:58:57:5857 [32minfo[39m: [32mweb-socket MARyMXlzYYIyOHr9AAAI connected[39m
+2021-04-15 21:58:58:5858 [32minfo[39m: [32mweb-socket Hqc3f5yN-qnBgDPmAAAK connected[39m
+2021-04-15 21:58:58:5858 [32minfo[39m: [32mweb-socket L93Gwii3ZiwTQuLbAAAL connected[39m
+2021-04-15 22:03:19:319 [32minfo[39m: [32mweb-socket YqLRjakEokJFR9XtAAAN connected[39m
+2021-04-15 22:04:02:42 [32minfo[39m: [32mweb-socket F2XsHQeGYAYuN8R5AAAR connected[39m
+2021-04-15 22:04:02:42 [32minfo[39m: [32mweb-socket b1xC1JSyPOtlBTF8AAAS connected[39m
+2021-04-15 22:04:02:42 [32minfo[39m: [32mweb-socket 8RLi5i84kG6QCqvUAAAT connected[39m
+2021-04-15 22:04:38:438 [32minfo[39m: [32mweb-socket 28zW4jBiLJxOdUW6AAAV connected[39m
+2021-04-15 22:04:50:450 [32minfo[39m: [32mweb-socket RlEEInEbaLPbt__PAAAX connected[39m
+2021-04-15 22:05:02:52 [32minfo[39m: [32mweb-socket H6iybIXViG4LKt62AAAZ connected[39m
+2021-04-15 22:06:47:647 [32minfo[39m: [32mweb-socket GJ9j8Bl5B-Scj2UcAAAd connected[39m
+2021-04-15 22:06:47:647 [32minfo[39m: [32mweb-socket L3bk1ap8ofH37Lg9AAAe connected[39m
+2021-04-15 22:06:47:647 [32minfo[39m: [32mweb-socket Zg3OEeLr48xMWG7-AAAf connected[39m
+2021-04-15 22:07:04:74 [32minfo[39m: [32mweb-socket vJV_q1idwEvUJ5YsAAAj connected[39m
+2021-04-15 22:07:04:74 [32minfo[39m: [32mweb-socket PrWf31uwPb2w8xsdAAAk connected[39m
+2021-04-15 22:07:04:74 [32minfo[39m: [32mweb-socket H45XiKsrPLKfxPb9AAAl connected[39m
+2021-04-15 22:07:21:721 [32minfo[39m: [32mweb-socket _UibQJ0e6DFQX8JwAAAn connected[39m
+2021-04-15 22:07:44:744 [32minfo[39m: [32mweb-socket OfMKA-9rvtkpYObDAAAq connected[39m
+2021-04-15 22:07:44:744 [32minfo[39m: [32mweb-socket 1jW5e-BhgYgILHXaAAAs connected[39m
+2021-04-15 22:07:44:744 [32minfo[39m: [32mweb-socket K4R05pn2puQM7kOMAAAt connected[39m
+2021-04-15 22:08:24:824 [32minfo[39m: [32mweb-socket ze85r9hDoPEmXLpNAAAv connected[39m
+2021-04-15 22:12:16:1216 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:12:16:1216 [32minfo[39m: [32mweb-socket oDrKKSf3gBj1BtJYAAAB connected[39m
+2021-04-15 22:13:53:1353 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:13:53:1353 [32minfo[39m: [32mweb-socket WpkZ94FRFijBrFCAAAAB connected[39m
+2021-04-15 22:13:57:1357 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:13:57:1357 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:14:05:145 [32minfo[39m: [32mweb-socket dN_PQjVdhMDkoG3CAAAD connected[39m
+2021-04-15 22:17:15:1715 [32minfo[39m: [32mweb-socket aoeFiu2j5WvWFZddAAAF connected[39m
+2021-04-15 22:18:50:1850 [32minfo[39m: [32mweb-socket cNhOsrXOvxQhn0OjAAAH connected[39m
+2021-04-15 22:21:08:218 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:21:09:219 [32minfo[39m: [32mweb-socket TdDnEbzMKREXlCR2AAAB connected[39m
+2021-04-15 22:21:13:2113 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:21:13:2113 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:21:32:2132 [32minfo[39m: [32mweb-socket Vj_jBKfVwcQ-uu1cAAAD connected[39m
+2021-04-15 22:22:11:2211 [32minfo[39m: [32mweb-socket xnzkX8TYR0Fph54VAAAF connected[39m
+2021-04-15 22:23:31:2331 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:23:32:2332 [32minfo[39m: [32mweb-socket Gk2Zglzkkpcz44nHAAAB connected[39m
+2021-04-15 22:23:32:2332 [32minfo[39m: [32mweb-socket CadRemF0BTmB8rGiAAAD connected[39m
+2021-04-15 22:23:36:2336 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:23:36:2336 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:23:44:2344 [32minfo[39m: [32mweb-socket e1qtpFCA-urPC4keAAAF connected[39m
+2021-04-15 22:23:47:2347 [32minfo[39m: [32mweb-socket YKSkHye1rysHLGuFAAAH connected[39m
+2021-04-15 22:24:07:247 [32minfo[39m: [32mweb-socket ELKvPpk9HfeD85wEAAAJ connected[39m
+2021-04-15 22:24:22:2422 [32minfo[39m: [32mweb-socket ebU7graPkT2BNAXBAAAL connected[39m
+2021-04-15 22:24:46:2446 [32minfo[39m: [32mweb-socket iQKqRMlV-AFzND6xAAAN connected[39m
+2021-04-15 22:25:35:2535 [32minfo[39m: [32mweb-socket LeQDmP71SpKdz7iqAAAP connected[39m
+2021-04-15 22:27:28:2728 [32minfo[39m: [32mweb-socket bjwLR8XnbH1Vd7nQAAAR connected[39m
+2021-04-15 22:29:57:2957 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:29:59:2959 [32minfo[39m: [32mweb-socket vTI6L9mxGtuMlVW5AAAB connected[39m
+2021-04-15 22:30:01:301 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:30:01:301 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:30:03:303 [32minfo[39m: [32mweb-socket ncmXEUa5stoVUsnSAAAD connected[39m
+2021-04-15 22:30:59:3059 [32minfo[39m: [32mweb-socket vUKA1lWJEk1vCcLBAAAF connected[39m
+2021-04-15 22:32:45:3245 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:32:45:3245 [32minfo[39m: [32mweb-socket e1fNuJNyNtCMUQQfAAAB connected[39m
+2021-04-15 22:32:47:3247 [32minfo[39m: [32mweb-socket ZIaSq_va3zsBsXCyAAAD connected[39m
+2021-04-15 22:32:49:3249 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:32:49:3249 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:32:51:3251 [32minfo[39m: [32mweb-socket iaT282ZdW4MGPCE8AAAF connected[39m
+2021-04-15 22:32:53:3253 [32minfo[39m: [32mweb-socket kSgwT5fIZJh8SjEsAAAH connected[39m
+2021-04-15 22:33:24:3324 [32minfo[39m: [32mweb-socket 3sG5V3P_4grEyOisAAAJ connected[39m
+2021-04-15 22:40:15:4015 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:40:18:4018 [32minfo[39m: [32mweb-socket 65trSGsV4PqXdZkMAAAB connected[39m
+2021-04-15 22:40:19:4019 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:40:19:4019 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:40:20:4020 [32minfo[39m: [32mweb-socket 1_6w8EzTKGSGvqrrAAAD connected[39m
+2021-04-15 22:43:49:4349 [32minfo[39m: [32mweb-socket 6WNKb2u57xDDc3HvAAAF connected[39m
+2021-04-15 22:44:06:446 [32minfo[39m: [32mweb-socket W4iWF-D61K1Qlb30AAAH connected[39m
+2021-04-15 22:46:44:4644 [32minfo[39m: [32mweb-socket DL0-gC7MjQPk8SD0AAAJ connected[39m
+2021-04-15 22:48:26:4826 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:48:26:4826 [32minfo[39m: [32mweb-socket 54QXiBaq4cG--34CAAAB connected[39m
+2021-04-15 22:48:28:4828 [32minfo[39m: [32mweb-socket GyfZ4ikFsxPrDhY8AAAD connected[39m
+2021-04-15 22:48:29:4829 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:48:29:4829 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:48:45:4845 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:48:46:4846 [32minfo[39m: [32mweb-socket nbk5EbtbPv2vqNwxAAAB connected[39m
+2021-04-15 22:48:48:4848 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:48:48:4848 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:50:47:5047 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:50:47:5047 [32minfo[39m: [32mweb-socket ox3KH7454mSecDwaAAAB connected[39m
+2021-04-15 22:50:50:5050 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:50:50:5050 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:51:29:5129 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:51:30:5130 [32minfo[39m: [32mweb-socket LMVUUDiSYthyFGXUAAAB connected[39m
+2021-04-15 22:51:32:5132 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:51:32:5132 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:52:23:5223 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:52:24:5224 [32minfo[39m: [32mweb-socket gAXM4kbSZIaLKYblAAAB connected[39m
+2021-04-15 22:52:26:5226 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:52:26:5226 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:52:53:5253 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:52:53:5253 [32minfo[39m: [32mweb-socket wSeGC04Xa8iaIcJLAAAB connected[39m
+2021-04-15 22:52:56:5256 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:52:56:5256 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:53:32:5332 [32minfo[39m: [32mweb-socket 9VnTO2cUlD8KeIJCAAAD connected[39m
+2021-04-15 22:54:02:542 [32minfo[39m: [32mweb-socket Q-LB06V7Bs9Vrc7qAAAF connected[39m
+2021-04-15 22:54:59:5459 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:55:00:550 [32minfo[39m: [32mweb-socket NfEbZd6qO-pmFXJCAAAB connected[39m
+2021-04-15 22:55:02:552 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:55:02:552 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:55:31:5531 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:55:33:5533 [32minfo[39m: [32mweb-socket j1z0iX6YcAK9jk4AAAAB connected[39m
+2021-04-15 22:55:34:5534 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:55:34:5534 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:55:49:5549 [32minfo[39m: [32mweb-socket 5XjX9jCVDyI8RGJ7AAAD connected[39m
+2021-04-15 22:56:09:569 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:56:11:5611 [32minfo[39m: [32mweb-socket k8-FLv3htBraEp_-AAAB connected[39m
+2021-04-15 22:56:14:5614 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:56:14:5614 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:58:14:5814 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:58:15:5815 [32minfo[39m: [32mweb-socket AE602kJhrjBVdNi3AAAB connected[39m
+2021-04-15 22:58:17:5817 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:58:17:5817 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:59:01:591 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 22:59:01:591 [32minfo[39m: [32mweb-socket GftgXkZJ8GfxXbHAAAAB connected[39m
+2021-04-15 22:59:04:594 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 22:59:04:594 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 22:59:12:5912 [32minfo[39m: [32mweb-socket cptPRDwcWf0NZi5SAAAD connected[39m
+2021-04-15 22:59:14:5914 [32minfo[39m: [32mweb-socket SrA0kbidzIOBgKVZAAAF connected[39m
+2021-04-15 23:00:27:027 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:00:27:027 [32minfo[39m: [32mweb-socket sXFyPp7Ihoj716XOAAAB connected[39m
+2021-04-15 23:00:31:031 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:00:31:031 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:01:15:115 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:01:15:115 [32minfo[39m: [32mweb-socket 9XGSx4_8Hm8HjDgWAAAB connected[39m
+2021-04-15 23:01:18:118 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:01:18:118 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:05:15:515 [32minfo[39m: [32mweb-socket KyG1XAihfQ7V43w4AAAD connected[39m
+2021-04-15 23:11:56:1156 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:11:58:1158 [32minfo[39m: [32mweb-socket CugxSfhnck9zpWPmAAAB connected[39m
+2021-04-15 23:12:00:120 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:12:00:120 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:14:24:1424 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:14:24:1424 [32minfo[39m: [32mweb-socket gjc4KQmQrly5vXFBAAAB connected[39m
+2021-04-15 23:14:27:1427 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:14:27:1427 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:14:33:1433 [32minfo[39m: [32mweb-socket u7ZdG4Xa4gNsYftLAAAD connected[39m
+2021-04-15 23:16:26:1626 [32minfo[39m: [32mweb-socket 6s2JgfhQZ8Xc_PflAAAF connected[39m
+2021-04-15 23:17:16:1716 [32minfo[39m: [32mweb-socket 0R_1pwNoe9ONpxykAAAH connected[39m
+2021-04-15 23:20:01:201 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:20:01:201 [32minfo[39m: [32mweb-socket 9mo3o6c_BQB5mOmVAAAB connected[39m
+2021-04-15 23:20:11:2011 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:20:11:2011 [32minfo[39m: [32mweb-socket H2lugYNbaE3zgTxkAAAB connected[39m
+2021-04-15 23:20:14:2014 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:20:14:2014 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:20:31:2031 [32minfo[39m: [32mweb-socket QaMdFQL24qcSWTyAAAAD connected[39m
+2021-04-15 23:25:09:259 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:25:13:2513 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:25:13:2513 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:39:48:3948 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:39:51:3951 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:39:51:3951 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:40:35:4035 [32minfo[39m: [32mweb-socket EMfteR0vBQbG7aOqAAAB connected[39m
+2021-04-15 23:42:02:422 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:42:02:422 [32minfo[39m: [32mweb-socket ZAy1xmWGW5AaOPN7AAAB connected[39m
+2021-04-15 23:42:06:426 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:42:06:426 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:42:31:4231 [32minfo[39m: [32mweb-socket XQvDuKyeTM2FPGYHAAAD connected[39m
+2021-04-15 23:43:14:4314 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:43:40:4340 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:43:40:4340 [32minfo[39m: [32mweb-socket rE12-1evzJH9mHazAAAB connected[39m
+2021-04-15 23:43:43:4343 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:43:43:4343 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:44:32:4432 [32minfo[39m: [32mweb-socket rgMlEekLEQEXZ_zjAAAD connected[39m
+2021-04-15 23:45:12:4512 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:45:12:4512 [32minfo[39m: [32mweb-socket CtBSukjY9-U8ViliAAAB connected[39m
+2021-04-15 23:45:15:4515 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:45:15:4515 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:45:23:4523 [32minfo[39m: [32mweb-socket pQIqF0epTxApIvC0AAAD connected[39m
+2021-04-15 23:47:38:4738 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-15 23:47:41:4741 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-15 23:47:41:4741 [32minfo[39m: [32mApp is running ...[39m
+2021-04-15 23:47:42:4742 [32minfo[39m: [32mweb-socket nhlXAxplcdPPK95TAAAB connected[39m
+2021-04-15 23:47:43:4743 [32minfo[39m: [32mweb-socket EIc8DJ0Mv8JX5ziCAAAD connected[39m
+2021-04-15 23:47:56:4756 [32minfo[39m: [32mweb-socket t_mvnaYb99XxB_SaAAAF connected[39m
+2021-04-15 23:49:59:4959 [32minfo[39m: [32mweb-socket ARp1LVokYjy4r4wAAAAI connected[39m
+2021-04-15 23:49:59:4959 [32minfo[39m: [32mweb-socket pDygDf2QJjtgbcRWAAAJ connected[39m
+2021-04-15 23:50:56:5056 [32minfo[39m: [32mweb-socket DGMK9EwiouyEs1tnAAAM connected[39m
+2021-04-15 23:50:57:5057 [32minfo[39m: [32mweb-socket MAr0iqXdTIvn1TckAAAN connected[39m
+2021-04-15 23:51:03:513 [32minfo[39m: [32mweb-socket eJJT-lBCLR85nhDeAAAP connected[39m
+2021-04-16 08:26:21:2621 [32minfo[39m: [32mweb-socket Vofsfs_thCd8leFaAAAS connected[39m
+2021-04-16 08:26:21:2621 [32minfo[39m: [32mweb-socket lOZDMRnI8NueMk78AAAT connected[39m
+2021-04-16 08:26:25:2625 [32minfo[39m: [32mweb-socket SW1lIF2WqfmqkgG3AAAW connected[39m
+2021-04-16 08:26:25:2625 [32minfo[39m: [32mweb-socket w3Pt8X9ms62CPvykAAAX connected[39m
+2021-04-16 09:10:26:1026 [32minfo[39m: [32mweb-socket CepNc4J9EyKRSL6oAAAa connected[39m
+2021-04-16 09:10:26:1026 [32minfo[39m: [32mweb-socket KyVocl3PQKsvYIuWAAAb connected[39m
+2021-04-16 09:10:31:1031 [32minfo[39m: [32mweb-socket yLlFPREzUFQBHF1VAAAd connected[39m
+2021-04-16 09:10:31:1031 [32minfo[39m: [32mweb-socket BLkb7_YMwhKbd-gTAAAf connected[39m
+2021-04-16 09:10:58:1058 [32minfo[39m: [32mweb-socket F72O3jROZC8wxyaUAAAh connected[39m
+2021-04-16 09:10:59:1059 [32minfo[39m: [32mweb-socket VXufAHI78Y2NWlFOAAAj connected[39m
+2021-04-16 12:13:24:1324 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 12:13:29:1329 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 12:13:29:1329 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 12:14:09:149 [32minfo[39m: [32mweb-socket vxJKFXgr0Ku8R5NsAAAB connected[39m
+2021-04-16 12:17:19:1719 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 12:17:23:1723 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 12:17:23:1723 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 12:17:24:1724 [32minfo[39m: [32mweb-socket TOGI3Udts9UZ4L_RAAAB connected[39m
+2021-04-16 12:18:30:1830 [32minfo[39m: [32mweb-socket 9Xe4jhISP7PEikf6AAAD connected[39m
+2021-04-16 12:18:56:1856 [32minfo[39m: [32mweb-socket JO4fSQanaRzSf8CBAAAF connected[39m
+2021-04-16 12:24:07:247 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 12:24:07:247 [32minfo[39m: [32mweb-socket Fwz_9oCZOJKraLxjAAAB connected[39m
+2021-04-16 12:24:07:247 [32minfo[39m: [32mweb-socket F-i0x7SL7EgpSlcBAAAD connected[39m
+2021-04-16 12:24:10:2410 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 12:24:10:2410 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 12:24:39:2439 [32minfo[39m: [32mweb-socket opNdKPHydC3YgsDLAAAG connected[39m
+2021-04-16 12:24:39:2439 [32minfo[39m: [32mweb-socket WCSW0kSilDXgtbOkAAAH connected[39m
+2021-04-16 12:25:18:2518 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 12:25:18:2518 [32minfo[39m: [32mweb-socket MMx7ilTg1r8QVHvNAAAB connected[39m
+2021-04-16 12:25:19:2519 [32minfo[39m: [32mweb-socket MIzqppdb-MFEIQZ2AAAD connected[39m
+2021-04-16 12:25:22:2522 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 12:25:22:2522 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 12:25:25:2525 [32minfo[39m: [32mweb-socket IFkfEbOtZNYANKW3AAAF connected[39m
+2021-04-16 12:27:00:270 [32minfo[39m: [32mweb-socket 9fNmFd4sKYvQq6nSAAAI connected[39m
+2021-04-16 12:27:00:270 [32minfo[39m: [32mweb-socket yglgWtApeld5JFgmAAAJ connected[39m
+2021-04-16 12:27:06:276 [32minfo[39m: [32mweb-socket MPynErXKX0c6w6sjAAAL connected[39m
+2021-04-16 12:28:59:2859 [32minfo[39m: [32mweb-socket okvmUzOmWbasb0LSAAAO connected[39m
+2021-04-16 12:28:59:2859 [32minfo[39m: [32mweb-socket HGP8fDUFD0xnaWhSAAAP connected[39m
+2021-04-16 12:29:50:2950 [32minfo[39m: [32mweb-socket VCYtJQQqh-yq9eRHAAAS connected[39m
+2021-04-16 12:29:50:2950 [32minfo[39m: [32mweb-socket FYcvhcdQb7laMNarAAAT connected[39m
+2021-04-16 12:31:20:3120 [32minfo[39m: [32mweb-socket gaoLVk-__RqLwyNEAAAV connected[39m
+2021-04-16 12:31:20:3120 [32minfo[39m: [32mweb-socket dcwJpIqzS4yLblctAAAX connected[39m
+2021-04-16 12:32:43:3243 [32minfo[39m: [32mweb-socket klA-Du5oymesqD4hAAAZ connected[39m
+2021-04-16 12:32:54:3254 [32minfo[39m: [32mweb-socket btGc9RoWOf2ulX-HAAAb connected[39m
+2021-04-16 12:33:01:331 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 12:33:03:333 [32minfo[39m: [32mweb-socket wZmDmqrwMB8A7J0tAAAB connected[39m
+2021-04-16 12:33:05:335 [32minfo[39m: [32mweb-socket YkNn86It0R215L1ZAAAD connected[39m
+2021-04-16 12:33:06:336 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 12:33:06:336 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 12:46:07:467 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 12:46:07:467 [32minfo[39m: [32mweb-socket OteSMSkkJIO-23Q5AAAB connected[39m
+2021-04-16 12:46:07:467 [32minfo[39m: [32mweb-socket DkKRsxe-YBfclaiAAAAD connected[39m
+2021-04-16 12:46:10:4610 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 12:46:10:4610 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 12:50:08:508 [32minfo[39m: [32mweb-socket AeP5LxYwVwJZpuvrAAAF connected[39m
+2021-04-16 12:50:52:5052 [32minfo[39m: [32mweb-socket kbB-MZS38WEW33z8AAAH connected[39m
+2021-04-16 12:51:46:5146 [32minfo[39m: [32mweb-socket 0Z65ql8j9xb9EmS_AAAJ connected[39m
+2021-04-16 12:51:58:5158 [32minfo[39m: [32mweb-socket JP3NXyzQE3g1rf6vAAAL connected[39m
+2021-04-16 12:53:34:5334 [32minfo[39m: [32mweb-socket 1r8UAmfTO4cEn2cFAAAO connected[39m
+2021-04-16 12:53:35:5335 [32minfo[39m: [32mweb-socket iTsh1wJW2Tb9V15GAAAP connected[39m
+2021-04-16 12:55:52:5552 [32minfo[39m: [32mweb-socket aOpGukEdlScSdca9AAAS connected[39m
+2021-04-16 12:55:53:5553 [32minfo[39m: [32mweb-socket GiZQ9pFC5zLjGX2OAAAT connected[39m
+2021-04-16 13:03:26:326 [32minfo[39m: [32mweb-socket upbYG7VfaIye40efAAAW connected[39m
+2021-04-16 13:03:27:327 [32minfo[39m: [32mweb-socket dSEVuSYCkjMe50R9AAAX connected[39m
+2021-04-16 13:05:04:54 [32minfo[39m: [32mweb-socket s9mKGww8p3XygMuYAAAa connected[39m
+2021-04-16 13:05:04:54 [32minfo[39m: [32mweb-socket Ka6NIfPOmSaZXjhIAAAb connected[39m
+2021-04-16 13:05:51:551 [32minfo[39m: [32mweb-socket G2Sqo3wxoLmLCwGpAAAe connected[39m
+2021-04-16 13:05:52:552 [32minfo[39m: [32mweb-socket Cw57jCnyaEEKw3ABAAAf connected[39m
+2021-04-16 13:06:50:650 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 13:06:50:650 [32minfo[39m: [32mweb-socket UhAyrGuTBtvtbMT7AAAB connected[39m
+2021-04-16 13:06:52:652 [32minfo[39m: [32mweb-socket CFLlaTXbx2kO_22eAAAD connected[39m
+2021-04-16 13:06:53:653 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 13:06:53:653 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 13:09:38:938 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 13:09:38:938 [32minfo[39m: [32mweb-socket e_3VcvpSAh6mz-34AAAB connected[39m
+2021-04-16 13:09:38:938 [32minfo[39m: [32mweb-socket 4NIaJnX1o4Ymane2AAAD connected[39m
+2021-04-16 13:09:42:942 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 13:09:42:942 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 13:09:42:942 [32minfo[39m: [32mweb-socket TD9PNPZUJvcYSbakAAAF connected[39m
+2021-04-16 13:31:14:3114 [32minfo[39m: [32mweb-socket jqW5haolk1E1hKkBAAAI connected[39m
+2021-04-16 13:31:14:3114 [32minfo[39m: [32mweb-socket ovWF7RXdY6aA5I-9AAAJ connected[39m
+2021-04-16 13:31:19:3119 [32minfo[39m: [32mweb-socket VPtC4YouKgAFqLe7AAAM connected[39m
+2021-04-16 13:31:20:3120 [32minfo[39m: [32mweb-socket IGJcRE_5EReycRsMAAAN connected[39m
+2021-04-16 13:39:14:3914 [32minfo[39m: [32mweb-socket SSBkDkH6bjI6Dld5AAAQ connected[39m
+2021-04-16 13:39:15:3915 [32minfo[39m: [32mweb-socket 1nCNk84w0P6rmMYAAAAR connected[39m
+2021-04-16 13:53:01:531 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 13:53:01:531 [32minfo[39m: [32mweb-socket -xQHZV-C7jhJV4MjAAAB connected[39m
+2021-04-16 13:53:03:533 [32minfo[39m: [32mweb-socket CRIRn06lTpCmz7hCAAAD connected[39m
+2021-04-16 13:53:06:536 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 13:53:06:536 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 13:53:11:5311 [32minfo[39m: [32mweb-socket KB1rPLlO-jPrspk7AAAG connected[39m
+2021-04-16 13:53:12:5312 [32minfo[39m: [32mweb-socket 1C256rH_b_tIXWzTAAAH connected[39m
+2021-04-16 13:55:55:5555 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 13:55:57:5557 [32minfo[39m: [32mweb-socket wcQjuYBWRiaKx1Y2AAAC connected[39m
+2021-04-16 13:55:57:5557 [32minfo[39m: [32mweb-socket gbmoa5zn4vk1dwXHAAAD connected[39m
+2021-04-16 13:56:00:560 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 13:56:00:560 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 13:57:33:5733 [32minfo[39m: [32mweb-socket 5WCmXgazF7EKht5fAAAG connected[39m
+2021-04-16 13:57:33:5733 [32minfo[39m: [32mweb-socket 8jMRFtTvSp_eJRQYAAAH connected[39m
+2021-04-16 13:57:44:5744 [32minfo[39m: [32mweb-socket broaoSvcAkzTJQa9AAAJ connected[39m
+2021-04-16 14:02:32:232 [32minfo[39m: [32mweb-socket Y6f8A3_u3edt03b1AAAM connected[39m
+2021-04-16 14:02:32:232 [32minfo[39m: [32mweb-socket XLzRJEHCovDwU_AUAAAN connected[39m
+2021-04-16 14:04:11:411 [32minfo[39m: [32mweb-socket nGPC4jVpCb7qAH6iAAAQ connected[39m
+2021-04-16 14:04:12:412 [32minfo[39m: [32mweb-socket Txo9Pvm321YrCJARAAAR connected[39m
+2021-04-16 14:05:45:545 [32minfo[39m: [32mweb-socket bNPnUyVmYzl9RuVoAAAU connected[39m
+2021-04-16 14:05:46:546 [32minfo[39m: [32mweb-socket Dc2vJra-pAaiX42KAAAV connected[39m
+2021-04-16 14:06:26:626 [32minfo[39m: [32mweb-socket MI9Wrse_qUjIYh2BAAAY connected[39m
+2021-04-16 14:06:27:627 [32minfo[39m: [32mweb-socket 8v7tw18eS3iYKvn3AAAZ connected[39m
+2021-04-16 14:06:58:658 [32minfo[39m: [32mweb-socket DM9ugXYuwLdCltxAAAAb connected[39m
+2021-04-16 14:06:59:659 [32minfo[39m: [32mweb-socket vHkOjrRZ4d7u70dzAAAd connected[39m
+2021-04-16 14:07:38:738 [32minfo[39m: [32mweb-socket p4sn1smZxoUW0AwpAAAg connected[39m
+2021-04-16 14:07:38:738 [32minfo[39m: [32mweb-socket sweFNogCsDP6JXPwAAAh connected[39m
+2021-04-16 14:07:48:748 [32minfo[39m: [32mweb-socket PwPEyrtB-Idr9XLvAAAk connected[39m
+2021-04-16 14:07:49:749 [32minfo[39m: [32mweb-socket EOoBPJayC-wlkT-oAAAl connected[39m
+2021-04-16 14:11:21:1121 [32minfo[39m: [32mweb-socket TyK66Ice8Rvn3Nr-AAAo connected[39m
+2021-04-16 14:11:21:1121 [32minfo[39m: [32mweb-socket b87djy5w_3XyeC3iAAAp connected[39m
+2021-04-16 14:13:08:138 [32minfo[39m: [32mweb-socket N9SfSc8x6LV_j9aTAAAs connected[39m
+2021-04-16 14:13:09:139 [32minfo[39m: [32mweb-socket msUvHgytdnxOvPNvAAAt connected[39m
+2021-04-16 14:16:19:1619 [32minfo[39m: [32mweb-socket iuF_1J-vLIm9QSBFAAAw connected[39m
+2021-04-16 14:16:20:1620 [32minfo[39m: [32mweb-socket OIHPzTSoJGOZFi2GAAAx connected[39m
+2021-04-16 14:17:31:1731 [32minfo[39m: [32mweb-socket UDXSvOBpk0sHKimoAAA0 connected[39m
+2021-04-16 14:17:32:1732 [32minfo[39m: [32mweb-socket Rs3n-S2ihqpp-j0HAAA1 connected[39m
+2021-04-16 14:18:24:1824 [32minfo[39m: [32mweb-socket 7t7-8ci8NkN5s0NOAAA4 connected[39m
+2021-04-16 14:18:25:1825 [32minfo[39m: [32mweb-socket o6lPXtyroIj6iBc1AAA5 connected[39m
+2021-04-16 14:19:15:1915 [32minfo[39m: [32mweb-socket gQOpfsRfkm05Lm6TAAA8 connected[39m
+2021-04-16 14:19:16:1916 [32minfo[39m: [32mweb-socket PGBhFgpHAw9Wwt-AAAA9 connected[39m
+2021-04-16 14:19:33:1933 [32minfo[39m: [32mweb-socket AddVVWRGBdWFH2egAABA connected[39m
+2021-04-16 14:19:33:1933 [32minfo[39m: [32mweb-socket 3all9h_ldaJx9TPoAABB connected[39m
+2021-04-16 14:21:50:2150 [32minfo[39m: [32mweb-socket SiIGOXOiFxO_wmqgAABD connected[39m
+2021-04-16 14:21:51:2151 [32minfo[39m: [32mweb-socket 0x-iMCdw9EoUivqTAABF connected[39m
+2021-04-16 14:24:08:248 [32minfo[39m: [32mweb-socket YJF7B77OYIV1VIdFAABI connected[39m
+2021-04-16 14:24:09:249 [32minfo[39m: [32mweb-socket 1d4yVBegeQ7QAuyHAABJ connected[39m
+2021-04-16 14:24:19:2419 [32minfo[39m: [32mweb-socket hIcMstJbdV3OjXk-AABM connected[39m
+2021-04-16 14:24:19:2419 [32minfo[39m: [32mweb-socket m1Ap1ZTWQkB5J-i7AABN connected[39m
+2021-04-16 14:25:15:2515 [32minfo[39m: [32mweb-socket Ykuxk0BfRNd8GlR8AABQ connected[39m
+2021-04-16 14:25:16:2516 [32minfo[39m: [32mweb-socket 1Cz5IMvp2bqzRj9BAABR connected[39m
+2021-04-16 14:25:46:2546 [32minfo[39m: [32mweb-socket i9pImCyLG_9H3ND4AABU connected[39m
+2021-04-16 14:25:46:2546 [32minfo[39m: [32mweb-socket KuhTteJUyfGsA0raAABV connected[39m
+2021-04-16 14:26:01:261 [32minfo[39m: [32mweb-socket L8ucK-r7YyDag5YXAABY connected[39m
+2021-04-16 14:26:02:262 [32minfo[39m: [32mweb-socket bplWY_agO2eK2gOtAABZ connected[39m
+2021-04-16 14:27:20:2720 [32minfo[39m: [32mweb-socket Xw0hjBLaftZh8HbNAABc connected[39m
+2021-04-16 14:27:20:2720 [32minfo[39m: [32mweb-socket Q87-Opy9lmej90lyAABd connected[39m
+2021-04-16 14:28:12:2812 [32minfo[39m: [32mweb-socket GTIVM9O6Ypq6X2FCAABg connected[39m
+2021-04-16 14:28:13:2813 [32minfo[39m: [32mweb-socket 3OqT0mFq86NkQuQ4AABh connected[39m
+2021-04-16 14:32:08:328 [32minfo[39m: [32mweb-socket xFsf9HUGxAL1UHm4AABj connected[39m
+2021-04-16 14:35:31:3531 [32minfo[39m: [32mweb-socket bc-poI36AdbmoYuhAABm connected[39m
+2021-04-16 14:35:31:3531 [32minfo[39m: [32mweb-socket Ox0ZK82CrieuuB4WAABn connected[39m
+2021-04-16 14:36:22:3622 [32minfo[39m: [32mweb-socket 5HW68s-hg-gwhmScAABq connected[39m
+2021-04-16 14:36:23:3623 [32minfo[39m: [32mweb-socket HgxghhzWeFoTqJb8AABr connected[39m
+2021-04-16 14:36:39:3639 [32minfo[39m: [32mweb-socket BHrG0-TMuRMhu0TpAABu connected[39m
+2021-04-16 14:36:39:3639 [32minfo[39m: [32mweb-socket 1dOghbtzF-kwdEqKAABv connected[39m
+2021-04-16 14:38:04:384 [32minfo[39m: [32mweb-socket _J-Ml2T7qHxhWviIAABy connected[39m
+2021-04-16 14:38:05:385 [32minfo[39m: [32mweb-socket HrVBqCRClIi_-O7-AABz connected[39m
+2021-04-16 14:38:34:3834 [32minfo[39m: [32mweb-socket hNYcSXd4jT4RHxcZAAB2 connected[39m
+2021-04-16 14:38:34:3834 [32minfo[39m: [32mweb-socket Wk5CMDphXKlbxqwZAAB3 connected[39m
+2021-04-16 14:39:42:3942 [32minfo[39m: [32mweb-socket _Z8Xt3q0YhOmALHbAAB6 connected[39m
+2021-04-16 14:39:42:3942 [32minfo[39m: [32mweb-socket k9sjOTyUNwfCmiAqAAB7 connected[39m
+2021-04-16 14:40:41:4041 [32minfo[39m: [32mweb-socket 8Miq1blBXc1igNo0AAB- connected[39m
+2021-04-16 14:40:42:4042 [32minfo[39m: [32mweb-socket 9tX-e5788hhqnipbAAB_ connected[39m
+2021-04-16 14:42:01:421 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 14:42:01:421 [32minfo[39m: [32mweb-socket Q7k4QQLFz8KCT5FdAAAB connected[39m
+2021-04-16 14:42:05:425 [32minfo[39m: [32mweb-socket waVmZCTEocws_7yVAAAD connected[39m
+2021-04-16 14:42:05:425 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 14:42:05:425 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 14:43:05:435 [32minfo[39m: [32mweb-socket _WdSnvrXh3nWv0XNAAAF connected[39m
+2021-04-16 15:37:09:379 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 15:37:12:3712 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 15:37:12:3712 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 15:37:46:3746 [32minfo[39m: [32mweb-socket IsNWMTVqKMkjNUI1AAAB connected[39m
+2021-04-16 15:38:40:3840 [32minfo[39m: [32mweb-socket VmU73It_grs941ZOAAAD connected[39m
+2021-04-16 15:38:57:3857 [32minfo[39m: [32mweb-socket A-SZZ5edWWkU_PvtAAAF connected[39m
+2021-04-16 15:46:26:4626 [32minfo[39m: [32mweb-socket ERnzYtYcMVomfUQsAAAH connected[39m
+2021-04-16 15:48:30:4830 [32minfo[39m: [32mweb-socket qVyrxDKO8bCuwA7RAAAJ connected[39m
+2021-04-16 15:50:01:501 [32minfo[39m: [32mweb-socket 4ovbGwVLUDkSdTPYAAAL connected[39m
+2021-04-16 15:50:40:5040 [32minfo[39m: [32mweb-socket NOYqliqXUSvIIq6CAAAN connected[39m
+2021-04-16 17:12:29:1229 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 17:12:33:1233 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 17:12:33:1233 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 17:13:55:1355 [32minfo[39m: [32mweb-socket 5JZz6RQ3rH_9XQcIAAAB connected[39m
+2021-04-16 17:15:32:1532 [32minfo[39m: [32mweb-socket 8a9B35MHVi73YJ6HAAAD connected[39m
+2021-04-16 17:19:23:1923 [32minfo[39m: [32mweb-socket j0Hh-KW8lj5meX8HAAAF connected[39m
+2021-04-16 17:20:41:2041 [32minfo[39m: [32mweb-socket mTuYFEInZDFc26dgAAAH connected[39m
+2021-04-16 17:21:45:2145 [32minfo[39m: [32mweb-socket GsUPXOjCTW75_edOAAAJ connected[39m
+2021-04-16 17:22:27:2227 [32minfo[39m: [32mweb-socket M4QcLirecFW9bE0EAAAL connected[39m
+2021-04-16 17:22:58:2258 [32minfo[39m: [32mweb-socket amS9GmPxr9UB1URGAAAN connected[39m
+2021-04-16 17:23:05:235 [32minfo[39m: [32mweb-socket _vLnVx80JZGG9lGJAAAP connected[39m
+2021-04-16 17:23:41:2341 [32minfo[39m: [32mweb-socket LDoxpjplX0JQy_5tAAAR connected[39m
+2021-04-16 17:26:10:2610 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-16 17:26:13:2613 [32minfo[39m: [32mweb-socket R4pcyNYqLAye7qZBAAAB connected[39m
+2021-04-16 17:26:14:2614 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-16 17:26:14:2614 [32minfo[39m: [32mApp is running ...[39m
+2021-04-16 17:30:04:304 [32minfo[39m: [32mweb-socket DyDZBaaIsmB2cqBRAAAD connected[39m
+2021-04-16 17:32:07:327 [32minfo[39m: [32mweb-socket Fp4MT2o_WupPLsWfAAAF connected[39m
+2021-04-16 17:32:15:3215 [32minfo[39m: [32mweb-socket g7_kcQPjAZXOllOkAAAH connected[39m
+2021-04-22 09:50:13:5013 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 09:50:15:5015 [32minfo[39m: [32mweb-socket 8GYJljWSkhjxXRhOAAAB connected[39m
+2021-04-22 09:50:16:5016 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 09:50:16:5016 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 10:45:56:4556 [32minfo[39m: [32mweb-socket 16vyOG_2YePXwcEkAAAD connected[39m
+2021-04-22 10:46:05:465 [32minfo[39m: [32mweb-socket LO_6g_kiSmfmW7IOAAAF connected[39m
+2021-04-22 10:58:53:5853 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 10:58:53:5853 [32minfo[39m: [32mweb-socket Wug9Q9IMOPR8Cpx2AAAB connected[39m
+2021-04-22 10:58:55:5855 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 10:58:55:5855 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 11:05:02:52 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 11:05:02:52 [32minfo[39m: [32mweb-socket eLNlBBHfEst5dpbjAAAB connected[39m
+2021-04-22 11:05:04:54 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 11:05:04:54 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 17:07:39:739 [32minfo[39m: [32mweb-socket 5Wc5m1US6uMMXaNOAAAD connected[39m
+2021-04-22 17:07:49:749 [32minfo[39m: [32mweb-socket uEJPJBYNWnTp4XQMAAAF connected[39m
+2021-04-22 17:07:52:752 [32minfo[39m: [32mweb-socket euQseqTXt9D0iRB8AAAH connected[39m
+2021-04-22 17:08:08:88 [32minfo[39m: [32mweb-socket fF6YV13A5oJ6KeFfAAAJ connected[39m
+2021-04-22 17:08:50:850 [32minfo[39m: [32mweb-socket e80GdXKl4OjPSzh2AAAL connected[39m
+2021-04-22 17:08:56:856 [32minfo[39m: [32mweb-socket PDNGnb5591Bpt4jAAAAN connected[39m
+2021-04-22 17:09:01:91 [32minfo[39m: [32mweb-socket WtoIkTDKY3-Mq24NAAAQ connected[39m
+2021-04-22 17:10:03:103 [32minfo[39m: [32mweb-socket 7W7u-n2-I1B9mTFiAAAS connected[39m
+2021-04-22 17:10:45:1045 [32minfo[39m: [32mweb-socket MrAHi7t-Db9AupS_AAAU connected[39m
+2021-04-22 17:11:17:1117 [32minfo[39m: [32mweb-socket zjry-tuycFyTXo9VAAAW connected[39m
+2021-04-22 17:16:29:1629 [32minfo[39m: [32mweb-socket 6ICRBMYOQEuikxNfAAAY connected[39m
+2021-04-22 17:22:22:2222 [32minfo[39m: [32mweb-socket Tjf0NLzc1lNiTnvoAAAa connected[39m
+2021-04-22 17:22:32:2232 [32minfo[39m: [32mweb-socket RtWTY3qysjN-NpAHAAAc connected[39m
+2021-04-22 17:22:35:2235 [32minfo[39m: [32mweb-socket wCxh16CsGKkF3qrcAAAe connected[39m
+2021-04-22 17:22:40:2240 [32minfo[39m: [32mweb-socket H2Y2_qdkl-ewr8D1AAAg connected[39m
+2021-04-22 17:27:44:2744 [32minfo[39m: [32mweb-socket rqwrfoaxa6XUCxBrAAAi connected[39m
+2021-04-22 17:33:39:3339 [32minfo[39m: [32mweb-socket llzJ9kLgW3vVwF97AAAk connected[39m
+2021-04-22 18:21:47:2147 [32minfo[39m: [32mweb-socket 7aMC7WkpqoaNbxl-AAAm connected[39m
+2021-04-22 18:22:02:222 [32minfo[39m: [32mweb-socket OXvHyHC_RLCTmgojAAAo connected[39m
+2021-04-22 18:22:15:2215 [32minfo[39m: [32mweb-socket vGo7dyGstqcbT5ioAAAq connected[39m
+2021-04-22 18:24:11:2411 [32minfo[39m: [32mweb-socket IsYsFMyowR0viW_KAAAs connected[39m
+2021-04-22 18:24:26:2426 [32minfo[39m: [32mweb-socket hS5NoKOZEcsG5lvVAAAu connected[39m
+2021-04-22 18:24:57:2457 [32minfo[39m: [32mweb-socket tueAtVRT42cq04vnAAAw connected[39m
+2021-04-22 18:26:24:2624 [32minfo[39m: [32mweb-socket Q2W_Yy09TIr5SEy4AAAy connected[39m
+2021-04-22 18:27:20:2720 [32minfo[39m: [32mweb-socket 4GBoamBKrZOi_NwyAAA0 connected[39m
+2021-04-22 18:27:44:2744 [32minfo[39m: [32mweb-socket 65E6jcDsRpmSf5BHAAA2 connected[39m
+2021-04-22 18:30:10:3010 [32minfo[39m: [32mweb-socket uXUIfiSLDxtkM4zCAAA4 connected[39m
+2021-04-22 18:31:06:316 [32minfo[39m: [32mweb-socket FQSr32t0dWyQP8aSAAA6 connected[39m
+2021-04-22 18:31:36:3136 [32minfo[39m: [32mweb-socket otPD3Ewy8V8bDCplAAA8 connected[39m
+2021-04-22 18:32:27:3227 [32minfo[39m: [32mweb-socket 1YgkaVHxj5nKSxLNAAA- connected[39m
+2021-04-22 18:34:01:341 [32minfo[39m: [32mweb-socket ljOgYUWVU_rgRoeEAABA connected[39m
+2021-04-22 18:38:20:3820 [32minfo[39m: [32mweb-socket VxPBorSDi_d6FG-yAABC connected[39m
+2021-04-22 18:38:33:3833 [32minfo[39m: [32mweb-socket HV4ajcptiHfodrtzAABE connected[39m
+2021-04-22 18:42:24:4224 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 18:42:24:4224 [31merror[39m: [31mmongo connection error:[39m
+2021-04-22 18:42:27:4227 [32minfo[39m: [32mweb-socket a9ZYkJebQibLrh1aAAAB connected[39m
+2021-04-22 18:54:44:5444 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 18:54:47:5447 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 18:54:47:5447 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 18:54:47:5447 [32minfo[39m: [32mweb-socket oHFtEm2CXaRU3Z9_AAAB connected[39m
+2021-04-22 18:55:04:554 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 18:55:04:554 [32minfo[39m: [32mweb-socket aLbHSW888e49jWDJAAAB connected[39m
+2021-04-22 18:55:07:557 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 18:55:07:557 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 18:55:14:5514 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 18:55:14:5514 [32minfo[39m: [32mweb-socket 3VfFykF7yvfxYXhPAAAB connected[39m
+2021-04-22 18:55:17:5517 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 18:55:17:5517 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 18:55:37:5537 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 18:55:38:5538 [32minfo[39m: [32mweb-socket 8NqXi_0AFOLfPPK5AAAB connected[39m
+2021-04-22 18:55:40:5540 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 18:55:40:5540 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 18:56:24:5624 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 18:56:24:5624 [32minfo[39m: [32mweb-socket 6_wtr3__4ygqWXQyAAAB connected[39m
+2021-04-22 18:56:32:5632 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 18:56:33:5633 [32minfo[39m: [32mweb-socket BFxFRb0CnDInXX7kAAAB connected[39m
+2021-04-22 18:56:35:5635 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 18:56:35:5635 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 18:57:16:5716 [32minfo[39m: [32mweb-socket nvvw-ncnfDXAWbdiAAAD connected[39m
+2021-04-22 18:58:46:5846 [32minfo[39m: [32mweb-socket 566IHs0vqmxDo4ANAAAF connected[39m
+2021-04-22 18:58:53:5853 [32minfo[39m: [32mweb-socket 7CSAHoidL0-tWG5yAAAH connected[39m
+2021-04-22 18:59:08:598 [32minfo[39m: [32mweb-socket tQvfECf9lzdZGawiAAAJ connected[39m
+2021-04-22 19:00:03:03 [32minfo[39m: [32mweb-socket wn_pkKLpjCd_EEMlAAAL connected[39m
+2021-04-22 19:00:24:024 [32minfo[39m: [32mweb-socket TPeQE9X8GsaBpv8HAAAN connected[39m
+2021-04-22 19:00:32:032 [32minfo[39m: [32mweb-socket EceJgVkhKX2SVdRIAAAP connected[39m
+2021-04-22 19:02:46:246 [32minfo[39m: [32mweb-socket YL0Aet8QKWRCeYHCAAAR connected[39m
+2021-04-22 19:04:43:443 [32minfo[39m: [32mweb-socket Q3y3xnIcY45wVwpiAAAT connected[39m
+2021-04-22 19:04:51:451 [32minfo[39m: [32mweb-socket 6k1VKN5hePdSTJSMAAAV connected[39m
+2021-04-22 19:06:13:613 [32minfo[39m: [32mweb-socket xam4LQv6EpUgYj2KAAAX connected[39m
+2021-04-22 19:07:18:718 [32minfo[39m: [32mweb-socket z9-fayxhx0IWtGkgAAAZ connected[39m
+2021-04-22 19:08:46:846 [32minfo[39m: [32mweb-socket 5XgbtOhFPegFYTMPAAAb connected[39m
+2021-04-22 19:09:18:918 [32minfo[39m: [32mweb-socket glDLz0-7YNKQYi56AAAd connected[39m
+2021-04-22 19:09:53:953 [32minfo[39m: [32mweb-socket 1pW8bWZLscIbiWOoAAAf connected[39m
+2021-04-22 19:10:15:1015 [32minfo[39m: [32mweb-socket bEHzjamiLPEO9EBvAAAh connected[39m
+2021-04-22 19:15:50:1550 [32minfo[39m: [32mweb-socket vZTdPb-1PLR1A9BPAAAj connected[39m
+2021-04-22 19:17:36:1736 [32minfo[39m: [32mweb-socket D1G-3E6q_Chr9X1JAAAl connected[39m
+2021-04-22 19:19:30:1930 [32minfo[39m: [32mweb-socket 2Ho7AYbl59RocvUxAAAn connected[39m
+2021-04-22 19:20:32:2032 [32minfo[39m: [32mweb-socket _Rx0U_tsA3gbm17nAAAp connected[39m
+2021-04-22 19:20:40:2040 [32minfo[39m: [32mweb-socket MRkwFih6J5rqmQxIAAAr connected[39m
+2021-04-22 19:22:54:2254 [32minfo[39m: [32mweb-socket 5Tj4CpZYQa71jbx2AAAt connected[39m
+2021-04-22 19:24:16:2416 [32minfo[39m: [32mweb-socket LQREeJS-XGGywzyEAAAv connected[39m
+2021-04-22 19:24:41:2441 [32minfo[39m: [32mweb-socket ANIhD4bqRo7lnVJNAAAx connected[39m
+2021-04-22 19:25:23:2523 [32minfo[39m: [32mweb-socket 8MKZi8GlUElCAN3xAAAz connected[39m
+2021-04-22 19:25:35:2535 [32minfo[39m: [32mweb-socket HCvM-iqwtu51tRXoAAA1 connected[39m
+2021-04-22 19:36:13:3613 [32minfo[39m: [32mweb-socket F1ZxJmf84G-OY2vAAAA3 connected[39m
+2021-04-22 19:36:39:3639 [32minfo[39m: [32mweb-socket u9XxwRTqGq-epFXGAAA5 connected[39m
+2021-04-22 19:37:14:3714 [32minfo[39m: [32mweb-socket AIp79kfxtGGrVS-zAAA7 connected[39m
+2021-04-22 19:37:30:3730 [32minfo[39m: [32mweb-socket TjlprkmJ7QmQMa3WAAA9 connected[39m
+2021-04-22 19:38:42:3842 [32minfo[39m: [32mweb-socket G_2bFZp6G6rY_kkOAAA_ connected[39m
+2021-04-22 19:45:01:451 [32minfo[39m: [32mweb-socket p99p6gZNwC3uoBPVAABB connected[39m
+2021-04-22 19:45:43:4543 [32minfo[39m: [32mweb-socket qbo8MktNX6MNy2MbAABD connected[39m
+2021-04-22 19:46:45:4645 [32minfo[39m: [32mweb-socket Q-zfEBfvyxKSGwZPAABF connected[39m
+2021-04-22 19:47:14:4714 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 19:47:14:4714 [31merror[39m: [31mmongo connection error:[39m
+2021-04-22 19:47:14:4714 [32minfo[39m: [32mweb-socket XxAQObSkb5_N6dPOAAAB connected[39m
+2021-04-22 19:47:29:4729 [32minfo[39m: [32mweb-socket Fdp85qdPNO-0L7oyAAAD connected[39m
+2021-04-22 19:49:19:4919 [32minfo[39m: [32mweb-socket KjSIWjh-2Fc1oEn4AAAF connected[39m
+2021-04-22 19:49:55:4955 [32minfo[39m: [32mweb-socket WPdFLPWeLIGbT6GKAAAH connected[39m
+2021-04-22 19:53:39:5339 [32minfo[39m: [32mweb-socket BuLwki9bOtrAV2M2AAAK connected[39m
+2021-04-22 19:54:44:5444 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 19:54:44:5444 [32minfo[39m: [32mweb-socket _tDKZwRIqEUvCMeNAAAB connected[39m
+2021-04-22 19:54:47:5447 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-22 19:54:47:5447 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 19:55:01:551 [32minfo[39m: [32mweb-socket bpI6DKsabY2ahunkAAAD connected[39m
+2021-04-22 19:55:44:5544 [32minfo[39m: [32mweb-socket kgnAr1b-DGaKXn8OAAAF connected[39m
+2021-04-22 19:59:34:5934 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 19:59:35:5935 [32minfo[39m: [32mweb-socket 17RGZg1h0yfHkUtTAAAB connected[39m
+2021-04-22 19:59:37:5937 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-22 19:59:37:5937 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 19:59:59:5959 [32minfo[39m: [32mweb-socket ArkfX_Rx4KZtrk7GAAAD connected[39m
+2021-04-22 20:31:18:3118 [32minfo[39m: [32mweb-socket bKEhMHiQ9GJ96NSxAAAF connected[39m
+2021-04-22 20:32:25:3225 [32minfo[39m: [32mweb-socket EmzYe0WBprMhV6xuAAAH connected[39m
+2021-04-22 20:33:23:3323 [32minfo[39m: [32mweb-socket Hc_Z5ZZgDj9O7ZcGAAAJ connected[39m
+2021-04-22 20:34:23:3423 [32minfo[39m: [32mweb-socket Bygg_ar2w2PkmQhQAAAL connected[39m
+2021-04-22 20:36:20:3620 [32minfo[39m: [32mweb-socket MzWHJl0MwwrukMQZAAAN connected[39m
+2021-04-22 20:37:02:372 [32minfo[39m: [32mweb-socket 03THUNsa4XyXqaKuAAAP connected[39m
+2021-04-22 20:48:33:4833 [32minfo[39m: [32mweb-socket njnVNgrKIwK3ZcNRAAAR connected[39m
+2021-04-22 20:50:04:504 [32minfo[39m: [32mweb-socket hqytR1QuWuOjU5-QAAAT connected[39m
+2021-04-22 20:52:26:5226 [32minfo[39m: [32mweb-socket Cdpivb5PqKQ1jq3HAAAV connected[39m
+2021-04-22 20:58:25:5825 [32minfo[39m: [32mweb-socket 4F0fpmYD61S0LeW9AAAX connected[39m
+2021-04-22 23:12:58:1258 [32minfo[39m: [32mweb-socket EziWUeasYJyxNKG_AAAZ connected[39m
+2021-04-22 23:17:08:178 [32minfo[39m: [32mweb-socket wzHNauKmxZKFDMukAAAb connected[39m
+2021-04-22 23:19:28:1928 [32minfo[39m: [32mweb-socket W3b2lYO717tc9zY-AAAd connected[39m
+2021-04-22 23:19:36:1936 [32minfo[39m: [32mweb-socket ITHOw3W-OK-cmwSeAAAf connected[39m
+2021-04-22 23:24:10:2410 [32minfo[39m: [32mweb-socket A4vSghDtnOmr3PQIAAAh connected[39m
+2021-04-22 23:24:45:2445 [32minfo[39m: [32mweb-socket tHwobO-FpqZgB_BZAAAj connected[39m
+2021-04-22 23:26:17:2617 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 23:26:20:2620 [32minfo[39m: [32mweb-socket pAk1hqxTmkwncTXNAAAB connected[39m
+2021-04-22 23:26:21:2621 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-22 23:26:21:2621 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 23:26:42:2642 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-22 23:26:45:2645 [32minfo[39m: [32mweb-socket fYN4xQqqVX8YiZb8AAAB connected[39m
+2021-04-22 23:26:46:2646 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-22 23:26:46:2646 [32minfo[39m: [32mApp is running ...[39m
+2021-04-22 23:30:32:3032 [32minfo[39m: [32mweb-socket DAIvLYal4-DMSqPiAAAD connected[39m
+2021-04-22 23:30:50:3050 [32minfo[39m: [32mweb-socket LpjosfxLPNPhb7BYAAAF connected[39m
+2021-04-22 23:32:08:328 [32minfo[39m: [32mweb-socket mv_ulqqDxZikaEzBAAAH connected[39m
+2021-04-22 23:32:31:3231 [32minfo[39m: [32mweb-socket AEyhfJwQtRIHkJwNAAAJ connected[39m
+2021-04-22 23:32:56:3256 [32minfo[39m: [32mweb-socket xXjal-VW7Ddu2SZVAAAL connected[39m
+2021-04-22 23:33:05:335 [32minfo[39m: [32mweb-socket w6UjldYOR_ENahUBAAAN connected[39m
+2021-04-22 23:35:33:3533 [32minfo[39m: [32mweb-socket ucgLEiCNEjv0YzD6AAAP connected[39m
+2021-04-22 23:36:11:3611 [32minfo[39m: [32mweb-socket oQ4cPSCbQDeGRJ9pAAAR connected[39m
+2021-04-22 23:36:32:3632 [32minfo[39m: [32mweb-socket TKpnpi-n3EQoFo_FAAAT connected[39m
+2021-04-22 23:37:23:3723 [32minfo[39m: [32mweb-socket vmyEm4lg38Fb-AY7AAAV connected[39m
+2021-04-22 23:37:41:3741 [32minfo[39m: [32mweb-socket r8e51W_4MKiuWBJxAAAX connected[39m
+2021-04-22 23:38:25:3825 [32minfo[39m: [32mweb-socket OQumksETxK0Ysu5wAAAZ connected[39m
+2021-04-22 23:38:52:3852 [32minfo[39m: [32mweb-socket KtrDks7WxrLWKYSfAAAb connected[39m
+2021-04-22 23:39:00:390 [32minfo[39m: [32mweb-socket IjGqN437Clu61iGHAAAd connected[39m
+2021-04-22 23:39:07:397 [32minfo[39m: [32mweb-socket d_sa8gnULMeLW8GkAAAf connected[39m
+2021-04-22 23:39:33:3933 [32minfo[39m: [32mweb-socket acN1ZN9cetWmeYZjAAAh connected[39m
+2021-04-22 23:39:52:3952 [32minfo[39m: [32mweb-socket Mp_nHIU6DJ4C_Qg2AAAj connected[39m
+2021-04-22 23:39:57:3957 [32minfo[39m: [32mweb-socket Woz0Ot1A1xvS84VGAAAl connected[39m
+2021-04-23 09:41:32:4132 [32minfo[39m: [32mweb-socket knOtD-isJ74p6XidAAAn connected[39m
+2021-04-23 09:41:36:4136 [32minfo[39m: [32mweb-socket ELWWxxwtcT1Hrv9TAAAp connected[39m
+2021-04-23 10:53:00:530 [32minfo[39m: [32mweb-socket lKPCtrHlryqBTcruAAAr connected[39m
+2021-04-23 10:53:04:534 [32minfo[39m: [32mweb-socket rxf58ICUVMlV4bgyAAAt connected[39m
+2021-04-23 16:54:01:541 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 16:54:05:545 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 16:54:05:545 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 16:58:15:5815 [32minfo[39m: [32mweb-socket --UbRx1mXBScc4YcAAAB connected[39m
+2021-04-23 16:59:12:5912 [32minfo[39m: [32mweb-socket 9Tjh1ByDuJMs65i7AAAD connected[39m
+2021-04-23 16:59:34:5934 [32minfo[39m: [32mweb-socket mPDYhqZnFJS25kV1AAAF connected[39m
+2021-04-23 17:01:18:118 [32minfo[39m: [32mweb-socket 1JXGrIGpf7FbLmyZAAAH connected[39m
+2021-04-23 17:01:43:143 [32minfo[39m: [32mweb-socket EZgQp6iAMhYYbqNTAAAJ connected[39m
+2021-04-23 17:03:04:34 [32minfo[39m: [32mweb-socket RKY9LxdpEtX2L_PNAAAL connected[39m
+2021-04-23 17:24:46:2446 [32minfo[39m: [32mweb-socket A93Xvsq2WB_3nsGOAAAN connected[39m
+2021-04-23 17:26:10:2610 [32minfo[39m: [32mweb-socket 7D0-VxVYzz2CWo6EAAAP connected[39m
+2021-04-23 17:28:03:283 [32minfo[39m: [32mweb-socket 8_gmtpxGArIXClc-AAAR connected[39m
+2021-04-23 17:29:36:2936 [32minfo[39m: [32mweb-socket tbB3HjEdQA6UolSfAAAT connected[39m
+2021-04-23 17:30:36:3036 [32minfo[39m: [32mweb-socket N6uJwpmvgd8IznQ2AAAV connected[39m
+2021-04-23 17:50:37:5037 [32minfo[39m: [32mweb-socket nseZ_KGs2VfYtcowAAAX connected[39m
+2021-04-23 17:51:11:5111 [32minfo[39m: [32mweb-socket HDk9lutAnF0f-KgnAAAZ connected[39m
+2021-04-23 17:51:47:5147 [32minfo[39m: [32mweb-socket mjG4yyiKfqxem5xkAAAb connected[39m
+2021-04-23 18:00:17:017 [32minfo[39m: [32mweb-socket KcOTKaoXImQEiEFvAAAd connected[39m
+2021-04-23 18:04:35:435 [32minfo[39m: [32mweb-socket 0G-Wl6yUNUPn5FESAAAf connected[39m
+2021-04-23 18:04:56:456 [32minfo[39m: [32mweb-socket VgjFe-FVs1QvH1M6AAAh connected[39m
+2021-04-23 18:05:13:513 [32minfo[39m: [32mweb-socket fHoqRylhw6slAettAAAj connected[39m
+2021-04-23 18:05:19:519 [32minfo[39m: [32mweb-socket fA9Nt5ZbSYNKl2NMAAAl connected[39m
+2021-04-23 18:05:45:545 [32minfo[39m: [32mweb-socket x5OCi4uxBygzFJg1AAAn connected[39m
+2021-04-23 18:05:56:556 [32minfo[39m: [32mweb-socket ViGow0wFj00kHHIdAAAp connected[39m
+2021-04-23 18:06:29:629 [32minfo[39m: [32mweb-socket 8P7GstXHvckOdLh9AAAr connected[39m
+2021-04-23 18:07:41:741 [32minfo[39m: [32mweb-socket Ws9dNXjvzktdOAYOAAAt connected[39m
+2021-04-23 18:50:41:5041 [32minfo[39m: [32mweb-socket uYhbtMxImoUv_YIdAAAv connected[39m
+2021-04-23 18:51:02:512 [32minfo[39m: [32mweb-socket ZHqnGStjsptqxgwKAAAx connected[39m
+2021-04-23 18:51:12:5112 [32minfo[39m: [32mweb-socket ZJnw8dMAS3nttWtlAAAz connected[39m
+2021-04-23 18:51:39:5139 [32minfo[39m: [32mweb-socket 8-DSOMvo_LLdKG6NAAA1 connected[39m
+2021-04-23 18:51:54:5154 [32minfo[39m: [32mweb-socket -Nf_kuxIhAQCJP-SAAA3 connected[39m
+2021-04-23 18:52:03:523 [32minfo[39m: [32mweb-socket Py-ePOoUeqwMggmPAAA5 connected[39m
+2021-04-23 19:16:29:1629 [32minfo[39m: [32mweb-socket 4fd3qQ5nO4Qnen7uAAA7 connected[39m
+2021-04-23 19:16:42:1642 [32minfo[39m: [32mweb-socket 8dbY68-5nJz1iEg4AAA9 connected[39m
+2021-04-23 19:17:03:173 [32minfo[39m: [32mweb-socket 44d0F5FF7w271iw4AAA_ connected[39m
+2021-04-23 19:18:07:187 [32minfo[39m: [32mweb-socket dXez4eaEhSafUsrpAABB connected[39m
+2021-04-23 19:18:14:1814 [32minfo[39m: [32mweb-socket 75kAm90LNCq_m36aAABD connected[39m
+2021-04-23 19:18:35:1835 [32minfo[39m: [32mweb-socket -9iqBE_oqwRSoNZlAABF connected[39m
+2021-04-23 19:25:23:2523 [32minfo[39m: [32mweb-socket S5xthEcLZkYY5y0MAABH connected[39m
+2021-04-23 19:26:13:2613 [32minfo[39m: [32mweb-socket g-B16p7KUZE2_GKpAABJ connected[39m
+2021-04-23 19:26:23:2623 [32minfo[39m: [32mweb-socket Y118SOujbMTxxl0sAABL connected[39m
+2021-04-23 19:26:28:2628 [32minfo[39m: [32mweb-socket 2jRe14ko8U1x_YCdAABN connected[39m
+2021-04-23 19:26:33:2633 [32minfo[39m: [32mweb-socket yoiQ2VOAToKspi_mAABP connected[39m
+2021-04-23 19:32:33:3233 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:32:34:3234 [32minfo[39m: [32mweb-socket yzhb5mz1LHRa7GE8AAAB connected[39m
+2021-04-23 19:32:37:3237 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:32:37:3237 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:33:14:3314 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:33:16:3316 [32minfo[39m: [32mweb-socket forsH_NZlH-KuubhAAAB connected[39m
+2021-04-23 19:33:18:3318 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:33:18:3318 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:35:23:3523 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:35:26:3526 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:35:26:3526 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:35:26:3526 [32minfo[39m: [32mweb-socket ukaSziYBbAqayPFdAAAB connected[39m
+2021-04-23 19:39:37:3937 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:39:39:3939 [32minfo[39m: [32mweb-socket nDwu-5mq0EthuyPHAAAB connected[39m
+2021-04-23 19:39:40:3940 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:39:40:3940 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:40:26:4026 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:40:29:4029 [32minfo[39m: [32mweb-socket WYaU2ttrtPtLowaeAAAB connected[39m
+2021-04-23 19:40:30:4030 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:40:30:4030 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:43:08:438 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:43:11:4311 [32minfo[39m: [32mweb-socket GEe8vg8Sv5jFEaS3AAAB connected[39m
+2021-04-23 19:43:12:4312 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:43:12:4312 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:44:10:4410 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:44:12:4412 [32minfo[39m: [32mweb-socket 0mf2w1qmTShX9mClAAAB connected[39m
+2021-04-23 19:44:14:4414 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:44:14:4414 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:44:23:4423 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:44:23:4423 [32minfo[39m: [32mweb-socket 7V2y7odRoiS_troHAAAB connected[39m
+2021-04-23 19:44:26:4426 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:44:26:4426 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:44:50:4450 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:44:50:4450 [32minfo[39m: [32mweb-socket HObB1feGYzsbe3TpAAAB connected[39m
+2021-04-23 19:44:58:4458 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:44:58:4458 [32minfo[39m: [32mweb-socket 3nd6qY6EKa-XtxoeAAAB connected[39m
+2021-04-23 19:45:03:453 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:45:03:453 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:50:21:5021 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 19:50:23:5023 [32minfo[39m: [32mweb-socket S1D-G6FEhjNSldUKAAAB connected[39m
+2021-04-23 19:50:25:5025 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 19:50:25:5025 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 19:51:04:514 [32minfo[39m: [32mweb-socket TG41-Vta5OhJtrHsAAAD connected[39m
+2021-04-23 19:51:16:5116 [32minfo[39m: [32mweb-socket XJqgE3c65R8dFlTGAAAF connected[39m
+2021-04-23 19:52:47:5247 [32minfo[39m: [32mweb-socket V6V7Ix11cya9tO2uAAAH connected[39m
+2021-04-23 19:53:15:5315 [32minfo[39m: [32mweb-socket Sf71T3g8zrzIXcFoAAAJ connected[39m
+2021-04-23 19:54:12:5412 [32minfo[39m: [32mweb-socket A-kaDPvXaosl4qMfAAAL connected[39m
+2021-04-23 19:59:53:5953 [32minfo[39m: [32mweb-socket b8QiQhNNSOoEX8b8AAAN connected[39m
+2021-04-23 20:00:36:036 [32minfo[39m: [32mweb-socket 8GyfA9ndIHDO6L54AAAP connected[39m
+2021-04-23 20:31:46:3146 [32minfo[39m: [32mweb-socket aNiBQdXlXcZnubBbAAAR connected[39m
+2021-04-23 20:32:57:3257 [32minfo[39m: [32mweb-socket qgHMDKi45njK5vlWAAAT connected[39m
+2021-04-23 20:33:04:334 [32minfo[39m: [32mweb-socket YAd0px1raurL-BHrAAAV connected[39m
+2021-04-23 20:34:12:3412 [32minfo[39m: [32mweb-socket oBnsXOpP-JOWZOmbAAAX connected[39m
+2021-04-23 20:34:47:3447 [32minfo[39m: [32mweb-socket IpigjfrgsU3i4XXaAAAZ connected[39m
+2021-04-23 20:35:19:3519 [32minfo[39m: [32mweb-socket 2BrBifG6biemu-ysAAAb connected[39m
+2021-04-23 20:35:52:3552 [32minfo[39m: [32mweb-socket kMjCWIxUwfXtq2oCAAAd connected[39m
+2021-04-23 20:37:48:3748 [32minfo[39m: [32mweb-socket CCKPeBpsDU6-L2_SAAAf connected[39m
+2021-04-23 20:37:54:3754 [32minfo[39m: [32mweb-socket tixXAE-bVtzyoRw9AAAh connected[39m
+2021-04-23 20:39:32:3932 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 20:39:35:3935 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 20:39:35:3935 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 20:39:36:3936 [32minfo[39m: [32mweb-socket 3ldqfxKHcpn6a4nIAAAB connected[39m
+2021-04-23 20:41:02:412 [32minfo[39m: [32mweb-socket 9BxJ0vh3LvFfZiTlAAAD connected[39m
+2021-04-23 20:42:33:4233 [32minfo[39m: [32mweb-socket PM-N7UEvA8OHtTi7AAAF connected[39m
+2021-04-23 20:42:57:4257 [32minfo[39m: [32mweb-socket xo4BUbEzIbsb-TI-AAAH connected[39m
+2021-04-23 20:44:47:4447 [32minfo[39m: [32mweb-socket 6DSdnopFSH8eSAvHAAAJ connected[39m
+2021-04-23 20:44:53:4453 [32minfo[39m: [32mweb-socket vXbHSnkrPMKocImbAAAL connected[39m
+2021-04-23 20:50:24:5024 [32minfo[39m: [32mweb-socket s62BRniFn01IzQtxAAAN connected[39m
+2021-04-23 20:55:27:5527 [32minfo[39m: [32mweb-socket PQpb5pH_jr46F_Z2AAAP connected[39m
+2021-04-23 20:55:44:5544 [32minfo[39m: [32mweb-socket 7glK70hYM1lDA7WQAAAR connected[39m
+2021-04-23 20:55:53:5553 [32minfo[39m: [32mweb-socket -r7TRmfwmlPTdd2oAAAT connected[39m
+2021-04-23 20:56:39:5639 [32minfo[39m: [32mweb-socket ht8HnzMTTPboijMxAAAV connected[39m
+2021-04-23 20:59:32:5932 [32minfo[39m: [32mweb-socket EHHstW2zY2p5gIVUAAAX connected[39m
+2021-04-23 21:01:05:15 [32minfo[39m: [32mweb-socket jtsmmz5Rml8b1AhlAAAZ connected[39m
+2021-04-23 21:02:36:236 [32minfo[39m: [32mweb-socket ZoYWCk00Pu6iD5tPAAAb connected[39m
+2021-04-23 21:06:54:654 [32minfo[39m: [32mweb-socket GQ9S-YHy_o1o8EA7AAAd connected[39m
+2021-04-23 21:07:47:747 [32minfo[39m: [32mweb-socket H5LQ8_8Y9g0HqAVdAAAf connected[39m
+2021-04-23 21:08:45:845 [32minfo[39m: [32mweb-socket JUzaElFZ-x_6mmLeAAAh connected[39m
+2021-04-23 21:08:53:853 [32minfo[39m: [32mweb-socket Zb7KwPmQ0b89bARGAAAj connected[39m
+2021-04-23 21:11:22:1122 [32minfo[39m: [32mweb-socket e6m6zy9U4dLfQn8cAAAl connected[39m
+2021-04-23 21:13:49:1349 [32minfo[39m: [32mweb-socket nSMYcGNfVHU5LWWwAAAn connected[39m
+2021-04-23 21:14:14:1414 [32minfo[39m: [32mweb-socket nXNNNqAA3vpT-RusAAAp connected[39m
+2021-04-23 21:14:46:1446 [32minfo[39m: [32mweb-socket yHcoOwhRlsHkigRuAAAr connected[39m
+2021-04-23 21:23:22:2322 [32minfo[39m: [32mweb-socket WX2gr8pACDG3ToQpAAAt connected[39m
+2021-04-23 21:25:14:2514 [32minfo[39m: [32mweb-socket FFMXfn3zskfHBpVnAAAv connected[39m
+2021-04-23 21:25:36:2536 [32minfo[39m: [32mweb-socket JCF-H3Char8gsrdZAAAx connected[39m
+2021-04-23 21:28:04:284 [32minfo[39m: [32mweb-socket yQ6EWD7m18jEfZ7QAAAz connected[39m
+2021-04-23 21:28:32:2832 [32minfo[39m: [32mweb-socket H86Y8LHukXhvAC_HAAA1 connected[39m
+2021-04-23 21:31:03:313 [32minfo[39m: [32mweb-socket heXD8ZoUmNoKPHUjAAA3 connected[39m
+2021-04-23 21:34:13:3413 [32minfo[39m: [32mweb-socket knEXBCS-csaZq_DJAAA5 connected[39m
+2021-04-23 21:36:10:3610 [32minfo[39m: [32mweb-socket b5jfAUJqulXd1tyTAAA7 connected[39m
+2021-04-23 21:37:15:3715 [32minfo[39m: [32mweb-socket A83iZdebPAv5aMIvAAA9 connected[39m
+2021-04-23 21:39:15:3915 [32minfo[39m: [32mweb-socket tg_Aa_FSrQcjGkWSAAA_ connected[39m
+2021-04-23 21:42:51:4251 [32minfo[39m: [32mweb-socket _jBhYIv_wu7xtrOoAABB connected[39m
+2021-04-23 21:43:28:4328 [32minfo[39m: [32mweb-socket Dnsh4O-9MwJVGI5LAABD connected[39m
+2021-04-23 21:43:43:4343 [32minfo[39m: [32mweb-socket A9XlU87q-nr2g5TDAABF connected[39m
+2021-04-23 21:45:51:4551 [32minfo[39m: [32mweb-socket MmsDF71tcoiNPfS_AABH connected[39m
+2021-04-23 21:46:14:4614 [32minfo[39m: [32mweb-socket V5E3eQjbaIMCk6uLAABJ connected[39m
+2021-04-23 21:46:30:4630 [32minfo[39m: [32mweb-socket jVGD60plhpLfdZkqAABL connected[39m
+2021-04-23 21:56:24:5624 [32minfo[39m: [32mweb-socket ZZ3BZbwO1TPwE3teAABN connected[39m
+2021-04-23 21:58:29:5829 [32minfo[39m: [32mweb-socket jyvuipbjqVRn_043AABP connected[39m
+2021-04-23 21:59:05:595 [32minfo[39m: [32mweb-socket 76cumyzr21umFWZwAABR connected[39m
+2021-04-23 22:06:43:643 [32minfo[39m: [32mweb-socket bnDLYaY0Sp9bhqkVAABT connected[39m
+2021-04-23 22:08:44:844 [32minfo[39m: [32mweb-socket LB2Wio255w0d1sKQAABV connected[39m
+2021-04-23 22:09:50:950 [32minfo[39m: [32mweb-socket QAm05jJyDXySF_TZAABX connected[39m
+2021-04-23 22:10:26:1026 [32minfo[39m: [32mweb-socket 2SLDtlU6yhbPwuOYAABZ connected[39m
+2021-04-23 22:11:32:1132 [32minfo[39m: [32mweb-socket GhIDyRB4tMO5CWVIAABb connected[39m
+2021-04-23 22:11:51:1151 [32minfo[39m: [32mweb-socket YkrIwfLOQlKtRlk-AABd connected[39m
+2021-04-23 22:13:59:1359 [32minfo[39m: [32mweb-socket pSV15C_F139jUyVwAABf connected[39m
+2021-04-23 22:15:26:1526 [32minfo[39m: [32mweb-socket 7oLhl84NKaP7LJ60AABh connected[39m
+2021-04-23 22:21:35:2135 [32minfo[39m: [32mweb-socket 8gHlTHt-J5DOGCaiAABj connected[39m
+2021-04-23 22:22:05:225 [32minfo[39m: [32mweb-socket 1H3XB-eNGtGmWOkYAABl connected[39m
+2021-04-23 22:22:49:2249 [32minfo[39m: [32mweb-socket ohGt2aGr0vOjcWAxAABn connected[39m
+2021-04-23 22:23:19:2319 [32minfo[39m: [32mweb-socket eBQhYqrui1QdFsjPAABp connected[39m
+2021-04-23 22:24:40:2440 [32minfo[39m: [32mweb-socket UaqDOwiSt8MxEf9RAABr connected[39m
+2021-04-23 22:25:24:2524 [32minfo[39m: [32mweb-socket CC5aAbuDRTf4XRHhAABt connected[39m
+2021-04-23 22:28:45:2845 [32minfo[39m: [32mweb-socket hr6Q_7Nq5_lQvl2OAABv connected[39m
+2021-04-23 22:28:58:2858 [32minfo[39m: [32mweb-socket Eb60PHy42oc7ZidyAABx connected[39m
+2021-04-23 22:29:06:296 [32minfo[39m: [32mweb-socket B5pR49Djs2z0AjeuAABz connected[39m
+2021-04-23 22:29:08:298 [32minfo[39m: [32mweb-socket hQkZP6KRANvVS1grAAB1 connected[39m
+2021-04-23 22:29:34:2934 [32minfo[39m: [32mweb-socket iGAAtP_oQ6CyukAjAAB3 connected[39m
+2021-04-23 22:30:37:3037 [32minfo[39m: [32mweb-socket NPGA3_8R2Qgk4iQ1AAB5 connected[39m
+2021-04-23 22:30:54:3054 [32minfo[39m: [32mweb-socket myYo0WNdElWK-q3kAAB7 connected[39m
+2021-04-23 22:33:01:331 [32minfo[39m: [32mweb-socket WFTBcX45ENTC--ctAAB9 connected[39m
+2021-04-23 22:34:55:3455 [32minfo[39m: [32mweb-socket cI-hS_FLsMPg1JLlAAB_ connected[39m
+2021-04-23 22:35:21:3521 [32minfo[39m: [32mweb-socket vb8uovjCitCO_K3GAACB connected[39m
+2021-04-23 22:36:40:3640 [32minfo[39m: [32mweb-socket J4g95YqglK7WBrKCAACD connected[39m
+2021-04-23 22:37:59:3759 [32minfo[39m: [32mweb-socket OsgNUT55FkwJRicWAACF connected[39m
+2021-04-23 22:38:34:3834 [32minfo[39m: [32mweb-socket _QAfNwJWgOQG9jlMAACH connected[39m
+2021-04-23 22:40:21:4021 [32minfo[39m: [32mweb-socket sW42fbzGIgl0GOPvAACJ connected[39m
+2021-04-23 22:40:30:4030 [32minfo[39m: [32mweb-socket Md7_1zVPMEDj_VOaAACL connected[39m
+2021-04-23 22:41:19:4119 [32minfo[39m: [32mweb-socket qgNFVqKu5XOXEVSJAACN connected[39m
+2021-04-23 22:49:55:4955 [32minfo[39m: [32mweb-socket obaaLdaBzFBoWYm8AACP connected[39m
+2021-04-23 22:51:13:5113 [32minfo[39m: [32mweb-socket Llc_z1wwwCpoHpk8AACR connected[39m
+2021-04-23 22:52:37:5237 [32minfo[39m: [32mweb-socket ESqnBA34HX9vRjQIAACT connected[39m
+2021-04-23 22:53:42:5342 [32minfo[39m: [32mweb-socket HgvL8fYGTr6HCMT1AACV connected[39m
+2021-04-23 22:55:46:5546 [32minfo[39m: [32mweb-socket EdNUc4UE9freBrZ6AACX connected[39m
+2021-04-23 22:59:32:5932 [32minfo[39m: [32mweb-socket CXjNaFdWpt1UAXhMAACZ connected[39m
+2021-04-23 23:00:17:017 [32minfo[39m: [32mweb-socket 6AAqstjgpeqkx_XXAACb connected[39m
+2021-04-23 23:02:39:239 [32minfo[39m: [32mweb-socket bVdu9Ths4qs-YfaQAACd connected[39m
+2021-04-23 23:04:16:416 [32minfo[39m: [32mweb-socket biWlhwP8aJvaoXPcAACf connected[39m
+2021-04-23 23:07:27:727 [32minfo[39m: [32mweb-socket 2jDFVl8QXZTg9zNgAACh connected[39m
+2021-04-23 23:08:52:852 [32minfo[39m: [32mweb-socket gbOeIDat5MG33PTMAACj connected[39m
+2021-04-23 23:09:40:940 [32minfo[39m: [32mweb-socket sLVHvO_gkacsfxciAACl connected[39m
+2021-04-23 23:10:05:105 [32minfo[39m: [32mweb-socket nVDlX4h-DP5eVJWCAACn connected[39m
+2021-04-23 23:12:04:124 [32minfo[39m: [32mweb-socket IcmsUTH8jxSMafEiAACp connected[39m
+2021-04-23 23:17:55:1755 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 23:17:58:1758 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 23:17:58:1758 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 23:17:59:1759 [32minfo[39m: [32mweb-socket YbzHU3SIMd2amsobAAAB connected[39m
+2021-04-23 23:23:27:2327 [32minfo[39m: [32mweb-socket p4TxVvlN9glUx3N_AAAD connected[39m
+2021-04-23 23:28:27:2827 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 23:28:27:2827 [32minfo[39m: [32mweb-socket _9C_1nRx6kv-3h4CAAAB connected[39m
+2021-04-23 23:28:30:2830 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 23:28:30:2830 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 23:29:25:2925 [32minfo[39m: [32mweb-socket _SWFJRdyUN3GrO1gAAAD connected[39m
+2021-04-23 23:31:15:3115 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 23:31:18:3118 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 23:31:18:3118 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 23:31:19:3119 [32minfo[39m: [32mweb-socket LhfMzr0N5QJkH0G8AAAB connected[39m
+2021-04-23 23:31:30:3130 [32minfo[39m: [32mweb-socket kTMC2VGFgQ7Q4o-fAAAD connected[39m
+2021-04-23 23:32:36:3236 [32minfo[39m: [32mweb-socket Tb8vkbeUGBvSLZX1AAAF connected[39m
+2021-04-23 23:33:09:339 [32minfo[39m: [32mweb-socket zpeoWSWVkc1_CBCeAAAH connected[39m
+2021-04-23 23:34:57:3457 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-23 23:34:57:3457 [32minfo[39m: [32mweb-socket xIvR-VcR4ivJDQ6_AAAB connected[39m
+2021-04-23 23:35:01:351 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-23 23:35:01:351 [32minfo[39m: [32mApp is running ...[39m
+2021-04-23 23:37:57:3757 [32minfo[39m: [32mweb-socket 4OkHzgCxcQOkviEEAAAD connected[39m
+2021-04-23 23:39:27:3927 [32minfo[39m: [32mweb-socket P3yFQO6K2yvVhf6xAAAF connected[39m
+2021-04-23 23:39:39:3939 [32minfo[39m: [32mweb-socket Ax5NjLLrpIh1J22VAAAH connected[39m
+2021-04-23 23:40:25:4025 [32minfo[39m: [32mweb-socket Vt4pLHWoDLSaK1GjAAAJ connected[39m
+2021-04-23 23:45:32:4532 [32minfo[39m: [32mweb-socket BaDXRWqrIPR53KnrAAAL connected[39m
+2021-04-23 23:46:54:4654 [32minfo[39m: [32mweb-socket AXT3y1pyv7nROO2gAAAN connected[39m
+2021-04-23 23:47:16:4716 [32minfo[39m: [32mweb-socket 0ziTEcDE-Kh6-YK4AAAP connected[39m
+2021-04-23 23:48:11:4811 [32minfo[39m: [32mweb-socket Yh3S8bLyCQzMCw7JAAAR connected[39m
+2021-04-23 23:49:22:4922 [32minfo[39m: [32mweb-socket d9QAOP5bQKzr2ViaAAAT connected[39m
+2021-04-23 23:50:46:5046 [32minfo[39m: [32mweb-socket Xnvxd0auTxOFG927AAAV connected[39m
+2021-04-23 23:50:53:5053 [32minfo[39m: [32mweb-socket 5fDAvGC9k_EYtTQcAAAX connected[39m
+2021-04-23 23:51:28:5128 [32minfo[39m: [32mweb-socket NnfZY3jiOP5P5vEEAAAZ connected[39m
+2021-04-23 23:51:38:5138 [32minfo[39m: [32mweb-socket poSgkL4sbtqG07BdAAAb connected[39m
+2021-04-23 23:52:19:5219 [32minfo[39m: [32mweb-socket 8FkJxm3jXn68VzW6AAAd connected[39m
+2021-04-24 00:00:23:023 [32minfo[39m: [32mweb-socket Tqy_fDHrdGPV77zXAAAf connected[39m
+2021-04-24 00:01:54:154 [32minfo[39m: [32mweb-socket LD2A8b8cMMZUeQ7iAAAh connected[39m
+2021-04-24 00:03:13:313 [32minfo[39m: [32mweb-socket eAz67KdbuZ8F3FMAAAAj connected[39m
+2021-04-24 00:03:26:326 [32minfo[39m: [32mweb-socket T6I1uAGOUN5Jnmm_AAAl connected[39m
+2021-04-24 00:04:09:49 [32minfo[39m: [32mweb-socket mZ5F32Ce-ptMNxYgAAAn connected[39m
+2021-04-24 00:04:15:415 [32minfo[39m: [32mweb-socket 8J2evl7JeWR_STe4AAAp connected[39m
+2021-04-24 00:06:17:617 [32minfo[39m: [32mweb-socket YkHIuCva6FlOK7glAAAr connected[39m
+2021-04-24 00:07:58:758 [32minfo[39m: [32mweb-socket eD2ZGvqmT1bfUntoAAAt connected[39m
+2021-04-24 00:09:31:931 [32minfo[39m: [32mweb-socket jDU_WojbJ--lTP7RAAAv connected[39m
+2021-04-24 00:12:52:1252 [32minfo[39m: [32mweb-socket AGFq8mvACFuTHQxEAAAx connected[39m
+2021-04-24 00:13:17:1317 [32minfo[39m: [32mweb-socket T-59LXLc1JsZK3i8AAAz connected[39m
+2021-04-24 00:16:39:1639 [32minfo[39m: [32mweb-socket 0C8lhjFHsWalV10hAAA1 connected[39m
+2021-04-24 00:17:08:178 [32minfo[39m: [32mweb-socket MBRvlExgnflV_K-hAAA3 connected[39m
+2021-04-24 00:20:08:208 [32minfo[39m: [32mweb-socket T__bCK7xa-xMQVUnAAA5 connected[39m
+2021-04-24 00:21:16:2116 [32minfo[39m: [32mweb-socket _wz0Qyw8-ts6VdPJAAA7 connected[39m
+2021-04-24 00:21:31:2131 [32minfo[39m: [32mweb-socket 1RZ_-EMC6A8XY9qrAAA9 connected[39m
+2021-04-24 00:22:24:2224 [32minfo[39m: [32mweb-socket qbfVTLwFnPUbmaXoAAA_ connected[39m
+2021-04-24 00:22:30:2230 [32minfo[39m: [32mweb-socket Xf33mi8NHaLJDmjcAABB connected[39m
+2021-04-24 00:22:53:2253 [32minfo[39m: [32mweb-socket FlzFwtjkOcsxOVWHAABD connected[39m
+2021-04-24 00:23:44:2344 [32minfo[39m: [32mweb-socket VkJHCdM05Q0VqCovAABF connected[39m
+2021-04-24 00:24:06:246 [32minfo[39m: [32mweb-socket YcroIMIX90qJHPbkAABH connected[39m
+2021-04-24 00:24:40:2440 [32minfo[39m: [32mweb-socket R1k-FHaWyOIQKNxqAABJ connected[39m
+2021-04-24 00:24:56:2456 [32minfo[39m: [32mweb-socket SgNjhcTomuU3TFxjAABL connected[39m
+2021-04-24 00:26:30:2630 [32minfo[39m: [32mweb-socket PxVH_NhDHRDwRwnsAABN connected[39m
+2021-04-24 00:27:29:2729 [32minfo[39m: [32mweb-socket aBz1ldYBCovmh88WAABP connected[39m
+2021-04-24 00:29:02:292 [32minfo[39m: [32mweb-socket Px2TxsZiCBsrKSqhAABR connected[39m
+2021-04-24 00:29:38:2938 [32minfo[39m: [32mweb-socket BUxfKOUZOG05_ti7AABT connected[39m
+2021-04-24 00:30:04:304 [32minfo[39m: [32mweb-socket KtgkDi7bGGZceGirAABV connected[39m
+2021-04-24 00:30:25:3025 [32minfo[39m: [32mweb-socket oJR_5XyqdAIYWOY5AABX connected[39m
+2021-04-24 00:30:30:3030 [32minfo[39m: [32mweb-socket tPcfButNHjgnK1wKAABZ connected[39m
+2021-04-24 00:30:54:3054 [32minfo[39m: [32mweb-socket e8yJAQHR_pQ3v6ChAABb connected[39m
+2021-04-24 00:31:52:3152 [32minfo[39m: [32mweb-socket MHSdtviOkkW1wDXJAABd connected[39m
+2021-04-24 00:32:39:3239 [32minfo[39m: [32mweb-socket v3kj9Wu2zGcuqINUAABf connected[39m
+2021-04-24 00:33:22:3322 [32minfo[39m: [32mweb-socket qdD1tyuLUvplSGx_AABh connected[39m
+2021-04-24 00:33:41:3341 [32minfo[39m: [32mweb-socket e2zQXBRmGq2PPjofAABj connected[39m
+2021-04-24 00:34:00:340 [32minfo[39m: [32mweb-socket vgKH9KbeC__gm7NnAABl connected[39m
+2021-04-24 00:34:11:3411 [32minfo[39m: [32mweb-socket 6mFSBH9QioT65UkiAABn connected[39m
+2021-04-24 00:34:55:3455 [32minfo[39m: [32mweb-socket xGm-HaXGXt6wY_-mAABp connected[39m
+2021-04-24 00:36:59:3659 [32minfo[39m: [32mweb-socket rcvFzYch_TH0ElKiAABr connected[39m
+2021-04-24 00:38:19:3819 [32minfo[39m: [32mweb-socket pP6w9V2y1umCfLOwAABt connected[39m
+2021-04-24 00:39:14:3914 [32minfo[39m: [32mweb-socket vklglBTfnpqXVvGtAABv connected[39m
+2021-04-24 00:39:36:3936 [32minfo[39m: [32mweb-socket iuIiJN0Cz5qlY0XnAABx connected[39m
+2021-04-24 00:40:04:404 [32minfo[39m: [32mweb-socket duPYNtkApnoLMp_FAABz connected[39m
+2021-04-24 00:41:28:4128 [32minfo[39m: [32mweb-socket 0wmdZYJmbLU3TyYKAAB1 connected[39m
+2021-04-24 00:49:00:490 [32minfo[39m: [32mweb-socket 5nrgsA1EjvPaAAZKAAB3 connected[39m
+2021-04-24 00:49:42:4942 [32minfo[39m: [32mweb-socket 6IPpJuSUXxF8FuDOAAB5 connected[39m
+2021-04-24 00:50:12:5012 [32minfo[39m: [32mweb-socket 7QfjJYLGd40ODvu_AAB7 connected[39m
+2021-04-24 00:50:37:5037 [32minfo[39m: [32mweb-socket 7T1fKucEG2-UiFAIAAB9 connected[39m
+2021-04-24 00:50:51:5051 [32minfo[39m: [32mweb-socket oDIU4aS18xlz9dIaAAB_ connected[39m
+2021-04-24 00:51:20:5120 [32minfo[39m: [32mweb-socket ROGfDfFAYeqbPZOWAACB connected[39m
+2021-04-24 00:52:52:5252 [32minfo[39m: [32mweb-socket EMkuyq8FQfld63kAAACD connected[39m
+2021-04-24 00:53:16:5316 [32minfo[39m: [32mweb-socket taztRocjp4NwypP1AACF connected[39m
+2021-04-24 00:55:12:5512 [32minfo[39m: [32mweb-socket PbqDfliWddNtGwbzAACH connected[39m
+2021-04-24 00:56:38:5638 [32minfo[39m: [32mweb-socket qKqGKEKZeluGv-xQAACJ connected[39m
+2021-04-24 00:57:45:5745 [32minfo[39m: [32mweb-socket XJccUrK1IYMekJ-7AACL connected[39m
+2021-04-24 00:58:17:5817 [32minfo[39m: [32mweb-socket 6nvsoLWQWytLgTqOAACN connected[39m
+2021-04-24 01:01:32:132 [32minfo[39m: [32mweb-socket A1ZZTf2rUtsGUsbRAACP connected[39m
+2021-04-24 01:01:48:148 [32minfo[39m: [32mweb-socket x0kAdPmOtjh6tM6MAACR connected[39m
+2021-04-24 01:02:12:212 [32minfo[39m: [32mweb-socket ruBpZVhxxby8ngyWAACT connected[39m
+2021-04-24 01:03:08:38 [32minfo[39m: [32mweb-socket ia6HfhEECF0kP92tAACV connected[39m
+2021-04-24 01:03:19:319 [32minfo[39m: [32mweb-socket x6aAogN4ZrglrqzZAACX connected[39m
+2021-04-24 01:04:42:442 [32minfo[39m: [32mweb-socket 1z3VSRW4T92lWh2pAACZ connected[39m
+2021-04-24 01:06:04:64 [32minfo[39m: [32mweb-socket oaUoiU2hAmlNgHadAACb connected[39m
+2021-04-24 01:06:23:623 [32minfo[39m: [32mweb-socket mbwY4iSa5IiXF8EOAACd connected[39m
+2021-04-24 01:07:27:727 [32minfo[39m: [32mweb-socket rHCOGcFxjKVCch6fAACf connected[39m
+2021-04-24 01:07:53:753 [32minfo[39m: [32mweb-socket f9YnJY--Xyet7-XSAACh connected[39m
+2021-04-24 01:08:24:824 [32minfo[39m: [32mweb-socket Brb2jNigeB7hOUq0AACj connected[39m
+2021-04-24 01:15:12:1512 [32minfo[39m: [32mweb-socket EwhQK4eUprpAYzX_AACl connected[39m
+2021-04-24 01:15:21:1521 [32minfo[39m: [32mweb-socket 4w2iZLdVslGIgsR8AACn connected[39m
+2021-04-24 01:16:12:1612 [32minfo[39m: [32mweb-socket Pk_0w66-YucS4BxWAACp connected[39m
+2021-04-24 01:16:53:1653 [32minfo[39m: [32mweb-socket _bIgh4iquFm9f4WyAACr connected[39m
+2021-04-24 01:17:16:1716 [32minfo[39m: [32mweb-socket fyQvA0cNj8ZQhxp9AACt connected[39m
+2021-04-24 01:20:39:2039 [32minfo[39m: [32mweb-socket 4ILg8QE6qqPTNED-AACv connected[39m
+2021-04-24 01:20:48:2048 [32minfo[39m: [32mweb-socket 7AlcE1sTEeXKHg0RAACx connected[39m
+2021-04-24 01:21:13:2113 [32minfo[39m: [32mweb-socket RQ7mVVXyTSDGAE_lAACz connected[39m
+2021-04-24 01:22:56:2256 [32minfo[39m: [32mweb-socket btRBDHlNCJIi5DQBAAC1 connected[39m
+2021-04-24 01:25:05:255 [32minfo[39m: [32mweb-socket aFQy3IjiGPu0CsRDAAC3 connected[39m
+2021-04-24 01:27:15:2715 [32minfo[39m: [32mweb-socket 3wdQpMmEZL0wlGCuAAC5 connected[39m
+2021-04-24 01:27:58:2758 [32minfo[39m: [32mweb-socket SQ7oCNCC8V57PA0bAAC7 connected[39m
+2021-04-24 01:28:08:288 [32minfo[39m: [32mweb-socket Q_-vaRtk8EhuhGH6AAC9 connected[39m
+2021-04-24 01:29:04:294 [32minfo[39m: [32mweb-socket RoasvdoeT9jlWNL6AAC_ connected[39m
+2021-04-24 01:29:58:2958 [32minfo[39m: [32mweb-socket 09WwYAXn2e9zI1ACAADB connected[39m
+2021-04-24 01:33:02:332 [32minfo[39m: [32mweb-socket idujTPrdoCIE0xoyAADD connected[39m
+2021-04-24 01:33:50:3350 [32minfo[39m: [32mweb-socket yUfs5Av8HoG_dnKIAADF connected[39m
+2021-04-24 01:34:03:343 [32minfo[39m: [32mweb-socket KVk5PnGexG7yezz-AADH connected[39m
+2021-04-24 01:34:45:3445 [32minfo[39m: [32mweb-socket 3_J64GL1zE6-zTFDAADJ connected[39m
+2021-04-24 01:38:49:3849 [32minfo[39m: [32mweb-socket mEpPKOxgT5D2o2fCAADL connected[39m
+2021-04-24 01:40:46:4046 [32minfo[39m: [32mweb-socket NHVH_RZO8MJ4te9gAADN connected[39m
+2021-04-24 01:41:14:4114 [32minfo[39m: [32mweb-socket hMxv-CK0IHW6qTsnAADP connected[39m
+2021-04-24 01:44:02:442 [32minfo[39m: [32mweb-socket Phrcow9d6r-iV_JdAADR connected[39m
+2021-04-24 01:44:41:4441 [32minfo[39m: [32mweb-socket o7H9FWY15iObTg4OAADT connected[39m
+2021-04-24 01:44:52:4452 [32minfo[39m: [32mweb-socket yNEiPrm4KsbFw5HpAADV connected[39m
+2021-04-24 01:45:46:4546 [32minfo[39m: [32mweb-socket LsGiHEkOybTVXaQ_AADX connected[39m
+2021-04-24 01:46:13:4613 [32minfo[39m: [32mweb-socket dBzHekSkh47aGJjVAADZ connected[39m
+2021-04-24 01:59:07:597 [32minfo[39m: [32mweb-socket fU0fPwMofD7uMv-dAADb connected[39m
+2021-04-24 02:01:34:134 [32minfo[39m: [32mweb-socket 9OEQvPOLTFRefVc0AADd connected[39m
+2021-04-24 02:06:20:620 [32minfo[39m: [32mweb-socket ppNlCSEtxENkmdeHAADf connected[39m
+2021-04-24 02:08:09:89 [32minfo[39m: [32mweb-socket AdTuBsjSYYBeKP3_AADh connected[39m
+2021-04-24 02:08:45:845 [32minfo[39m: [32mweb-socket aq7zOJmREbrqMswbAADj connected[39m
+2021-04-24 02:08:53:853 [32minfo[39m: [32mweb-socket oj69td7VK-Gjp7zpAADl connected[39m
+2021-04-24 02:09:15:915 [32minfo[39m: [32mweb-socket nDJfLjURDOzZp6FNAADn connected[39m
+2021-04-24 02:09:24:924 [32minfo[39m: [32mweb-socket N0bwmOy04-hZojj7AADp connected[39m
+2021-04-24 02:10:31:1031 [32minfo[39m: [32mweb-socket ubdRzc0eKS2K36MEAADr connected[39m
+2021-04-24 02:11:26:1126 [32minfo[39m: [32mweb-socket EbetAfY5UoBCuknZAADt connected[39m
+2021-04-24 02:11:53:1153 [32minfo[39m: [32mweb-socket ccYNNezd94LM_suMAADv connected[39m
+2021-04-24 02:12:39:1239 [32minfo[39m: [32mweb-socket CGpM3sgCzpNbeCPWAADx connected[39m
+2021-04-24 02:13:20:1320 [32minfo[39m: [32mweb-socket -3JeW14Mz18it_u_AADz connected[39m
+2021-04-24 02:13:40:1340 [32minfo[39m: [32mweb-socket 3zPoO58KN3Do3-UTAAD1 connected[39m
+2021-04-24 02:15:04:154 [32minfo[39m: [32mweb-socket j5cm_mUC2hnOg4RQAAD3 connected[39m
+2021-04-24 02:15:24:1524 [32minfo[39m: [32mweb-socket KLadH37W9DLU2CQ8AAD5 connected[39m
+2021-04-24 02:15:30:1530 [32minfo[39m: [32mweb-socket w5Fj9JApQCooDZ2kAAD7 connected[39m
+2021-04-24 02:16:56:1656 [32minfo[39m: [32mweb-socket tpsHM0Xwe4brn81XAAD9 connected[39m
+2021-04-24 02:17:25:1725 [32minfo[39m: [32mweb-socket Ad3zc17LgeajyMS_AAD_ connected[39m
+2021-04-24 02:18:30:1830 [32minfo[39m: [32mweb-socket _pa0FZCfdC7optlQAAEB connected[39m
+2021-04-24 02:20:07:207 [32minfo[39m: [32mweb-socket Z1z9IgiMmQ6zislGAAED connected[39m
+2021-04-24 02:21:51:2151 [32minfo[39m: [32mweb-socket 11ciQR0V6gn1kt2TAAEF connected[39m
+2021-04-24 02:22:06:226 [32minfo[39m: [32mweb-socket nCa9yEmTZMEO-4xVAAEH connected[39m
+2021-04-24 02:24:01:241 [32minfo[39m: [32mweb-socket 6E_fSNCIoLOMnu-yAAEJ connected[39m
+2021-04-24 02:24:27:2427 [32minfo[39m: [32mweb-socket 4_M97rnTTumFQfeYAAEL connected[39m
+2021-04-24 02:24:57:2457 [32minfo[39m: [32mweb-socket L2MP57DiXJPamPOhAAEN connected[39m
+2021-04-24 02:25:16:2516 [32minfo[39m: [32mweb-socket dWdqHfhmcB9r-646AAEP connected[39m
+2021-04-24 09:55:49:5549 [32minfo[39m: [32mweb-socket 1_Ph7k7lBkmpp-kWAAER connected[39m
+2021-04-24 09:55:50:5550 [32minfo[39m: [32mweb-socket M3Q4KEABeOOcpLzMAAET connected[39m
+2021-04-24 10:01:35:135 [32minfo[39m: [32mweb-socket fD5NUzLOVk3qkG-5AAEV connected[39m
+2021-04-24 10:03:17:317 [32minfo[39m: [32mweb-socket 6-dq2LhAPpnJkIAxAAEX connected[39m
+2021-04-24 10:03:53:353 [32minfo[39m: [32mweb-socket hdM-vG9uDEKcNx6dAAEZ connected[39m
+2021-04-24 10:04:23:423 [32minfo[39m: [32mweb-socket o-V8Aqc0XmQuxMOsAAEb connected[39m
+2021-04-24 10:07:38:738 [32minfo[39m: [32mweb-socket gIx8d-P2q6d7-wKOAAEd connected[39m
+2021-04-24 10:13:20:1320 [32minfo[39m: [32mweb-socket Ni2KVzVMT4ZPbHt8AAEf connected[39m
+2021-04-24 10:13:32:1332 [32minfo[39m: [32mweb-socket 0SlMbYdQF2pounGLAAEh connected[39m
+2021-04-24 10:13:55:1355 [32minfo[39m: [32mweb-socket _jrXJFAn7_2I3wqGAAEj connected[39m
+2021-04-24 10:15:49:1549 [32minfo[39m: [32mweb-socket DHr0O48inoI26ixpAAEl connected[39m
+2021-04-24 10:16:23:1623 [32minfo[39m: [32mweb-socket hMXngiV7lOs_ehqfAAEn connected[39m
+2021-04-24 10:17:35:1735 [32minfo[39m: [32mweb-socket eHFKmjJmX7J2VP-3AAEp connected[39m
+2021-04-24 10:18:03:183 [32minfo[39m: [32mweb-socket 5E1AeyinF_QdMmIhAAEr connected[39m
+2021-04-24 10:19:29:1929 [32minfo[39m: [32mweb-socket HkiTEXqdSOM_5h01AAEt connected[39m
+2021-04-24 10:20:10:2010 [32minfo[39m: [32mweb-socket LYGugJMh69x6Ye6zAAEv connected[39m
+2021-04-24 10:26:14:2614 [32minfo[39m: [32mweb-socket LzA7sQTHmVLRLECdAAEx connected[39m
+2021-04-24 10:35:31:3531 [32minfo[39m: [32mweb-socket 0dC7fR6_BXmrH8XPAAEz connected[39m
+2021-04-24 11:24:39:2439 [32minfo[39m: [32mweb-socket VpMilCVAFrCFpxtGAAE1 connected[39m
+2021-04-24 11:24:46:2446 [32minfo[39m: [32mweb-socket ti5rM_kWQH9vp-p7AAE3 connected[39m
+2021-04-24 16:45:53:4553 [32minfo[39m: [32mweb-socket --yNmjIk3zJ_RpT6AAE5 connected[39m
+2021-04-24 16:45:57:4557 [32minfo[39m: [32mweb-socket C62vCA9jW5mYDvj1AAE7 connected[39m
+2021-04-24 16:51:17:5117 [32minfo[39m: [32mweb-socket lKh0btBBNbtHZLVAAAE9 connected[39m
+2021-04-24 17:17:21:1721 [32minfo[39m: [32mweb-socket 0RhwHHRYXpf2IOGvAAE_ connected[39m
+2021-04-24 17:17:30:1730 [32minfo[39m: [32mweb-socket MOmBa_kB21t76uxoAAFB connected[39m
+2021-04-24 17:19:56:1956 [32minfo[39m: [32mweb-socket odpbF1AtUvHGVpgaAAFD connected[39m
+2021-04-24 17:22:24:2224 [32minfo[39m: [32mweb-socket JWgXJUphBdAbmrLEAAFF connected[39m
+2021-04-24 17:22:40:2240 [32minfo[39m: [32mweb-socket SSCe8Y8yY3QIiZwFAAFH connected[39m
+2021-04-24 17:23:16:2316 [32minfo[39m: [32mweb-socket 7UkrhWTmKbu3le-nAAFJ connected[39m
+2021-04-24 17:24:22:2422 [32minfo[39m: [32mweb-socket FbSdHdwwx3ADpx-3AAFL connected[39m
+2021-04-24 17:26:27:2627 [32minfo[39m: [32mweb-socket L_47QM8tjdW6X2_IAAFN connected[39m
+2021-04-24 17:31:05:315 [32minfo[39m: [32mweb-socket 8dC503ExmCUDpN6kAAFP connected[39m
+2021-04-24 17:32:55:3255 [32minfo[39m: [32mweb-socket kiGqYPctcbzmkvF0AAFR connected[39m
+2021-04-24 17:34:45:3445 [32minfo[39m: [32mweb-socket i8_66FGdFtm6jBJNAAFT connected[39m
+2021-04-24 17:35:08:358 [32minfo[39m: [32mweb-socket DCUS3f6AQ3vOdvCqAAFV connected[39m
+2021-04-24 17:37:08:378 [32minfo[39m: [32mweb-socket aPhgwWX1XPCqI9ECAAFX connected[39m
+2021-04-24 17:37:23:3723 [32minfo[39m: [32mweb-socket GDdJOzBeiw6TWZxBAAFZ connected[39m
+2021-04-24 17:37:38:3738 [32minfo[39m: [32mweb-socket A6ILPAYTyxPneUAiAAFb connected[39m
+2021-04-24 17:38:28:3828 [32minfo[39m: [32mweb-socket Lq0-GX-HMmlBp-usAAFd connected[39m
+2021-04-24 17:39:34:3934 [32minfo[39m: [32mweb-socket aNvSqvFLPpt7z3MqAAFf connected[39m
+2021-04-24 17:40:16:4016 [32minfo[39m: [32mweb-socket yEQhrz1j8ohvvZm3AAFh connected[39m
+2021-04-24 17:40:28:4028 [32minfo[39m: [32mweb-socket 7Izzmp0a2VSUon1RAAFj connected[39m
+2021-04-24 17:41:44:4144 [32minfo[39m: [32mweb-socket 5P_6Du8Iu-QttnVoAAFl connected[39m
+2021-04-24 17:42:50:4250 [32minfo[39m: [32mweb-socket SFnxRa67sER8B8WsAAFn connected[39m
+2021-04-24 17:43:35:4335 [32minfo[39m: [32mweb-socket rs9TTnvy7qVgIWzWAAFp connected[39m
+2021-04-24 17:44:24:4424 [32minfo[39m: [32mweb-socket dIxXuSmKrB0wMHRQAAFr connected[39m
+2021-04-24 17:49:40:4940 [32minfo[39m: [32mweb-socket B1L5N0df3942aF5hAAFt connected[39m
+2021-04-24 18:00:27:027 [32minfo[39m: [32mweb-socket -2OjXTf9zWlifheeAAFv connected[39m
+2021-04-24 18:01:31:131 [32minfo[39m: [32mweb-socket RJX1FFGzMLBbgnuBAAFx connected[39m
+2021-04-24 18:02:38:238 [32minfo[39m: [32mweb-socket Xp9iHxckbBnyRFp6AAFz connected[39m
+2021-04-24 18:03:05:35 [32minfo[39m: [32mweb-socket XxwCauG3l_MMNQIjAAF1 connected[39m
+2021-04-24 18:03:17:317 [32minfo[39m: [32mweb-socket dZFeNlwrqVBtMakeAAF3 connected[39m
+2021-04-24 18:04:04:44 [32minfo[39m: [32mweb-socket RYrv4PWqkMhUw6scAAF5 connected[39m
+2021-04-24 18:07:09:79 [32minfo[39m: [32mweb-socket eY-SK2LCHy6UURIRAAF7 connected[39m
+2021-04-24 18:09:03:93 [32minfo[39m: [32mweb-socket V4cDqrLqHfqf8WqPAAF9 connected[39m
+2021-04-24 18:12:03:123 [32minfo[39m: [32mweb-socket O5eP7bscPPucxbqQAAF_ connected[39m
+2021-04-24 18:16:22:1622 [32minfo[39m: [32mweb-socket ASjsPONxaWVSbHqFAAGB connected[39m
+2021-04-24 18:20:28:2028 [32minfo[39m: [32mweb-socket eaaT1s1IV3SltbykAAGD connected[39m
+2021-04-24 18:21:34:2134 [32minfo[39m: [32mweb-socket 0jUwrYGm60rKzxE4AAGF connected[39m
+2021-04-24 18:21:46:2146 [32minfo[39m: [32mweb-socket sRJQYmiEigVy-k1xAAGH connected[39m
+2021-04-24 18:23:25:2325 [32minfo[39m: [32mweb-socket qUUf5er9VTcXpNPUAAGJ connected[39m
+2021-04-24 18:23:50:2350 [32minfo[39m: [32mweb-socket K7RABbuycli_yDHNAAGL connected[39m
+2021-04-24 18:25:06:256 [32minfo[39m: [32mweb-socket nNRE2_U9zs1PNTNPAAGN connected[39m
+2021-04-24 18:25:24:2524 [32minfo[39m: [32mweb-socket N1_zug11javt7qCtAAGP connected[39m
+2021-04-24 18:27:19:2719 [32minfo[39m: [32mweb-socket FxkOjZ2ij6s3E3wMAAGR connected[39m
+2021-04-24 18:31:23:3123 [32minfo[39m: [32mweb-socket TLRiAPeRR637m6v1AAGT connected[39m
+2021-04-24 18:32:47:3247 [32minfo[39m: [32mweb-socket _zBK5L9YgVYkYxvhAAGV connected[39m
+2021-04-24 18:33:13:3313 [32minfo[39m: [32mweb-socket 2vcLAch36DrN2t5iAAGX connected[39m
+2021-04-24 18:37:51:3751 [32minfo[39m: [32mweb-socket o-Fwm_gp1S2-0cTwAAGZ connected[39m
+2021-04-24 18:38:05:385 [32minfo[39m: [32mweb-socket SFsj9V4i0xYhmX1gAAGb connected[39m
+2021-04-24 18:38:40:3840 [32minfo[39m: [32mweb-socket uHbJ6Py1HpRQY36IAAGd connected[39m
+2021-04-24 18:39:23:3923 [32minfo[39m: [32mweb-socket mWlVq3MK_OQrnepqAAGf connected[39m
+2021-04-24 18:46:26:4626 [32minfo[39m: [32mweb-socket wDwRY28t4x_Qx_TSAAGh connected[39m
+2021-04-24 18:47:37:4737 [32minfo[39m: [32mweb-socket dWKQE-fRC9qAQkpiAAGj connected[39m
+2021-04-24 18:48:46:4846 [32minfo[39m: [32mweb-socket SJNdVjxo9cH5Tdb5AAGl connected[39m
+2021-04-24 18:52:27:5227 [32minfo[39m: [32mweb-socket B1qpx4ltBbGWWg1BAAGn connected[39m
+2021-04-24 18:55:35:5535 [32minfo[39m: [32mweb-socket 4C3nzqAOlH-9u_sZAAGp connected[39m
+2021-04-24 18:56:41:5641 [32minfo[39m: [32mweb-socket 7EP4Dk84rcdP99eGAAGr connected[39m
+2021-04-24 18:58:41:5841 [32minfo[39m: [32mweb-socket 0j9SKoATXFhy3GmpAAGt connected[39m
+2021-04-24 19:03:08:38 [32minfo[39m: [32mweb-socket Yfyl5RNf-N7x33VmAAGv connected[39m
+2021-04-24 19:03:39:339 [32minfo[39m: [32mweb-socket 1WOj_PqUX5NviMWfAAGx connected[39m
+2021-04-24 19:05:31:531 [32minfo[39m: [32mweb-socket 7odpiwC0k9oX-FO1AAGz connected[39m
+2021-04-24 19:12:56:1256 [32minfo[39m: [32mweb-socket j6ALzuIOC_b3lJ0hAAG1 connected[39m
+2021-04-24 19:25:55:2555 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 19:25:58:2558 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 19:25:58:2558 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 19:27:50:2750 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 19:28:02:282 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 19:28:06:286 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 19:28:06:286 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 19:29:23:2923 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 19:29:27:2927 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 19:29:27:2927 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 19:30:47:3047 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 19:30:47:3047 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 19:30:49:3049 [32minfo[39m: [32mweb-socket VNppXmRKdp3Z-qo_AAAB connected[39m
+2021-04-24 19:30:51:3051 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 19:30:51:3051 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 19:31:01:311 [32minfo[39m: [32mweb-socket SqiduhOTI60AKFX8AAAD connected[39m
+2021-04-24 19:32:22:3222 [32minfo[39m: [32mweb-socket 0RBwUhImBaRZDbnqAAAF connected[39m
+2021-04-24 19:41:45:4145 [32minfo[39m: [32mweb-socket DGw9QQGnXFj8PGm2AAAH connected[39m
+2021-04-24 19:42:12:4212 [32minfo[39m: [32mweb-socket VGwl6Vt5uJRlyfg8AAAJ connected[39m
+2021-04-24 19:43:33:4333 [32minfo[39m: [32mweb-socket 1CCaIyHlmPgFq9OJAAAL connected[39m
+2021-04-24 19:43:40:4340 [32minfo[39m: [32mweb-socket 8S7YT3tExMDj2ezXAAAN connected[39m
+2021-04-24 19:44:44:4444 [32minfo[39m: [32mweb-socket jwU8GAiu1JXn_M9QAAAP connected[39m
+2021-04-24 19:46:08:468 [32minfo[39m: [32mweb-socket 0jbluhv7lRVrGZCPAAAR connected[39m
+2021-04-24 19:46:51:4651 [32minfo[39m: [32mweb-socket qAFMMnqeItYZhGeYAAAT connected[39m
+2021-04-24 19:48:59:4859 [32minfo[39m: [32mweb-socket Ypmutd2s9YST0XWAAAAV connected[39m
+2021-04-24 19:49:07:497 [32minfo[39m: [32mweb-socket u95mHWWeeID0k629AAAX connected[39m
+2021-04-24 19:49:30:4930 [32minfo[39m: [32mweb-socket JhezG4itMhF6Zf3wAAAZ connected[39m
+2021-04-24 19:50:57:5057 [32minfo[39m: [32mweb-socket ctTYqI8QHeyr02ezAAAb connected[39m
+2021-04-24 19:51:08:518 [32minfo[39m: [32mweb-socket qbOZHNhhnLYiUyurAAAd connected[39m
+2021-04-24 19:53:18:5318 [32minfo[39m: [32mweb-socket -eSy9SQicLtz71yoAAAf connected[39m
+2021-04-24 20:02:16:216 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:02:16:216 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:02:19:219 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:02:19:219 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:02:19:219 [32minfo[39m: [32mweb-socket ZdxuN3lGZri8-JrYAAAB connected[39m
+2021-04-24 20:02:48:248 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:02:48:248 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:02:49:249 [32minfo[39m: [32mweb-socket 5bQcKgRJT5znGyj7AAAB connected[39m
+2021-04-24 20:02:51:251 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:02:51:251 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:02:57:257 [32minfo[39m: [32mweb-socket OwzgMFWjkbbMW2mKAAAD connected[39m
+2021-04-24 20:03:48:348 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:03:48:348 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:03:48:348 [32minfo[39m: [32mweb-socket VAnItwOFGIUrYRXUAAAB connected[39m
+2021-04-24 20:03:50:350 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:03:50:350 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:03:54:354 [32minfo[39m: [32mweb-socket 7uqpx4UARVeoT_3CAAAD connected[39m
+2021-04-24 20:10:45:1045 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:10:45:1045 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:10:45:1045 [32minfo[39m: [32mweb-socket eHjW_zLsbompoHDmAAAB connected[39m
+2021-04-24 20:10:49:1049 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:10:49:1049 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:13:37:1337 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:13:37:1337 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:13:39:1339 [32minfo[39m: [32mweb-socket fMXWDL3JDPOsqJELAAAB connected[39m
+2021-04-24 20:13:41:1341 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:13:41:1341 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:13:50:1350 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:13:50:1350 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:13:50:1350 [32minfo[39m: [32mweb-socket Jxre5goZEyQmKNZsAAAB connected[39m
+2021-04-24 20:13:53:1353 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:13:53:1353 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:14:01:141 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:14:01:141 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:14:01:141 [32minfo[39m: [32mweb-socket KzAOUYylylhVBMYWAAAB connected[39m
+2021-04-24 20:14:05:145 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:14:05:145 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:33:50:3350 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:33:54:3354 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:33:54:3354 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:33:54:3354 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:34:28:3428 [32minfo[39m: [32mweb-socket oK_9Ig3nGHYBcHWMAAAD connected[39m
+2021-04-24 20:35:50:3550 [32minfo[39m: [32mweb-socket KDUaCu8Ys5Xd0OTdAAAF connected[39m
+2021-04-24 20:36:36:3636 [32minfo[39m: [32mweb-socket 1HsfKQnjtP9ivRfqAAAH connected[39m
+2021-04-24 20:37:00:370 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:37:03:373 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:37:03:373 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:37:04:374 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:37:08:378 [32minfo[39m: [32mweb-socket 4BeZrcEKCAItGrryAAAF connected[39m
+2021-04-24 20:37:11:3711 [32minfo[39m: [32mweb-socket SIWSoZ-CX9hopsJWAAAH connected[39m
+2021-04-24 20:39:27:3927 [32minfo[39m: [32mweb-socket F08pSOw07Vloh0HyAAAJ connected[39m
+2021-04-24 20:39:36:3936 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:39:40:3940 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:39:40:3940 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:39:40:3940 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:39:43:3943 [32minfo[39m: [32mweb-socket LKI6khiF9-pJ-x3AAAAF connected[39m
+2021-04-24 20:39:46:3946 [32minfo[39m: [32mweb-socket WnCzz5_fP2zOXQRKAAAH connected[39m
+2021-04-24 20:42:03:423 [32minfo[39m: [32mweb-socket e-Sd-qsRxdI8zoLCAAAJ connected[39m
+2021-04-24 20:42:11:4211 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:42:14:4214 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:42:14:4214 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:42:14:4214 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:42:33:4233 [32minfo[39m: [32mweb-socket cL2RYmuOjMG8YO-aAAAD connected[39m
+2021-04-24 20:43:42:4342 [32minfo[39m: [32mweb-socket QAqCAbpJh3Li0lNRAAAF connected[39m
+2021-04-24 20:43:55:4355 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 20:43:58:4358 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 20:43:58:4358 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 20:43:59:4359 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 20:44:08:448 [32minfo[39m: [32mweb-socket sjzYdypQDlm1Bo6pAAAD connected[39m
+2021-04-24 20:44:35:4435 [32minfo[39m: [32mweb-socket YjsVTg1vbcnlUXxGAAAF connected[39m
+2021-04-24 21:07:17:717 [32minfo[39m: [32mweb-socket WocDemsc52ob7jSfAAAH connected[39m
+2021-04-24 21:07:50:750 [32minfo[39m: [32mweb-socket VAkKQfxftFxCkn8XAAAJ connected[39m
+2021-04-24 21:08:37:837 [32minfo[39m: [32mweb-socket 8xCHsVH5A6rzXL2sAAAL connected[39m
+2021-04-24 21:09:34:934 [32minfo[39m: [32mweb-socket UKloSKBe2_7f1cwLAAAN connected[39m
+2021-04-24 21:10:03:103 [32minfo[39m: [32mweb-socket nTUpQzp1-rk0bAnHAAAP connected[39m
+2021-04-24 21:12:29:1229 [32minfo[39m: [32mweb-socket 2Y9EgSMonf2tKZzcAAAR connected[39m
+2021-04-24 21:14:58:1458 [32minfo[39m: [32mweb-socket OHpkoi3_kTmJZfpcAAAT connected[39m
+2021-04-24 21:18:23:1823 [32minfo[39m: [32mweb-socket rr8T0lWCklyzpiOJAAAV connected[39m
+2021-04-24 21:21:23:2123 [32minfo[39m: [32mweb-socket abxBjZkWRhuUlwhAAAAX connected[39m
+2021-04-24 22:21:18:2118 [32minfo[39m: [32mweb-socket 3gQZdOU75MbB9PZmAAAZ connected[39m
+2021-04-24 22:21:23:2123 [32minfo[39m: [32mweb-socket Aw4POR6ZwL8fJKElAAAb connected[39m
+2021-04-24 22:21:38:2138 [32minfo[39m: [32mweb-socket PYoh1FyObattYu5DAAAd connected[39m
+2021-04-24 22:25:09:259 [32minfo[39m: [32mweb-socket Vtb0VTQUa-P4e37hAAAf connected[39m
+2021-04-24 22:25:40:2540 [32minfo[39m: [32mweb-socket Fj5xo2Hakulz6kikAAAh connected[39m
+2021-04-24 22:26:22:2622 [32minfo[39m: [32mweb-socket JmL7UI8MzAuf2BfUAAAj connected[39m
+2021-04-24 22:30:08:308 [32minfo[39m: [32mweb-socket Qq_Wbhc5az7dS0RjAAAl connected[39m
+2021-04-24 22:30:54:3054 [32minfo[39m: [32mweb-socket aXuJhqH_dLIL8IMvAAAn connected[39m
+2021-04-24 22:33:10:3310 [32minfo[39m: [32mweb-socket KO-0RI2pfN_IzriBAAAp connected[39m
+2021-04-24 22:37:59:3759 [32minfo[39m: [32mweb-socket MuoV-Rk42R2L4dfKAAAr connected[39m
+2021-04-24 22:43:31:4331 [32minfo[39m: [32mweb-socket AbmGBoLxNx3G4Nk_AAAt connected[39m
+2021-04-24 22:44:12:4412 [32minfo[39m: [32mweb-socket rIFKLPLSqfoC1nJeAAAv connected[39m
+2021-04-24 22:45:43:4543 [32minfo[39m: [32mweb-socket -Np-FTc-pT_zXM9WAAAx connected[39m
+2021-04-24 22:46:17:4617 [32minfo[39m: [32mweb-socket 1-S6UdAF_PSpib3BAAAz connected[39m
+2021-04-24 22:48:43:4843 [32minfo[39m: [32mweb-socket dCUgc2rYh6yPrsONAAA1 connected[39m
+2021-04-24 22:50:08:508 [32minfo[39m: [32mweb-socket L_Rhh_ULgvpHWKHHAAA3 connected[39m
+2021-04-24 22:50:38:5038 [32minfo[39m: [32mweb-socket n1Uxzekuu-VsxwRWAAA5 connected[39m
+2021-04-24 22:52:36:5236 [32minfo[39m: [32mweb-socket MANjxln4Nw8LcPuCAAA7 connected[39m
+2021-04-24 22:54:29:5429 [32minfo[39m: [32mweb-socket g75YkFI8kAO0ZIOYAAA9 connected[39m
+2021-04-24 22:56:54:5654 [32minfo[39m: [32mweb-socket a0ihd8_s5M6oMxDhAAA_ connected[39m
+2021-04-24 22:58:11:5811 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 22:58:15:5815 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 22:58:15:5815 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 22:58:15:5815 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 22:58:29:5829 [32minfo[39m: [32mweb-socket -uqU59fG0QWmvVc-AAAD connected[39m
+2021-04-24 22:59:17:5917 [32minfo[39m: [32mweb-socket h0XZmhnwR2iHQsXfAAAF connected[39m
+2021-04-24 23:02:58:258 [32minfo[39m: [32mweb-socket a4xKyrpqMv5P3gmKAAAH connected[39m
+2021-04-24 23:04:11:411 [32minfo[39m: [32mweb-socket x48UK3bobrilCFcEAAAJ connected[39m
+2021-04-24 23:05:19:519 [32minfo[39m: [32mweb-socket O_3aInY1NvuJQ4A9AAAL connected[39m
+2021-04-24 23:10:19:1019 [32minfo[39m: [32mweb-socket z-lbC2FZwA7y1-9DAAAN connected[39m
+2021-04-24 23:11:19:1119 [32minfo[39m: [32mweb-socket ZcyIxcMhMJEhGppjAAAP connected[39m
+2021-04-24 23:11:29:1129 [32minfo[39m: [32mweb-socket UHQRUoSsfEI3cIENAAAR connected[39m
+2021-04-24 23:12:10:1210 [32minfo[39m: [32mweb-socket 8CqYTh9FAk0Gqb-FAAAT connected[39m
+2021-04-24 23:12:47:1247 [32minfo[39m: [32mweb-socket aVJVMJ5nUW_v8rrKAAAV connected[39m
+2021-04-24 23:13:06:136 [32minfo[39m: [32mweb-socket YNEBMUEuet2IsUKwAAAX connected[39m
+2021-04-24 23:14:09:149 [32minfo[39m: [32mweb-socket RYyXEmjuHFhUHJIQAAAZ connected[39m
+2021-04-24 23:15:35:1535 [32minfo[39m: [32mweb-socket 1uDacdV4Ha2byYT5AAAb connected[39m
+2021-04-24 23:16:43:1643 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 23:16:50:1650 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 23:16:50:1650 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 23:16:51:1651 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 23:17:01:171 [32minfo[39m: [32mweb-socket JNGQb2Iih2GqFmYhAAAD connected[39m
+2021-04-24 23:18:10:1810 [32minfo[39m: [32mweb-socket g2Mz5hGZ-1fq7hKfAAAF connected[39m
+2021-04-24 23:18:40:1840 [32minfo[39m: [32mweb-socket ExUdhnCFfQlE-ct8AAAH connected[39m
+2021-04-24 23:20:34:2034 [32minfo[39m: [32mweb-socket CLGgd1pyWByNdA5LAAAJ connected[39m
+2021-04-24 23:21:20:2120 [32minfo[39m: [32mweb-socket IZufkWX9lte6UDcmAAAL connected[39m
+2021-04-24 23:22:41:2241 [32minfo[39m: [32mweb-socket 3SA9NfgPxUXpj598AAAN connected[39m
+2021-04-24 23:24:57:2457 [32minfo[39m: [32mweb-socket L7su78kWthgSNuKHAAAP connected[39m
+2021-04-24 23:26:57:2657 [32minfo[39m: [32mweb-socket JucVF4VYHi9jBAWTAAAR connected[39m
+2021-04-24 23:29:25:2925 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-24 23:29:29:2929 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-24 23:29:29:2929 [32minfo[39m: [32mApp is running ...[39m
+2021-04-24 23:29:30:2930 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-24 23:30:10:3010 [32minfo[39m: [32mweb-socket M5KcJuwS8SZvlEB7AAAB connected[39m
+2021-04-24 23:32:25:3225 [32minfo[39m: [32mweb-socket r7QZacEptStp63qeAAAD connected[39m
+2021-04-24 23:34:18:3418 [32minfo[39m: [32mweb-socket zOKi9AG7W94PE9_qAAAF connected[39m
+2021-04-24 23:35:42:3542 [32minfo[39m: [32mweb-socket 9aXch5MYawSZrfLMAAAH connected[39m
+2021-04-24 23:35:48:3548 [32minfo[39m: [32mweb-socket IIL9z99YmBXk_NWcAAAJ connected[39m
+2021-04-24 23:37:15:3715 [32minfo[39m: [32mweb-socket 5bHjotvDzdOHR1WaAAAL connected[39m
+2021-04-24 23:38:29:3829 [32minfo[39m: [32mweb-socket bnYfdb6_YqLeTGpoAAAN connected[39m
+2021-04-24 23:39:09:399 [32minfo[39m: [32mweb-socket kHHjRSlqhL-QGX_GAAAP connected[39m
+2021-04-24 23:48:27:4827 [32minfo[39m: [32mweb-socket IvF5R-tMfMJ1MH2yAAAR connected[39m
+2021-04-24 23:56:59:5659 [32minfo[39m: [32mweb-socket 7dWVTfB9FXuaMV8zAAAT connected[39m
+2021-04-24 23:59:55:5955 [32minfo[39m: [32mweb-socket Q02XSPkq10EjyzMFAAAV connected[39m
+2021-04-25 00:36:28:3628 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-25 00:36:31:3631 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-25 00:36:31:3631 [32minfo[39m: [32mApp is running ...[39m
+2021-04-25 00:36:32:3632 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-25 00:36:37:3637 [32minfo[39m: [32mweb-socket lYV8KrTCaVOERkBVAAAB connected[39m
+2021-04-25 00:40:31:4031 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-25 00:40:35:4035 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-25 00:40:35:4035 [32minfo[39m: [32mApp is running ...[39m
+2021-04-25 00:40:35:4035 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-25 00:41:22:4122 [32minfo[39m: [32mweb-socket wmHKsH7sESxCBxcaAAAB connected[39m
+2021-04-25 00:43:17:4317 [32minfo[39m: [32mweb-socket e4KVtTjuirZEB_X-AAAD connected[39m
+2021-04-25 00:46:08:468 [32minfo[39m: [32mweb-socket YzNzHDaOLXVREVR0AAAF connected[39m
+2021-04-25 00:46:21:4621 [32minfo[39m: [32mweb-socket BQHEKRqHUrdE9L80AAAH connected[39m
+2021-04-25 00:47:15:4715 [32minfo[39m: [32mweb-socket KceQaPC9aHetDXgRAAAJ connected[39m
+2021-04-25 00:47:26:4726 [32minfo[39m: [32mweb-socket owJdNxLRC4wiyROSAAAL connected[39m
+2021-04-25 00:50:30:5030 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-25 00:50:33:5033 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-25 00:50:33:5033 [32minfo[39m: [32mApp is running ...[39m
+2021-04-25 00:50:33:5033 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-25 00:50:35:5035 [32minfo[39m: [32mweb-socket yi1sR84Rv_R3fL3KAAAB connected[39m
+2021-04-25 00:51:42:5142 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-25 00:51:46:5146 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-25 00:51:46:5146 [32minfo[39m: [32mApp is running ...[39m
+2021-04-25 00:51:46:5146 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-25 00:56:27:5627 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-25 00:56:32:5632 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-25 00:56:32:5632 [32minfo[39m: [32mApp is running ...[39m
+2021-04-25 00:56:33:5633 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-25 01:04:37:437 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-25 01:04:40:440 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket1?retryWrites=true&w=majority[39m
+2021-04-25 01:04:40:440 [32minfo[39m: [32mApp is running ...[39m
+2021-04-25 01:04:40:440 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-27 20:44:54:4454 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-27 20:44:57:4457 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-27 20:44:57:4457 [32minfo[39m: [32mApp is running ...[39m
+2021-04-27 20:44:57:4457 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-27 20:46:58:4658 [32minfo[39m: [32mweb-socket BoeaKllqnFRq2NG9AAAB connected[39m
+2021-04-27 20:47:10:4710 [32minfo[39m: [32mweb-socket IBWTZzyNoZkZ1fWhAAAD connected[39m
+2021-04-27 20:47:14:4714 [32minfo[39m: [32mweb-socket XR9g2VgsMsQbZW0WAAAF connected[39m
+2021-04-27 20:52:32:5232 [32minfo[39m: [32mweb-socket N0xI2lgju_RiVNekAAAH connected[39m
+2021-04-27 20:57:19:5719 [32minfo[39m: [32mweb-socket OVAGBi7jwfIzG2AKAAAJ connected[39m
+2021-04-27 20:57:46:5746 [32minfo[39m: [32mweb-socket mt4Eu3nQMQhuIwUIAAAL connected[39m
+2021-04-27 20:58:03:583 [32minfo[39m: [32mweb-socket ImnpHoiXzKY7iRqOAAAN connected[39m
+2021-04-27 21:05:24:524 [32minfo[39m: [32mweb-socket flwaWGxNQJySagT4AAAP connected[39m
+2021-04-27 21:05:32:532 [32minfo[39m: [32mweb-socket nu4fOWl4rYe1e5eXAAAR connected[39m
+2021-04-27 21:05:44:544 [32minfo[39m: [32mweb-socket oBjfdnvRuUCNC4o7AAAT connected[39m
+2021-04-27 21:09:18:918 [32minfo[39m: [32mweb-socket N7t-m2fqMBpE7eNvAAAV connected[39m
+2021-04-27 21:11:17:1117 [32minfo[39m: [32mweb-socket VeUGTEgYQHyOrg61AAAX connected[39m
+2021-04-27 21:12:39:1239 [32minfo[39m: [32mweb-socket WMLECz_sguQJEtb-AAAZ connected[39m
+2021-04-27 21:14:07:147 [32minfo[39m: [32mweb-socket DXTF9KxM74ogOLpiAAAb connected[39m
+2021-04-27 21:22:13:2213 [32minfo[39m: [32mweb-socket ArOWgmlaOL5D_OdGAAAd connected[39m
+2021-04-27 21:23:21:2321 [32minfo[39m: [32mweb-socket SNStx2gLHwcMXUnLAAAf connected[39m
+2021-04-27 21:23:50:2350 [32minfo[39m: [32mweb-socket RbRgdUOeHVy1kssNAAAh connected[39m
+2021-04-27 21:27:12:2712 [32minfo[39m: [32mweb-socket LQpeLCWiUs8CSt4kAAAj connected[39m
+2021-04-27 21:27:24:2724 [32minfo[39m: [32mweb-socket VCTdddSt0cSdhClMAAAl connected[39m
+2021-04-27 21:28:06:286 [32minfo[39m: [32mweb-socket xzMdF1Hf48EzKznYAAAn connected[39m
+2021-04-27 21:29:08:298 [32minfo[39m: [32mweb-socket EbtjOtwh8htIRCIiAAAp connected[39m
+2021-04-27 21:29:14:2914 [32minfo[39m: [32mweb-socket lXIgRazq7XW7ahT7AAAr connected[39m
+2021-04-27 21:31:23:3123 [32minfo[39m: [32mweb-socket 5pS_MfbGIewGRAy0AAAt connected[39m
+2021-04-27 21:32:03:323 [32minfo[39m: [32mweb-socket 9mCs589bBXwsps5YAAAv connected[39m
+2021-04-27 21:32:43:3243 [32minfo[39m: [32mweb-socket UJPtVXwW0xlX_anhAAAx connected[39m
+2021-04-27 21:32:57:3257 [32minfo[39m: [32mweb-socket rKSQL73w35lvtzMuAAAz connected[39m
+2021-04-27 21:32:59:3259 [32minfo[39m: [32mweb-socket h4X4yjPPR73ES5DxAAA1 connected[39m
+2021-04-27 21:33:15:3315 [32minfo[39m: [32mweb-socket 26pnk1y4p0-DrMtSAAA3 connected[39m
+2021-04-27 21:33:20:3320 [32minfo[39m: [32mweb-socket brkzp0GkzGraqzSbAAA5 connected[39m
+2021-04-27 21:33:34:3334 [32minfo[39m: [32mweb-socket Rb3ZzdLP94Vv2Ci-AAA7 connected[39m
+2021-04-27 21:33:38:3338 [32minfo[39m: [32mweb-socket tMeSRjZoV5OwPyKAAAA9 connected[39m
+2021-04-27 21:33:58:3358 [32minfo[39m: [32mweb-socket _v3myP6zVQn-mUlYAAA_ connected[39m
+2021-04-27 21:34:04:344 [32minfo[39m: [32mweb-socket 9e-pz_b0Sd4moMRBAABB connected[39m
+2021-04-27 21:34:09:349 [32minfo[39m: [32mweb-socket EsUfJmvA4QgLGe9LAABD connected[39m
+2021-04-27 21:34:15:3415 [32minfo[39m: [32mweb-socket 5NsNxmnVvQKKXdqpAABF connected[39m
+2021-04-27 21:34:18:3418 [32minfo[39m: [32mweb-socket pF3oKjAfAOSk66R2AABH connected[39m
+2021-04-27 21:34:23:3423 [32minfo[39m: [32mweb-socket LgbQMmyQBOf136DlAABJ connected[39m
+2021-04-27 21:35:19:3519 [32minfo[39m: [32mweb-socket VFXLHBcdvXockevfAABL connected[39m
+2021-04-27 21:36:49:3649 [32minfo[39m: [32mweb-socket 4a1YMCNZpGCLlQEtAABN connected[39m
+2021-04-27 21:47:10:4710 [32minfo[39m: [32mweb-socket DpiHoDycVPrgJXJoAABP connected[39m
+2021-04-28 20:01:55:155 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-04-28 20:01:58:158 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-04-28 20:01:58:158 [32minfo[39m: [32mApp is running ...[39m
+2021-04-28 20:01:59:159 [32minfo[39m: [32mweb-socket connected[39m
+2021-04-28 20:02:53:253 [32minfo[39m: [32mweb-socket p8-jGotFLWLJnlu2AAAB connected[39m
+2021-04-28 20:03:38:338 [32minfo[39m: [32mweb-socket SaOT7qCLT7Qiwya2AAAD connected[39m
+2021-04-28 20:38:53:3853 [32minfo[39m: [32mweb-socket kqnOXYXI4UFJQMbtAAAF connected[39m
+2021-05-03 16:11:34:1134 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-05-03 16:11:38:1138 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-05-03 16:11:38:1138 [32minfo[39m: [32mApp is running ...[39m
+2021-05-03 16:11:38:1138 [32minfo[39m: [32mweb-socket connected[39m
+2021-05-03 16:47:37:4737 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-05-03 16:47:41:4741 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-05-03 16:47:41:4741 [32minfo[39m: [32mApp is running ...[39m
+2021-05-03 16:47:42:4742 [32minfo[39m: [32mweb-socket connected[39m

@@ -2,9 +2,12 @@ import { Tournament, Match } from "Src/app-types";
 import { publicRequest } from "Src/utils/network";
 import { networkActionsCreator, ActionsCreator } from "Src/utils/creators";
 
-export const allTournaments = networkActionsCreator("TOURNAMENTS");
+export const getAllTournamentsCreator = networkActionsCreator("TOURNAMENTS");
 export const allUsers = networkActionsCreator("USERS");
+export const updateUser = networkActionsCreator("UPDATE-USER");
+export const updateMatchCreator = networkActionsCreator("UPDATE-MATCH");
 export const allMatches = networkActionsCreator("MATCH");
+export const matchVote = networkActionsCreator("ON-VOTE");
 export const setTournament = ActionsCreator("SELECT-TOURNAMENT");
 export const editMatch = ActionsCreator("EDIT-MATCH");
 export const filterMatch = ActionsCreator("FILTER-MATCH");
@@ -145,15 +148,15 @@ export const getAllTournamentsRequest = async (
   dispatch: any
 ) => {
   try {
-    dispatch(allTournaments.requesting());
+    dispatch(getAllTournamentsCreator.requesting());
     const response = await publicRequest({
       url: endpoint,
       method: "GET",
       params: { ...body },
     });
-    dispatch(allTournaments.success([...response.data.data]));
+    dispatch(getAllTournamentsCreator.success([...response.data.data]));
   } catch (error) {
-    dispatch(allTournaments.failure(error));
+    dispatch(getAllTournamentsCreator.failure(error));
   }
 };
 
@@ -163,16 +166,16 @@ export const createTournamentsRequest = async (
   dispatch: any
 ) => {
   try {
-    dispatch(allTournaments.requesting());
+    dispatch(getAllTournamentsCreator.requesting());
     const response = await publicRequest({
       url: endpoint,
       method: "POST",
       data: body,
     });
-    dispatch(allTournaments.success([...response.data.data]));
+    dispatch(getAllTournamentsCreator.success([...response.data.data]));
     location.reload();
   } catch (error) {
-    dispatch(allTournaments.failure(error));
+    dispatch(getAllTournamentsCreator.failure(error));
   }
 };
 
@@ -182,15 +185,15 @@ export const deleteTournamentsRequest = async (
   dispatch: any
 ) => {
   try {
-    dispatch(allTournaments.requesting());
+    dispatch(getAllTournamentsCreator.requesting());
     const response = await publicRequest({
       url: endpoint,
       method: "DELETE",
       data: body,
     });
-    dispatch(allTournaments.success([...response.data.data]));
+    dispatch(getAllTournamentsCreator.success([...response.data.data]));
   } catch (error) {
-    dispatch(allTournaments.failure(error));
+    dispatch(getAllTournamentsCreator.failure(error));
   }
 };
 
@@ -236,16 +239,16 @@ export const createEditUserTournamentsRequest = async (
   dispatch: any
 ) => {
   try {
-    dispatch(allTournaments.requesting());
+    dispatch(getAllTournamentsCreator.requesting());
     const response = await publicRequest({
       url: endpoint,
       method: "POST",
       data: body,
     });
-    dispatch(allTournaments.success([...response.data.data]));
+    dispatch(getAllTournamentsCreator.success([...response.data.data]));
     // location.reload();
   } catch (error) {
-    dispatch(allTournaments.failure(error));
+    dispatch(getAllTournamentsCreator.failure(error));
   }
 };
 
@@ -255,16 +258,16 @@ export const updateMatchRequest = async (
   dispatch: any
 ) => {
   try {
-    dispatch(allMatches.requesting());
+    dispatch(updateMatchCreator.requesting());
     const response = await publicRequest({
       url: endpoint,
       method: "POST",
       data: body,
     });
-    dispatch(allMatches.success([...response.data.data]));
+    dispatch(updateMatchCreator.success(response));
     // location.reload();
   } catch (error) {
-    dispatch(allMatches.failure(error));
+    dispatch(updateMatchCreator.failure(error));
   }
 };
 
@@ -274,7 +277,7 @@ export const voteRequest = async (
   dispatch: any
 ) => {
   try {
-    dispatch(allMatches.requesting());
+    dispatch(matchVote.requesting());
     let player = (({ _id, userName, mobileNumber }) => ({
       _id,
       userName,
@@ -287,10 +290,9 @@ export const voteRequest = async (
       method: "POST",
       data: body,
     });
-    dispatch(allMatches.success([...response.data.data]));
-    location.reload();
+    dispatch(matchVote.success(body));
   } catch (error) {
-    dispatch(allMatches.failure(error));
+    dispatch(matchVote.failure(error));
   }
 };
 
@@ -300,16 +302,16 @@ export const updateUserRequest = async (
   dispatch: any
 ) => {
   try {
-    dispatch(allUsers.requesting());
+    dispatch(updateUser.requesting());
     const response = await publicRequest({
       url: endpoint,
       method: "POST",
       data: body,
     });
-    dispatch(allUsers.success([...response.data.data]));
+    dispatch(updateUser.success(response));
     // location.reload();
   } catch (error) {
-    dispatch(allUsers.failure(error));
+    dispatch(updateUser.failure(error));
   }
 };
 

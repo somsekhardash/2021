@@ -81,11 +81,13 @@ const reducer = (
         isLoading: false,
       };
     case signupActions.failure({}).type:
+      const customError =
+        payload?.response?.data?.data && payload?.response?.data?.data[0].msg;
       return {
         ...state,
         isLoggingIn: false,
         isLoggedIn: false,
-        isLoginError: payload.message,
+        isLoginError: customError || payload.message,
         isLoading: false,
       };
     case logoutActions.success({}).type:
