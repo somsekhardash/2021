@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { Tournaments } from "./../tournaments/tournaments";
 // import { Login } from "./../auth/login";
-// import { Signup } from "./../auth/signup";
+import { Signup } from "./../auth/signup";
 // import { PrivateRoute } from "./../auth/privateRoute";
 import { useStateSelector } from "Src/reducers";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -15,11 +15,6 @@ import { ErrorBoundary } from "Src/common/ErrorBoundary";
 const Login = React.lazy(() =>
   import("Src/auth/login").then(({ Login }) => ({
     default: Login,
-  }))
-);
-const Signup = React.lazy(() =>
-  import("Src/auth/Signup").then(({ Signup }) => ({
-    default: Signup,
   }))
 );
 const MatchCards = React.lazy(() =>

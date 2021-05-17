@@ -23,19 +23,15 @@ import HideMe from "Src/common/useFooter";
 import { Avatar, Fab } from "@material-ui/core";
 
 import { socket } from "Src/utils/shocket";
-import { EditMatch } from "./EditMatch";
+import { EditMatch } from "./editMatch";
 import Loader from "Src/common/Loader";
 import LoaderSuccess from "Src/utils/LoaderSuccess";
 import LoaderFail from "Src/utils/LoaderFail";
 
 export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
   const { isAdmin, data } = useStateSelector(({ authState }) => authState);
-  const {
-    userVoteLoader,
-    userVoteSuccess,
-    userVoteError,
-    selectedMatch,
-  } = useStateSelector(({ TournamentState }) => TournamentState);
+  const { userVoteLoader, userVoteSuccess, userVoteError, selectedMatch } =
+    useStateSelector(({ TournamentState }) => TournamentState);
   const dispatch = useDispatch();
   const { imageMap } = allMatches();
   const [selectedTeam, setSelectedTeam] = useState(null as any);
