@@ -7,7 +7,7 @@ import { useStateSelector } from "src/reducers";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { MatchCards } from "src/matches/MatchCards";
 // import { ProfilePage } from "src/common/ProfilePage";
-// import TournamentResult from "src/common/TournamentResult";
+import TournamentResult from "src/common/TournamentResult";
 // import Notifications from "src/common/Notifications";
 import Loader from "src/common/Loader";
 import { ErrorBoundary } from "src/common/ErrorBoundary";
@@ -27,9 +27,9 @@ const ProfilePage = React.lazy(() =>
     default: ProfilePage,
   }))
 );
-const TournamentResult = React.lazy(
-  () => import("src/common/tournamentResult")
-);
+// const TournamentResult = React.lazy(
+//   () => import("src/common/tournamentResult")
+// );
 const Notifications = React.lazy(() => import("src/common/Notifications"));
 
 export const Routes = ({ cookieData }) => {
