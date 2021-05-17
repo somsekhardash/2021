@@ -7,7 +7,7 @@ import { useStateSelector } from "Src/reducers";
 import { Header } from "./../common/header";
 import { getAllTournamentsCreator, getTournaments, getUsers } from "./actions";
 import { TournamentCard } from "./tournament";
-import { Tournament } from "Src/app-types";
+import { Tournament } from "./../app-types";
 import { iplMatches } from "./../utils/ipl";
 import { EditTournament } from "./editTournament";
 import { Users } from "Src/users/users";
@@ -72,13 +72,8 @@ function NotRegisteredUser(props) {
 export const Tournaments = () => {
   const dispatch = useDispatch();
   const classes = useStyles();
-  const {
-    tournaments,
-    users,
-    tournamentLoader,
-    tournamentError,
-    userError,
-  } = useStateSelector((state) => state.TournamentState);
+  const { tournaments, users, tournamentLoader, tournamentError, userError } =
+    useStateSelector((state) => state.TournamentState);
   const { isAdmin, data } = useStateSelector(({ authState }) => authState);
   const [newUser, setNewUser] = useState([] as any);
   const [open, setOpen] = useState(false);

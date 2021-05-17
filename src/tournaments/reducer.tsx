@@ -1,4 +1,4 @@
-import { Tournament, Match, Action, User } from "Src/app-types";
+import { Tournament, Match, Action, User } from "./../app-types";
 import { resetStore } from "Src/auth/actions";
 import {
   getAllTournamentsCreator,

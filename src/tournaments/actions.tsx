@@ -1,4 +1,4 @@
-import { Tournament, Match } from "Src/app-types";
+import { Tournament, Match } from "./../app-types";
 import { publicRequest } from "Src/utils/network";
 import { networkActionsCreator, ActionsCreator } from "Src/utils/creators";
 
@@ -85,62 +85,80 @@ export type updateMatchBody = {
   isStarted: boolean;
 };
 
-export const getTournaments = (body: getTournamentBody): any => async (
-  dispatch: any
-) => getAllTournamentsRequest(body, "get-tournaments", dispatch);
+export const getTournaments =
+  (body: getTournamentBody): any =>
+  async (dispatch: any) =>
+    getAllTournamentsRequest(body, "get-tournaments", dispatch);
 
-export const getUsers = (body: getUsersBody): any => async (dispatch: any) =>
-  getAllUsersRequest(body, "get-users", dispatch);
+export const getUsers =
+  (body: getUsersBody): any =>
+  async (dispatch: any) =>
+    getAllUsersRequest(body, "get-users", dispatch);
 
-export const createTournament = (body: createTournamentBody): any => async (
-  dispatch: any
-) => createTournamentsRequest(body, "tournament-register", dispatch);
+export const createTournament =
+  (body: createTournamentBody): any =>
+  async (dispatch: any) =>
+    createTournamentsRequest(body, "tournament-register", dispatch);
 
-export const deleteTournament = (body: deleteTournamentBody): any => async (
-  dispatch: any
-) => deleteTournamentsRequest(body, "delete-tournament", dispatch);
+export const deleteTournament =
+  (body: deleteTournamentBody): any =>
+  async (dispatch: any) =>
+    deleteTournamentsRequest(body, "delete-tournament", dispatch);
 
-export const deleteUser = (body: deleteUserBody): any => async (
-  dispatch: any
-) => deleteUserRequest(body, "delete-user", dispatch);
+export const deleteUser =
+  (body: deleteUserBody): any =>
+  async (dispatch: any) =>
+    deleteUserRequest(body, "delete-user", dispatch);
 
-export const addUserTournament = (body: addUserTournamentBody): any => async (
-  dispatch: any
-) => createEditUserTournamentsRequest(body, "update-tournament-user", dispatch);
+export const addUserTournament =
+  (body: addUserTournamentBody): any =>
+  async (dispatch: any) =>
+    createEditUserTournamentsRequest(body, "update-tournament-user", dispatch);
 
-export const onSelectTournament = (body: selectTournament): any => async (
-  dispatch: any
-) => dispatch(setTournament(body.selectedTournament));
+export const onSelectTournament =
+  (body: selectTournament): any =>
+  async (dispatch: any) =>
+    dispatch(setTournament(body.selectedTournament));
 
-export const onEditMatch = (body: selectMatch): any => async (dispatch: any) =>
-  dispatch(editMatch(body.selectedMatch));
+export const onEditMatch =
+  (body: selectMatch): any =>
+  async (dispatch: any) =>
+    dispatch(editMatch(body.selectedMatch));
 
-export const onSelectMatch = (body: selectMatch): any => async (
-  dispatch: any
-) => dispatch(selectMatch(body.selectedMatch)); //som
+export const onSelectMatch =
+  (body: selectMatch): any =>
+  async (dispatch: any) =>
+    dispatch(selectMatch(body.selectedMatch)); //som
 
-export const updateMatch = (body: updateMatchBody): any => async (
-  dispatch: any
-) => updateMatchRequest(body, "update-match", dispatch);
+export const updateMatch =
+  (body: updateMatchBody): any =>
+  async (dispatch: any) =>
+    updateMatchRequest(body, "update-match", dispatch);
 
-export const voteMatch = (body: voteMatchBody): any => async (dispatch: any) =>
-  voteRequest(body, "vote-match", dispatch);
+export const voteMatch =
+  (body: voteMatchBody): any =>
+  async (dispatch: any) =>
+    voteRequest(body, "vote-match", dispatch);
 
-export const onCreateMatch = (body: updateMatchBody): any => async (
-  dispatch: any
-) => updateMatchRequest(body, "create-match", dispatch);
+export const onCreateMatch =
+  (body: updateMatchBody): any =>
+  async (dispatch: any) =>
+    updateMatchRequest(body, "create-match", dispatch);
 
-export const updateUserCall = (body: updateUserBody): any => async (
-  dispatch: any
-) => updateUserRequest(body, "update-user", dispatch);
+export const updateUserCall =
+  (body: updateUserBody): any =>
+  async (dispatch: any) =>
+    updateUserRequest(body, "update-user", dispatch);
 
-export const onFilterMatch = (body: filterMatchBody): any => async (
-  dispatch: any
-) => dispatch(filterMatch(body));
+export const onFilterMatch =
+  (body: filterMatchBody): any =>
+  async (dispatch: any) =>
+    dispatch(filterMatch(body));
 
-export const onDeleteMatch = (body: selectMatch): any => async (
-  dispatch: any
-) => deleteMatchRequest(body, "delete-match", dispatch);
+export const onDeleteMatch =
+  (body: selectMatch): any =>
+  async (dispatch: any) =>
+    deleteMatchRequest(body, "delete-match", dispatch);
 
 export const getAllTournamentsRequest = async (
   body: any,
