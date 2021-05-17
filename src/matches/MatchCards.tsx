@@ -4,7 +4,6 @@ import { useStateSelector } from "Src/reducers";
 import { MatchCard } from "./MatchCard";
 import { Header } from "Src/common/header";
 import { useDispatch } from "react-redux";
-import { EditMatch } from "./EditMatch";
 import { CreateMatch } from "./createMatch";
 import { MatchFilter } from "./matchFilter";
 import "./index.scss";
