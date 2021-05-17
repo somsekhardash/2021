@@ -1,1 +1,1 @@
-web: node dist/server-main.bundle.js
+web: ./dist node server-main.bundle.js
