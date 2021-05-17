@@ -1,8 +1,8 @@
 import { Button } from "@material-ui/core";
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ChatRoom } from "Src/chatRoom/chatRoom";
-import { socket } from "Src/utils/shocket";
+import { ChatRoom } from "src/chatRoom/chatRoom";
+import { socket } from "src/utils/shocket";
 import { Header } from "./header";
 
 export default function Notifications() {

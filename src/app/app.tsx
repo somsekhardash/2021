@@ -3,8 +3,8 @@ import { cookieManager } from "./../utils/cookieManager";
 import { useDispatch } from "react-redux";
 import { loginActions } from "../auth/actions";
 import { Routes } from "./routes";
-import { useStateSelector } from "Src/reducers";
-import { Login } from "Src/auth/login";
+import { useStateSelector } from "src/reducers";
+import { Login } from "src/auth/login";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export const App = () => {

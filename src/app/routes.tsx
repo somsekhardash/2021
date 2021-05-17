@@ -3,34 +3,34 @@ import { Tournaments } from "./../tournaments/tournaments";
 // import { Login } from "./../auth/login";
 import { Signup } from "./../auth/signup";
 // import { PrivateRoute } from "./../auth/privateRoute";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import { MatchCards } from "Src/matches/MatchCards";
-// import { ProfilePage } from "Src/common/ProfilePage";
-// import TournamentResult from "Src/common/TournamentResult";
-// import Notifications from "Src/common/Notifications";
-import Loader from "Src/common/Loader";
-import { ErrorBoundary } from "Src/common/ErrorBoundary";
+// import { MatchCards } from "src/matches/MatchCards";
+// import { ProfilePage } from "src/common/ProfilePage";
+// import TournamentResult from "src/common/TournamentResult";
+// import Notifications from "src/common/Notifications";
+import Loader from "src/common/Loader";
+import { ErrorBoundary } from "src/common/ErrorBoundary";
 
 const Login = React.lazy(() =>
-  import("Src/auth/login").then(({ Login }) => ({
+  import("src/auth/login").then(({ Login }) => ({
     default: Login,
   }))
 );
 const MatchCards = React.lazy(() =>
-  import("Src/matches/MatchCards").then(({ MatchCards }) => ({
+  import("src/matches/MatchCards").then(({ MatchCards }) => ({
     default: MatchCards,
   }))
 );
 const ProfilePage = React.lazy(() =>
-  import("Src/common/ProfilePage").then(({ ProfilePage }) => ({
+  import("src/common/ProfilePage").then(({ ProfilePage }) => ({
     default: ProfilePage,
   }))
 );
 const TournamentResult = React.lazy(
-  () => import("Src/common/TournamentResult")
+  () => import("src/common/tournamentResult")
 );
-const Notifications = React.lazy(() => import("Src/common/Notifications"));
+const Notifications = React.lazy(() => import("src/common/Notifications"));
 
 export const Routes = ({ cookieData }) => {
   const { isLoggedIn } = useStateSelector(({ authState }) => authState);

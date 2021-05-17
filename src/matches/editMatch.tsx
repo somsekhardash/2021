@@ -18,18 +18,18 @@ import "./edit-match.scss";
 import moment from "moment";
 import { useDispatch } from "react-redux";
 import EditIcon from "@material-ui/icons/Edit";
-import HideMe from "Src/common/useFooter";
+import HideMe from "src/common/useFooter";
 import {
   onSelectTournament,
   updateMatch,
   onSelectMatch,
   onEditMatch,
-} from "Src/tournaments/actions";
-import { allMatches } from "Src/common/allMatches";
-import { useStateSelector } from "Src/reducers";
-import Loader from "Src/common/Loader";
-import LoaderSuccess from "Src/utils/LoaderSuccess";
-import LoaderFail from "Src/utils/LoaderFail";
+} from "src/tournaments/actions";
+import { allMatches } from "src/common/allMatches";
+import { useStateSelector } from "src/reducers";
+import Loader from "src/common/Loader";
+import LoaderSuccess from "src/utils/LoaderSuccess";
+import LoaderFail from "src/utils/LoaderFail";
 
 export const EditMatch = ({
   selectedTournament,
@@ -39,11 +39,8 @@ export const EditMatch = ({
   const [open, setOpen] = React.useState(false);
   const dispatch = useDispatch();
   const { matches } = allMatches();
-  const {
-    updateMatchLoader,
-    updateMatchSuccess,
-    updateMatchError,
-  } = useStateSelector((state) => state.TournamentState);
+  const { updateMatchLoader, updateMatchSuccess, updateMatchError } =
+    useStateSelector((state) => state.TournamentState);
 
   const handleClickOpen = () => {
     setOpen(true);

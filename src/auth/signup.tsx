@@ -15,10 +15,10 @@ import { basicSignup } from "./actions";
 import { phoneRegExp } from "./../utils/constants";
 import "./index.scss";
 import { Redirect, useHistory } from "react-router-dom";
-import withLoading from "Src/utils/LoaderWrapper";
+import withLoading from "src/utils/LoaderWrapper";
 import { Link, Snackbar } from "@material-ui/core";
 import { Alert } from "@material-ui/lab";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 
 const validationSchema: any = yup.object({
   userName: yup.string().required(),

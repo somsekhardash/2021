@@ -9,7 +9,7 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import * as yup from "yup";
 import { useFormik } from "formik";
-import { addUserTournament, createTournament } from "Src/tournaments/actions";
+import { addUserTournament, createTournament } from "src/tournaments/actions";
 
 import {
   createStyles,

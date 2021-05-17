@@ -1,6 +1,6 @@
 import { Tournament, Match } from "./../app-types";
-import { publicRequest } from "Src/utils/network";
-import { networkActionsCreator, ActionsCreator } from "Src/utils/creators";
+import { publicRequest } from "src/utils/network";
+import { networkActionsCreator, ActionsCreator } from "src/utils/creators";
 
 export const getAllTournamentsCreator = networkActionsCreator("TOURNAMENTS");
 export const allUsers = networkActionsCreator("USERS");

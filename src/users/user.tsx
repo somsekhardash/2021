@@ -8,12 +8,12 @@ import Typography from "@material-ui/core/Typography";
 import { useDispatch } from "react-redux";
 import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 import { EditUser } from "./editUser";
-import { deleteUser } from "Src/tournaments/actions";
+import { deleteUser } from "src/tournaments/actions";
 import EditIcon from "@material-ui/icons/Edit";
 import { Avatar } from "@material-ui/core";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 import StarsIcon from "@material-ui/icons/Stars";
-import withLoading from "Src/utils/LoaderWrapper";
+import withLoading from "src/utils/LoaderWrapper";
 
 const useStyles = makeStyles({
   user: {

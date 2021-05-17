@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { useStateSelector } from "Src/reducers";
-import { getTournaments, onSelectTournament } from "Src/tournaments/actions";
+import { useStateSelector } from "src/reducers";
+import { getTournaments, onSelectTournament } from "src/tournaments/actions";
 
 export default function useTournaments(tournamentID) {
   const { data, isAdmin } = useStateSelector((state) => state.authState);

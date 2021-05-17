@@ -1,6 +1,6 @@
-import { publicRequest } from "Src/utils/network";
-import { ActionsCreator, networkActionsCreator } from "Src/utils/creators";
-import { cookieManager } from "Src/utils/cookieManager";
+import { publicRequest } from "src/utils/network";
+import { ActionsCreator, networkActionsCreator } from "src/utils/creators";
+import { cookieManager } from "src/utils/cookieManager";
 export const signupActions = networkActionsCreator("SIGN-UP");
 export const loginActions = networkActionsCreator("LOG-IN");
 export const logoutActions = networkActionsCreator("LOG-OUT");
@@ -21,17 +21,20 @@ export type LogoutRequestBody = {
   mobileNumber: string;
 };
 
-export const basicSignup = (body: SignupRequestBody): any => async (
-  dispatch: any
-) => signupRequest(body, "create-user", dispatch);
+export const basicSignup =
+  (body: SignupRequestBody): any =>
+  async (dispatch: any) =>
+    signupRequest(body, "create-user", dispatch);
 
-export const basicLogin = (body: LoginRequestBody): any => async (
-  dispatch: any
-) => loginRequest(body, "login-user", dispatch);
+export const basicLogin =
+  (body: LoginRequestBody): any =>
+  async (dispatch: any) =>
+    loginRequest(body, "login-user", dispatch);
 
-export const basicLogout = (body: LogoutRequestBody): any => async (
-  dispatch: any
-) => logoutRequest(body, "logout-user", dispatch);
+export const basicLogout =
+  (body: LogoutRequestBody): any =>
+  async (dispatch: any) =>
+    logoutRequest(body, "logout-user", dispatch);
 
 const signupRequest = async (
   body: SignupRequestBody,

@@ -13,7 +13,7 @@ import {
   successResponse,
   notFoundResponse,
 } from "../helpers/apiResponse";
-import { Users } from "Src/users/users";
+import { Users } from "src/users/users";
 // import { io } from "./../server";
 import Logger from "./../helpers/Logger";
 

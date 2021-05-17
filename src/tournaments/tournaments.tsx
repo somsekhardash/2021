@@ -3,14 +3,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import { useDispatch } from "react-redux";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 import { Header } from "./../common/header";
 import { getAllTournamentsCreator, getTournaments, getUsers } from "./actions";
 import { TournamentCard } from "./tournament";
 import { Tournament } from "./../app-types";
 import { iplMatches } from "./../utils/ipl";
 import { EditTournament } from "./editTournament";
-import { Users } from "Src/users/users";
+import { Users } from "src/users/users";
 import {
   Button,
   Grid,
@@ -19,7 +19,7 @@ import {
   SwipeableDrawer,
 } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
-import CardLoader from "Src/common/CardLoader";
+import CardLoader from "src/common/CardLoader";
 import HideMe from "./../common/useFooter";
 
 const useStyles = makeStyles({

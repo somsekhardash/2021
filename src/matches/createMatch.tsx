@@ -17,8 +17,8 @@ import {
   updateMatch,
   onCreateMatch,
   onSelectMatch,
-} from "Src/tournaments/actions";
-import { allMatches } from "Src/common/allMatches";
+} from "src/tournaments/actions";
+import { allMatches } from "src/common/allMatches";
 
 export const CreateMatch = ({
   selectedTournament,

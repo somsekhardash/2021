@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link, useHistory, useParams } from "react-router-dom";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 import { MatchCard } from "./MatchCard";
-import { Header } from "Src/common/header";
+import { Header } from "src/common/header";
 import { useDispatch } from "react-redux";
 import { CreateMatch } from "./createMatch";
 import { MatchFilter } from "./matchFilter";
 import "./index.scss";
-import CardLoader from "Src/common/CardLoader";
+import CardLoader from "src/common/CardLoader";
 import {
   Avatar,
   Backdrop,
@@ -17,10 +17,10 @@ import {
   LinearProgress,
   SwipeableDrawer,
 } from "@material-ui/core";
-import HideMe from "Src/common/useFooter";
-import useTournaments from "Src/utils/useTournaments";
+import HideMe from "src/common/useFooter";
+import useTournaments from "src/utils/useTournaments";
 import { Alert } from "@material-ui/lab";
-import Loader from "Src/common/Loader";
+import Loader from "src/common/Loader";
 
 export const MatchCards = () => {
   const { isAdmin, data } = useStateSelector((state) => state.authState);

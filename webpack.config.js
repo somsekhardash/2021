@@ -1,8 +1,8 @@
 const webpack = require("webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-  .BundleAnalyzerPlugin;
-const WorkboxPlugin = require('workbox-webpack-plugin');
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+const WorkboxPlugin = require("workbox-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const path = require("path");
 const ASSET_PATH = "/";
@@ -64,7 +64,7 @@ const optimization = {
 const resolve = {
   extensions: [".tsx", ".ts", ".js"],
   alias: {
-    Src: path.resolve(__dirname, "src/"),
+    src: path.resolve(__dirname, "src/"),
   },
 };
 
@@ -76,12 +76,10 @@ const plugins = [
   }),
   new WorkboxPlugin.GenerateSW({
     clientsClaim: true,
-    skipWaiting: true
+    skipWaiting: true,
   }),
   new CopyPlugin({
-    patterns: [
-      { from: "./manifest.json", to: "manifest.json" },
-    ],
+    patterns: [{ from: "./manifest.json", to: "manifest.json" }],
   }),
 ];
 
@@ -135,7 +133,7 @@ if (BUNDLE_ANALYZE) {
 //   resolve: {
 //     extensions: [".tsx", ".ts", ".js"],
 //     alias: {
-//       Src: path.resolve(__dirname, "src/"),
+//       src: path.resolve(__dirname, "src/"),
 //     },
 //   },
 //   plugins: [

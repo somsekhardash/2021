@@ -1,7 +1,7 @@
 import { Snackbar } from "@material-ui/core";
 import { Alert } from "@material-ui/lab";
 import React from "react";
-import HideMe from "Src/common/useFooter";
+import HideMe from "src/common/useFooter";
 
 export default function LoaderSuccess({ message = "" }) {
   return (

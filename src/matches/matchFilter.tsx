@@ -1,10 +1,10 @@
 import { Avatar, Chip, Switch } from "@material-ui/core";
 import React, { useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { getAbbr } from "Src/utils/constants";
+import { getAbbr } from "src/utils/constants";
 import { useDispatch } from "react-redux";
-import { onFilterMatch } from "Src/tournaments/actions";
-import { allMatches } from "Src/common/allMatches";
+import { onFilterMatch } from "src/tournaments/actions";
+import { allMatches } from "src/common/allMatches";
 
 const useStyles = makeStyles({
   root: {

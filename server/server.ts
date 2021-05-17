@@ -10,7 +10,7 @@ import { Server } from "socket.io";
 
 import Logger from "./helpers/Logger";
 import { NotificationManager } from "./notification.manager";
-import { socket } from "Src/utils/shocket";
+import { socket } from "src/utils/shocket";
 const { json, urlencoded } = express;
 const port = process.env.PORT || 3000;
 export const app = express();

@@ -1,5 +1,5 @@
 import { Tournament, Match, Action, User } from "./../app-types";
-import { resetStore } from "Src/auth/actions";
+import { resetStore } from "src/auth/actions";
 import {
   getAllTournamentsCreator,
   allUsers,

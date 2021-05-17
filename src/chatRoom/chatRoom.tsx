@@ -1,9 +1,9 @@
 import { Avatar, Fab, TextField, Typography } from "@material-ui/core";
 import { Editor } from "@tinymce/tinymce-react";
 import React, { useState } from "react";
-import { UseShocket } from "Src/utils/shocket";
+import { UseShocket } from "src/utils/shocket";
 import SendIcon from "@material-ui/icons/Send";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 
 export const ChatRoom = () => {
   const { messages, socket } = UseShocket();

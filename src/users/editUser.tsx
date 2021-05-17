@@ -9,8 +9,8 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import * as yup from "yup";
 import { useFormik } from "formik";
-import { createTournament, updateUserCall } from "Src/tournaments/actions";
-import { Signup } from "Src/auth/signup";
+import { createTournament, updateUserCall } from "src/tournaments/actions";
+import { Signup } from "src/auth/signup";
 import EditIcon from "@material-ui/icons/Edit";
 import { IconButton } from "@material-ui/core";
 

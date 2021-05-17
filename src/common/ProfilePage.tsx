@@ -15,11 +15,11 @@ import Typography from "@material-ui/core/Typography";
 import { phoneRegExp } from "./../utils/constants";
 // import "./index.scss";
 import { Redirect, useHistory } from "react-router-dom";
-import withLoading from "Src/utils/LoaderWrapper";
+import withLoading from "src/utils/LoaderWrapper";
 import { Link, Snackbar } from "@material-ui/core";
 import { Alert } from "@material-ui/lab";
-import { useStateSelector } from "Src/reducers";
-import { updateUserCall } from "Src/tournaments/actions";
+import { useStateSelector } from "src/reducers";
+import { updateUserCall } from "src/tournaments/actions";
 import HideMe from "./../common/useFooter";
 import { Header } from "./header";
 
@@ -46,11 +46,8 @@ const SubmitButton = () => {
 const SubmitWithLoading = withLoading(SubmitButton);
 
 export const ProfilePage = () => {
-  const {
-    updateUserLoader,
-    updateUserError,
-    updateUserSuccess,
-  } = useStateSelector(({ TournamentState }) => TournamentState);
+  const { updateUserLoader, updateUserError, updateUserSuccess } =
+    useStateSelector(({ TournamentState }) => TournamentState);
 
   const { data, isLoggedIn } = useStateSelector(({ authState }) => authState);
 

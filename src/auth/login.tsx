@@ -13,10 +13,10 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 import { basicLogin } from "./actions";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 import "./index.scss";
 import { Alert } from "@material-ui/lab";
-import { phoneRegExp } from "Src/utils/constants";
+import { phoneRegExp } from "src/utils/constants";
 import HideMe from "./../common/useFooter";
 
 export const Login = () => {

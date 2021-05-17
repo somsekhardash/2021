@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { basicLogout } from "Src/auth/actions";
+import { basicLogout } from "src/auth/actions";
 import { Link, useHistory } from "react-router-dom";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -10,7 +10,7 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import Avatar from "@material-ui/core/Avatar";
 // import Link from "@material-ui/core/Link";
 import Button from "@material-ui/core/Button";
-import { useStateSelector } from "Src/reducers";
+import { useStateSelector } from "src/reducers";
 import "./header.scss";
 import { Menu, MenuItem, SwipeableDrawer } from "@material-ui/core";
 import IconButton from "@material-ui/core/IconButton";

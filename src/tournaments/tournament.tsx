@@ -14,7 +14,7 @@ import AvatarGroup from "@material-ui/lab/AvatarGroup";
 import { deleteTournament, onSelectTournament } from "./actions";
 import { Match, Tournament } from "../app-types";
 import { MatchCards } from "src/matches/MatchCards";
-import { AddUser } from "Src/users/addUser";
+import { AddUser } from "src/users/addUser";
 import ipl2021 from "./../images/ipl2021.jpg";
 
 const useStyles = makeStyles({

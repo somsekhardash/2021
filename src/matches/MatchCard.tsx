@@ -5,7 +5,7 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-import { getAbbr } from "Src/utils/constants";
+import { getAbbr } from "src/utils/constants";
 import { useDispatch } from "react-redux";
 import ipl2021 from "./../images/ipl2021.jpg";
 
@@ -13,20 +13,20 @@ import {
   onDeleteMatch,
   onSelectMatch,
   voteMatch,
-} from "Src/tournaments/actions";
-import { allMatches } from "Src/common/allMatches";
+} from "src/tournaments/actions";
+import { allMatches } from "src/common/allMatches";
 import moment from "moment";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import DeleteIcon from "@material-ui/icons/Delete";
-import { useStateSelector } from "Src/reducers";
-import HideMe from "Src/common/useFooter";
+import { useStateSelector } from "src/reducers";
+import HideMe from "src/common/useFooter";
 import { Avatar, Fab } from "@material-ui/core";
 
-import { socket } from "Src/utils/shocket";
+import { socket } from "src/utils/shocket";
 import { EditMatch } from "./editMatch";
-import Loader from "Src/common/Loader";
-import LoaderSuccess from "Src/utils/LoaderSuccess";
-import LoaderFail from "Src/utils/LoaderFail";
+import Loader from "src/common/Loader";
+import LoaderSuccess from "src/utils/LoaderSuccess";
+import LoaderFail from "src/utils/LoaderFail";
 
 export const MatchCard = ({ match, selectedTournament, match_id }: any) => {
   const { isAdmin, data } = useStateSelector(({ authState }) => authState);
