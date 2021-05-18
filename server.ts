@@ -10,11 +10,15 @@ import Logger from "./helpers/Logger";
 const { json, urlencoded } = express;
 const port = process.env.PORT || 3000;
 const app = express();
-const httpServer = createServer(app);
+// const httpServer = createServer(app);
 
 app.use(json());
 app.use(urlencoded({ extended: false }));
 app.use(cors());
+
+app.listen(process.env.PORT || port, function () {
+  console.log("Express server listening" + port);
+});
 
 try {
   var mongoMgr = MongoManager.getInstance();
@@ -32,9 +36,9 @@ app.get("/*", (req, res) => {
   res.send("It's Working");
 });
 
-httpServer.listen(port, () => {
-  Logger.info(`Example app listening at http://localhost:${port}`);
-});
+// httpServer.listen(port, () => {
+//   Logger.info(`Example app listening at http://localhost:${port}`);
+// });
 
-SocketManager.getInstance().InitSocket(httpServer);
+// SocketManager.getInstance().InitSocket(httpServer);
 export { app };
