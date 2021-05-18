@@ -23,14 +23,10 @@ app.use(json());
 app.use(urlencoded({ extended: false }));
 app.use(cors());
 
-app.get("/test", (req, res) => {
-  res.send("It's Working");
+app.get("/", (_req, res) => {
+  res.send("API Running");
 });
 app.use("/api", indexRouter);
-app.use(express.static(__dirname + "/"));
-app.get("/*", (req, res) => {
-  res.send("It's Working");
-});
 
 // httpServer.listen(port, () => {
 //   Logger.info(`Example app listening at http://localhost:${port}`);
@@ -38,8 +34,7 @@ app.get("/*", (req, res) => {
 // SocketManager.getInstance().InitSocket(httpServer);
 // export { app };
 const port = app.get("port");
-const server = app.listen(process.env.PORT || port, function () {
-  console.log("Express server listening" + port);
-});
-
+const server = app.listen(port, () =>
+  console.log(`Server started on port ${port}`)
+);
 export default server;
