@@ -17,9 +17,9 @@ export class SocketManager {
     this.room = await MessageSchema.find({});
     Logger.info(`web-socket connected`);
     try {
-      this.io.on("connection", (socket) => {
+      this.io.on("connection", (socket: any) => {
         Logger.info(`web-socket ${socket.id} connected`);
-        socket.on("vote", async (data) => {
+        socket.on("vote", async (data: any) => {
           data.createdAt = new Date();
           this.room.push(data);
           this.io.emit("message", this.room);
@@ -31,7 +31,7 @@ export class SocketManager {
           this.io.emit("message", this.room);
         });
 
-        socket.on("chat", (data) => {
+        socket.on("chat", (data: any) => {
           data.createdAt = new Date();
           this.room.push(data);
           this.io.emit("message", this.room);
@@ -44,7 +44,7 @@ export class SocketManager {
     }
   }
 
-  public sendMessage(message, data) {
+  public sendMessage(message: any, data: any) {
     Logger.warn("I mma hhere");
     Logger.warn(`${message} ${data}`);
     this.io.sockets.emit("VOTE-API", data);

@@ -1,5 +1,5 @@
 import { body, validationResult, sanitizeBody } from "express-validator";
-import * as jsonwebtoken from "jsonwebtoken";
+import jsonwebtoken from "jsonwebtoken";
 import {
   validationErrorWithData,
   successResponseWithData,
@@ -10,7 +10,7 @@ import {
 import User from "../models/UserModel";
 
 const { sign } = jsonwebtoken;
-let refreshTokens = [];
+let refreshTokens = [] as any;
 
 export const userLogin = [
   body("mobileNumber")
@@ -69,14 +69,16 @@ export const userLogin = [
   },
 ];
 
-export async function userLogout(req, res) {
+export async function userLogout(req: any, res: any) {
   try {
     const errors = validationResult(req);
     const { accessToken } = req.body;
     if (!errors.isEmpty()) {
       return validationErrorWithData(res, "Validation Error.", errors.array());
     }
-    refreshTokens = [...refreshTokens.filter((token) => accessToken !== token)];
+    refreshTokens = [
+      ...refreshTokens.filter((token: any) => accessToken !== token),
+    ];
     successResponse(res, "User Logged Out");
   } catch (err) {
     return ErrorResponse(res, err);

@@ -15,7 +15,7 @@ import {
 } from "../helpers/apiResponse";
 // import { Users } from "src/users/users";
 // import { io } from "./../server";
-import Logger from "./../helpers/Logger";
+import Logger from "../helpers/Logger";
 
 export const test = [
   (_req, res) => successResponseWithData(res, "Ho Ho Ho !!", null),

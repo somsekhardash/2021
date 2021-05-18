@@ -1,6 +1,6 @@
-import * as express from "express";
-import * as cors from "cors";
-import * as path from "path";
+import express from "express";
+import cors from "cors";
+import path from "path";
 import { MongoManager } from "./mongo.manager";
 import { SocketManager } from "./socket.manager";
 import indexRouter from "./routes";

@@ -5,7 +5,7 @@ export class NotificationManager {
   private clientSocket: any;
   public static notifications: any;
 
-  constructor(clientUrl) {
+  constructor(clientUrl: any) {
     this.clientSocket = io(clientUrl); //"http://localhost:3000"
     this.messageHandler(this.clientSocket);
     Logger.warn(`Notification Manager ${clientUrl}`);

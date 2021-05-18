@@ -1,20 +1,16 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "traceResolution": true,
-    "strictNullChecks": true,
-    "outDir": "./dist",
-    "sourceMap": true,
-    "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": true,
     "module": "commonjs",
-    "target": "es5",
-    "jsx": "react",
-    "lib": ["dom", "es6", "dom.iterable", "scripthost"],
-    "baseUrl": "/"
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
   },
-  "include": ["./"],
-  "awesomeTypescriptLoaderOptions": {
-    "silent": true
-  }
+  "include": ["src/**/*"]
 }
