@@ -1,1 +1,1 @@
-web: ./dist node server-main.bundle.js
+web: npm start
