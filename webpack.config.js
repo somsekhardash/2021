@@ -87,65 +87,6 @@ if (BUNDLE_ANALYZE) {
   plugins.push(new BundleAnalyzerPlugin());
 }
 
-// module.exports = {
-//   entry: "./src/index.tsx",
-//   output: {
-//     filename: "[name].bundle.js",
-//     path: path.resolve(__dirname, "dist"),
-//     publicPath: "/",
-//     clean: true,
-//   },
-//   module: {
-//     rules: [
-//       {
-//         test: /\.tsx?$/,
-//         use: "ts-loader",
-//         exclude: /node_modules/,
-//       },
-//       {
-//         test: /\.s[ac]ss$/i,
-//         use: ["style-loader", "css-loader", "sass-loader"],
-//       },
-//       {
-//         test: /\.(jpg|png)$/,
-//         use: {
-//           loader: "url-loader",
-//         },
-//       },
-//     ],
-//   },
-//   optimization: {
-//     splitChunks: {
-//       cacheGroups: {
-//         react: {
-//           test: /[\\/]node_modules[\\/]((react).*)[\\/]/,
-//           name: "react",
-//           chunks: "all",
-//         },
-//         common: {
-//           test: /[\\/]node_modules[\\/]((?!react).*)[\\/]/,
-//           name: "vender",
-//           chunks: "all",
-//         },
-//       },
-//     },
-//   },
-//   resolve: {
-//     extensions: [".tsx", ".ts", ".js"],
-//     alias: {
-//       src: path.resolve(__dirname, "src/"),
-//     },
-//   },
-//   plugins: [
-//     new CleanWebpackPlugin(),
-//     new BundleAnalyzerPlugin(),
-//     new webpack.DefinePlugin(envKeys),
-//     new webpack.DefinePlugin({
-//       "./dist": JSON.stringify(ASSET_PATH),
-//     }),
-//   ],
-// };
-
 module.exports = {
   entry,
   output,

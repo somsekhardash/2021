@@ -12,7 +12,6 @@ module.exports = merge(config, {
     new HtmlWebpackPlugin({
       title: "Production",
       template: "./index.html",
-      favicon: "./favicon.ico",
     }),
   ],
 });
