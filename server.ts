@@ -7,13 +7,8 @@ import indexRouter from "./routes";
 import Logger from "./helpers/Logger";
 
 const { json, urlencoded } = express;
-const port = process.env.PORT || 3000;
-const app = express();
-// const httpServer = createServer(app);
 
-app.use(json());
-app.use(urlencoded({ extended: false }));
-app.use(cors());
+const app = express();
 
 try {
   var mongoMgr = MongoManager.getInstance();
@@ -21,6 +16,12 @@ try {
 } catch (error) {
   Logger.error(error);
 }
+
+// const httpServer = createServer(app);
+app.set("port", process.env.PORT || 3000);
+app.use(json());
+app.use(urlencoded({ extended: false }));
+app.use(cors());
 
 app.get("/test", (req, res) => {
   res.send("It's Working");
@@ -36,7 +37,9 @@ app.get("/*", (req, res) => {
 
 // SocketManager.getInstance().InitSocket(httpServer);
 // export { app };
-
-app.listen(process.env.PORT || port, function () {
+const port = app.get("port");
+const server = app.listen(process.env.PORT || port, function () {
   console.log("Express server listening" + port);
 });
+
+export default server;
