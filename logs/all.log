@@ -1,0 +1,9 @@
+2021-05-18 19:36:29:3629 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-05-18 19:36:33:3633 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-05-18 19:36:33:3633 [32minfo[39m: [32mApp is running ...[39m
+2021-05-18 19:36:33:3633 [32minfo[39m: [32mweb-socket connected[39m
+2021-05-18 19:37:43:3743 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-05-18 19:37:56:3756 [32minfo[39m: [32mExample app listening at http://localhost:3000[39m
+2021-05-18 19:37:59:3759 [32minfo[39m: [32mConnected to - mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority[39m
+2021-05-18 19:37:59:3759 [32minfo[39m: [32mApp is running ...[39m
+2021-05-18 19:38:00:380 [32minfo[39m: [32mweb-socket connected[39m

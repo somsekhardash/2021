@@ -1,0 +1,30 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express = require("express");
+var path = require("path");
+var DataController_1 = require("../controllers/DataController");
+var AuthController_1 = require("../controllers/AuthController");
+var UserController_1 = require("../controllers/UserController");
+var Router = express.Router;
+var DIST_DIR = path.join(__dirname, "./");
+var HTML_FILE = path.join(DIST_DIR, "index.html");
+var router = Router();
+router.get("/", function (_req, res) {
+    res.send("Hello");
+});
+router.get("/get-tournaments", DataController_1.getTournaments);
+router.post("/tournament-register", DataController_1.tournamentRegister);
+router.delete("/delete-tournament", DataController_1.tournamentDelete);
+router.post("/update-tournament-user", DataController_1.updateTournamentUser);
+router.post("/create-match", DataController_1.createMatch);
+router.post("/update-match", DataController_1.updateMatch);
+router.post("/vote-match", DataController_1.voteMatch);
+router.delete("/delete-match", DataController_1.deleteMatch);
+router.post("/create-user", UserController_1.createUser);
+router.post("/update-user", UserController_1.updateUser);
+router.get("/get-users", UserController_1.getUsers);
+router.delete("/delete-user", UserController_1.UserDelete);
+router.post("/login-user", AuthController_1.userLogin);
+router.post("/logout-user", AuthController_1.userLogout);
+exports.default = router;
+//# sourceMappingURL=index.js.map
