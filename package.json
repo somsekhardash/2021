@@ -6,7 +6,8 @@
   "scripts": {
     "tsc": "tsc",
     "build": "npm run tsc",
-    "start": "node ./dist/server.js"
+    "start": "node ./dist/server.js",
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC",
