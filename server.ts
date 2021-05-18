@@ -1,7 +1,6 @@
 import * as express from "express";
 import * as cors from "cors";
 import * as path from "path";
-import { createServer } from "http";
 import { MongoManager } from "./mongo.manager";
 import { SocketManager } from "./socket.manager";
 import indexRouter from "./routes";
@@ -15,10 +14,6 @@ const app = express();
 app.use(json());
 app.use(urlencoded({ extended: false }));
 app.use(cors());
-
-app.listen(process.env.PORT || port, function () {
-  console.log("Express server listening" + port);
-});
 
 try {
   var mongoMgr = MongoManager.getInstance();
@@ -38,7 +33,10 @@ app.get("/*", (req, res) => {
 
 // httpServer.listen(port, () => {
 //   Logger.info(`Example app listening at http://localhost:${port}`);
-// });
 
 // SocketManager.getInstance().InitSocket(httpServer);
-export { app };
+// export { app };
+
+app.listen(process.env.PORT || port, function () {
+  console.log("Express server listening" + port);
+});
