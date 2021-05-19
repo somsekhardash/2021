@@ -48,8 +48,8 @@ import indexRouter from "./routes";
 const app = express();
 
 // Connect to MongoDB
-var mongoMgr = MongoManager.getInstance();
-mongoMgr.InitMongo();
+// var mongoMgr = MongoManager.getInstance();
+// mongoMgr.InitMongo();
 
 // Express configuration
 app.set("port", process.env.PORT || 5000);
