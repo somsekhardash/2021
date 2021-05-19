@@ -12,7 +12,6 @@
     "build": "npm run dev-build && npm run server-build",
     "start": "node dist/server-main.bundle.js",
     "heroku-postbuild": "npm run dev-build && npm run server-build",
-    "postbuild":"node dist/server-main.bundle.js",
     "serve-all": "concurrently \"npm run localstart\" \"npm run serve\""
   },
   "author": "",
