@@ -1,7 +1,6 @@
-import * as mongoose from "mongoose";
+import { ConnectionOptions, connect } from "mongoose";
 import Logger from "./helpers/Logger";
 
-const { connect } = mongoose;
 const MONGODB_URL =
   process.env.MONGODB_URL ||
   "mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority";
@@ -9,18 +8,19 @@ const MONGODB_URL =
 export class MongoManager {
   private static instance: MongoManager;
 
-  constructor() {}
-
   public static getInstance(): MongoManager {
     return MongoManager.instance || new MongoManager();
   }
 
   public InitMongo() {
+    const options: ConnectionOptions = {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    };
     try {
-      connect(MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+      connect(MONGODB_URL, options)
         .then(() => {
           Logger.info(`Connected to - ${MONGODB_URL}`);
-          Logger.info("App is running ...");
         })
         .catch((err: any) => {
           Logger.error("mongo connection error:", err.message);
