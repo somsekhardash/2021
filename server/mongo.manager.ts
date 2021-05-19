@@ -1,7 +1,6 @@
-import mongoose from "mongoose";
+import { connect } from "mongoose";
 import Logger from "./helpers/Logger";
 
-const { connect } = mongoose;
 const MONGODB_URL =
   process.env.MONGODB_URL ||
   "mongodb+srv://boss:boss123@cluster0.ho84f.mongodb.net/cricket?retryWrites=true&w=majority";
