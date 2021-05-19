@@ -54,11 +54,11 @@
     "webpack-bundle-analyzer": "^4.4.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2",
-    "winston": "^3.3.3",
     "workbox-webpack-plugin": "^6.1.5",
     "yup": "^0.32.9"
   },
   "dependencies": {
+    "winston": "^3.3.3",
     "@material-ui/data-grid": "^4.0.0-alpha.29",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
