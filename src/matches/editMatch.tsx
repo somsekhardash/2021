@@ -1,6 +1,6 @@
 import React from "react";
 import { Formik, useFormik } from "formik";
-import * as yup from "yup";
+import yup from "yup";
 import TextField from "@material-ui/core/TextField";
 import Select from "@material-ui/core/Select";
 import Switch from "@material-ui/core/Switch";
