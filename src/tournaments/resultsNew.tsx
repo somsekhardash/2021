@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { DataGrid, ValueGetterParams } from "@material-ui/data-grid";
+import { DataGrid } from "@material-ui/data-grid";
 import { Avatar } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";

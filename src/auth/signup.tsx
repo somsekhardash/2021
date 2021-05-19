@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
-import yup from "yup";
+import * as yup from "yup";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import Box from "@material-ui/core/Box";

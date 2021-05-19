@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useFormik } from "formik";
-import yup from "yup";
+import * as yup from "yup";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import Button from "@material-ui/core/Button";

@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { DataGrid, ValueGetterParams } from "@material-ui/data-grid";
+import { DataGrid } from "@material-ui/data-grid";
 import { useStateSelector } from "src/reducers";
 import {
   AppBar,
