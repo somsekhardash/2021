@@ -20,12 +20,12 @@ app.use(json());
 app.use(urlencoded({ extended: false }));
 app.use(cors());
 
-try {
-  var mongoMgr = MongoManager.getInstance();
-  mongoMgr.InitMongo();
-} catch (error) {
-  Logger.error(error);
-}
+// try {
+//   var mongoMgr = MongoManager.getInstance();
+//   mongoMgr.InitMongo();
+// } catch (error) {
+//   Logger.error(error);
+// }
 
 app.use("/api", indexRouter);
 app.get("/test", (req, res) => {
