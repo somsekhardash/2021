@@ -6,7 +6,7 @@ export const PrivateRoute = ({ children, isLoggedIn, ...rest }: any) => {
     <Route
       {...rest}
       render={({ location }) =>
-        true ? (
+        isLoggedIn ? (
           children
         ) : (
           <Redirect

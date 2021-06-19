@@ -7,7 +7,6 @@ import rootReducer from "src/reducers";
 import { createStore, applyMiddleware } from "redux";
 import { crashReporter, logger } from "./utils/middleware";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./index.scss";
 
 const store = createStore(
@@ -18,9 +17,6 @@ const store = createStore(
 const Container = (): ReactElement => {
   return (
     <Provider store={store}>
-      {/* <Router>
-        <Route component={App} />
-      </Router> */}
       <App />
     </Provider>
   );

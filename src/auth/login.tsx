@@ -43,6 +43,7 @@ export const Login = () => {
   });
 
   useEffect(() => {
+    debugger;
     isLoggedIn && history.push("/");
   }, [isLoggedIn]);
 

@@ -5,7 +5,8 @@ import { loginActions } from "../auth/actions";
 import { Routes } from "./routes";
 import { useStateSelector } from "src/reducers";
 import { Login } from "src/auth/login";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Signup } from "src/auth/signup";
 
 export const App = () => {
   const dispatch = useDispatch();
@@ -16,13 +17,9 @@ export const App = () => {
     !isLoggedIn && cookieData && dispatch(loginActions.success(cookieData));
   }, []);
 
-  if (isLoggedIn || cookieData) {
-    return (
-      <Router>
-        <Routes cookieData={cookieData} />
-      </Router>
-    );
-  } else {
-    return <Login />;
-  }
+  return (
+    <Router>
+      <Routes isLoggedIn={isLoggedIn || cookieData} />
+    </Router>
+  );
 };
